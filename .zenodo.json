@@ -1,14 +1,42 @@
 {
   "title": "What You Rehearse Is What You Keep: Rehearsal Format Decides Whether Known Facts Stay Composable",
-  "upload_type": "publication",
-  "publication_type": "preprint",
-  "creators": [{"name": "Liu, Alex"}],
-  "description": "<p>Fine-tuning a language model on new facts can leave the facts it already knew recallable while removing its ability to use them together. We ask what rehearsal must supervise to preserve composition.</p><p>On two-hop routes that Qwen2.5-3B-Instruct and Falcon3-3B-Instruct compose robustly before any update, an unrelated update costs 18–34 points of compositional access on unseen phrasings. Rehearsing the composition restores it to 0.99. Rehearsing the two constituent facts as answers, with about twice the supervised tokens, leaves it near the no-rehearsal level (+0.166 [+0.032, +0.301] Qwen, +0.204 [+0.097, +0.311] Falcon, six seeds). Fact rehearsal makes the model answer with the intermediate entity and sometimes collapses composition; supplying that entity's representation restores most failures.</p><p>A transfer experiment shows the protection reaches never-rehearsed, entity-disjoint routes in both families, and that rehearsal format decides the outcome: formats that make the intermediate entity a supervised output fail, while the same facts with the entity in context preserve composition.</p><p>The archive contains the manuscript, code, task data, per-item results, regenerable tables and declared predictions.</p>",
-  "keywords": ["continual learning", "knowledge injection", "rehearsal", "replay", "multi-hop composition", "latent reasoning", "activation patching", "catastrophic forgetting"],
+  "description": "<p><strong>Fine-tuning a language model on new facts can leave the facts it already knew recallable while removing its ability to use them together.</strong> This record contains the code, constructed datasets, results and manuscript behind a controlled study of what rehearsal must supervise to preserve that compositional use.</p><p><strong>Main findings</strong></p><ul><li><strong>An unrelated update costs 18&ndash;34 points of compositional access on routes the model composed before it.</strong> Measured on two-hop routes that Qwen2.5-3B-Instruct and Falcon3-3B-Instruct compose robustly under twelve phrasings, on phrasings and a persona never seen during the update.</li><li><strong>Rehearsing the composition restores it; rehearsing the constituent facts as answers does not.</strong> Composition rehearsal returns held-out access to 0.99. Fact rehearsal, with about twice the supervised tokens, stays near the no-rehearsal level (composition &minus; facts +0.166 [+0.032, +0.301] Qwen, +0.204 [+0.097, +0.311] Falcon, six seeds each).</li><li><strong>Fact rehearsal induces a specific failure.</strong> The model answers the composite question with the intermediate entity on 8&ndash;13% of held-out phrasings against about 1% without rehearsal, and composition collapses in 3 of 18 adapters at each checkpoint. Supplying the intermediate entity's representation restores the answer on 86% (Qwen) and 61% (Falcon) of failing phrasings.</li><li><strong>The protection transfers, and rehearsal format decides the outcome.</strong> Rehearsing half the routes protects never-rehearsed routes that share no subject or intermediate entity with them, in both families (+0.129 Qwen, +0.269 Falcon, intervals excluding zero). Among formats with identical facts, those that make the intermediate entity a supervised output fail; the same facts with the entity in context preserve composition as well as rehearsing the composition itself.</li></ul><p><strong>Contents.</strong> Route screen, set builders, training, measurement, patching and every reported analysis; the task files; per-item results for every adapter; the manuscript. Every table regenerates from the deposited JSON with one command and no GPU, the rehearsal and transfer sets rebuild byte for byte from the deposited route files, and every prediction is listed with its declared threshold and outcome. Model checkpoints are not redistributed.</p><p><strong>Licensing.</strong> CC BY 4.0 for the manuscript, documentation and derived task files; the code is additionally available under MIT. Routes derive from TwoHopFact (CC BY 4.0) and injected facts from Wikidata (CC0).</p>",
+  "upload_type": "software",
   "license": "cc-by-4.0",
-  "language": "eng",
-  "version": "0.1.0",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Liu, Alex"
+    }
+  ],
+  "keywords": [
+    "llm",
+    "large-language-models",
+    "continual-learning",
+    "catastrophic-forgetting",
+    "rehearsal",
+    "replay",
+    "knowledge-injection",
+    "multi-hop-reasoning",
+    "latent-reasoning",
+    "compositional-generalization",
+    "activation-patching",
+    "fine-tuning",
+    "lora",
+    "reproducible-research",
+    "qwen",
+    "falcon"
+  ],
   "related_identifiers": [
-    {"identifier": "arXiv:2402.16837", "relation": "references", "resource_type": "dataset"}
+    {
+      "identifier": "10.5281/zenodo.22216975",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:2402.16837",
+      "relation": "references",
+      "scheme": "arxiv"
+    }
   ]
 }
