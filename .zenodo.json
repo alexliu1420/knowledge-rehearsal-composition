@@ -1,0 +1,14 @@
+{
+  "title": "What You Rehearse Is What You Keep: Rehearsal Format Decides Whether Known Facts Stay Composable",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Liu, Alex"}],
+  "description": "<p>Fine-tuning a language model on new facts can leave the facts it already knew recallable while removing its ability to use them together. We ask what rehearsal must supervise to preserve composition.</p><p>On two-hop routes that Qwen2.5-3B-Instruct and Falcon3-3B-Instruct compose robustly before any update, an unrelated update costs 18–34 points of compositional access on unseen phrasings. Rehearsing the composition restores it to 0.99. Rehearsing the two constituent facts as answers, with about twice the supervised tokens, leaves it near the no-rehearsal level (+0.166 [+0.032, +0.301] Qwen, +0.204 [+0.097, +0.311] Falcon, six seeds). Fact rehearsal makes the model answer with the intermediate entity and sometimes collapses composition; supplying that entity's representation restores most failures.</p><p>A transfer experiment shows the protection reaches never-rehearsed, entity-disjoint routes in both families, and that rehearsal format decides the outcome: formats that make the intermediate entity a supervised output fail, while the same facts with the entity in context preserve composition.</p><p>The archive contains the manuscript, code, task data, per-item results, regenerable tables and declared predictions.</p>",
+  "keywords": ["continual learning", "knowledge injection", "rehearsal", "replay", "multi-hop composition", "latent reasoning", "activation patching", "catastrophic forgetting"],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "0.1.0",
+  "related_identifiers": [
+    {"identifier": "arXiv:2402.16837", "relation": "references", "resource_type": "dataset"}
+  ]
+}
