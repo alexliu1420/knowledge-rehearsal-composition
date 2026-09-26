@@ -1,0 +1,10009 @@
+{
+ "layer": 12,
+ "summary": {
+  "guard_noop": 1.0,
+  "fail": {
+   "n": 153,
+   "noop": {
+    "n": 153,
+    "correct": 0.0,
+    "own_bridge": 0.5294117647058824
+   },
+   "base": {
+    "n": 153,
+    "correct": 0.24836601307189543,
+    "own_bridge": 0.477124183006536
+   },
+   "route": {
+    "n": 153,
+    "correct": 0.26143790849673204,
+    "own_bridge": 0.49673202614379086
+   },
+   "base_last": {
+    "n": 153,
+    "correct": 0.0718954248366013,
+    "own_bridge": 0.5424836601307189
+   },
+   "wrongsub": {
+    "n": 150,
+    "correct": 0.13333333333333333,
+    "own_bridge": 0.1,
+    "donor_answer": 0.37333333333333335
+   }
+  },
+  "succ": {
+   "n": 42,
+   "noop": {
+    "n": 42,
+    "correct": 1.0,
+    "own_bridge": 0.0
+   },
+   "base": {
+    "n": 42,
+    "correct": 0.9285714285714286,
+    "own_bridge": 0.023809523809523808
+   },
+   "route": {
+    "n": 42,
+    "correct": 0.9761904761904762,
+    "own_bridge": 0.023809523809523808
+   },
+   "base_last": {
+    "n": 42,
+    "correct": 0.6904761904761905,
+    "own_bridge": 0.19047619047619047
+   },
+   "wrongsub": {
+    "n": 41,
+    "correct": 0.4146341463414634,
+    "own_bridge": 0.024390243902439025,
+    "donor_answer": 0.36585365853658536
+   }
+  },
+  "succ_other": {
+   "n": 172,
+   "noop": {
+    "n": 172,
+    "correct": 1.0,
+    "own_bridge": 0.0
+   },
+   "base": {
+    "n": 172,
+    "correct": 0.9941860465116279,
+    "own_bridge": 0.0
+   },
+   "route": {
+    "n": 172,
+    "correct": 1.0,
+    "own_bridge": 0.0
+   },
+   "base_last": {
+    "n": 172,
+    "correct": 0.9941860465116279,
+    "own_bridge": 0.0
+   },
+   "wrongsub": {
+    "n": 168,
+    "correct": 0.30952380952380953,
+    "own_bridge": 0.005952380952380952,
+    "donor_answer": 0.5059523809523809
+   }
+  },
+  "fail_overlap": {
+   "g12_rescued": 124,
+   "base_rescued": 38,
+   "both": 33
+  }
+ },
+ "per_item": [
+  {
+   "task_id": "0057a9b776577b90#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Australia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Australia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Australia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Australia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "0137f0af14334a13#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "02d40b1fc44408aa#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "02d40b1fc44408aa#3",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "02d40b1fc44408aa#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "02d40b1fc44408aa#2",
+   "kind": "succ",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Harmonix Music Systems",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "039fb80828295082#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Paris",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Paris",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Paris",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Paris",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Miami",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "04ceec6c14e22db9#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "058c5290a309abc8#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Yemen",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "08b7c365e890d60e#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "0e703078c81f582a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "0ea558aad226ad81#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "0f693582bf038aec#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "100ddc2e5ad01a68#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "105f57a6d47c6fa0#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tonino Lamborghini Spa",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tonino Lamborghini Spa",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tonino Lamborghini Spa",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Tonino Lamborghini Spa",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "105f57a6d47c6fa0#1",
+   "kind": "succ",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Tonino Lamborghini Spa",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "107fb83db533282e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "12e0ec98b3129ee7#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "12e0ec98b3129ee7#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "13076cdcf9e35401#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Ukraine",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "13481b369db1ff61#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Canada",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1409dd6228f16286#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1409dd6228f16286#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1409dd6228f16286#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1409dd6228f16286#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1409dd6228f16286#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1549c0a9a9498a6d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1658ef7000815e56#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "181fe933fb9c5d31#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "18c230ae277b59ca#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "193fa9e7b3a59714#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "London",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "London",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "London",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "London",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Birmingham",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "19b34a0dec99d30d#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "19b34a0dec99d30d#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Chiyoda district",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "19b34a0dec99d30d#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1a299d8f6e55c54f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1b432fa226d4132e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Greece",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1be8117a0519251d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1caaadb918d27460#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1dee3bc0e2abcc42#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1dee3bc0e2abcc42#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1dee3bc0e2abcc42#3",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "TimeGate Studios",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "1edc60da2c922fad#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1edc60da2c922fad#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Switzerland",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1edc60da2c922fad#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Greece",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1edc60da2c922fad#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "1edc60da2c922fad#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Belgium",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Netherlands",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "209847d2df0fe38c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "21cdd5ad0f109cdd#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Singapore",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Singapore",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Singapore",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Singapore",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Singapore",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "2326702a0a7f73fd#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Mexico City",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Mexico City",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "2406c8f2693eaf1c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "China",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "24177982605f122e#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Ghana",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Ghana",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Ghana",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Ghana",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Jordan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "26107e444ce57f04#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "269b1bdbbe8d08f7#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Australia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "29b98bf75e636e8c#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "29b98bf75e636e8c#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "29ff50af7943f7cf#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Dhaka",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "29ff50af7943f7cf#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "29ff50af7943f7cf#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "29ff50af7943f7cf#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bangladesh",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "29ff50af7943f7cf#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Rwanda",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Rwanda",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Rwanda",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Butare",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "2b5fa53bc97a1746#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Rwanda",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "2c5452bc696f1acd#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "2ce4d14a46770c49#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "2dffe8700fb4abe2#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Switzerland",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "2e9606de575494a9#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Managua",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Managua",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Managua",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Managua",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Libreville",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "2fe1fa9247a77f54#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3088d6f978f4441d#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3088d6f978f4441d#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3088d6f978f4441d#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3088d6f978f4441d#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3088d6f978f4441d#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "PlayFirst",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "30f209e48fa2c97a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Switzerland",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "31e1bbcf462a7fe2#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "34343686777513e8#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3562152e39a409d9#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "357c502ed4516ed9#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "357c502ed4516ed9#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "357c502ed4516ed9#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "357c502ed4516ed9#4",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "357c502ed4516ed9#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "35e1118f7e174804#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Broderbund",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Broderbund",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Broderbund",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Broderbund",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "35e1118f7e174804#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "36c2088ce314dcfa#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "371062aae01cb62f#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Bissau",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Bissau",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Bissau",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Bissau",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "371ebd9bc481aad5#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "395a38ba13796ece#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "395a38ba13796ece#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Mobius Digital",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "395a38ba13796ece#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "395a38ba13796ece#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "395a38ba13796ece#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Game Freak",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3bda328db4e85788#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3c5cc25cee9892ae#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3de0aa4cc8ac3baa#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3de0aa4cc8ac3baa#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Ukraine",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3de0aa4cc8ac3baa#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Lviv",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Lviv",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3de0aa4cc8ac3baa#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Ukraine",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Ukraine",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "3eb2d51485c94e48#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3f6af2e51715753b#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3f6af2e51715753b#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Athens",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "3f6af2e51715753b#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "40417fe7fc25226f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Poland",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Poland",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Poland",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Poland",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Poland",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "424c89959c8c3276#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "42c6de8b31ec2880#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "43609165be718c4c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Greece",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4519f0d37ece5fc0#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "45877a12b5cbb831#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "46484294935be7a6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "47298e7746a1ec7a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "New York City",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "New York City",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "New York City",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "New York City",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Miami",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "48f3e299cf12efc0#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Miami",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Miami",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Miami",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Miami",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Atlanta",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4ab4f4d9184d28f1#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Greece",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4ae8afd20185db3c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4b052785881ef4b4#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4b052785881ef4b4#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4b052785881ef4b4#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4b052785881ef4b4#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4b052785881ef4b4#4",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "4bdc5a16eaf0ae00#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Moscow",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4d7c051fc4bd562d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Kawanishi",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4e8ffa30f23ae51d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "4fcb62471a303834#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "503dc1d52e7f7732#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "503dc1d52e7f7732#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Secunderabad",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "503dc1d52e7f7732#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "50b4d21bac97a424#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Cuba",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "50b4d21bac97a424#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "50b4d21bac97a424#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "50b4d21bac97a424#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Cuba",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Cuba",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Cuba",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Agricultural University of Havana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "521d7d6bdd907a8a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "5692cf1f807898bd#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "575762b67349a859#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "India",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "59f30f8aa066d1be#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "5a5d85cf918ff369#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "North Korea",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "North Korea",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "North Korea",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "North Korea",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "5abe3b00c5f96f88#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Argentina",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "5b1b5898d11e16d8#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "5ba0a48da62169b7#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "5cd50ec3bc715802#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Indonesia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Indonesia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Indonesia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Indonesia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Indonesia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "5e29a34c71c07210#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "602c4d8c1768348d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "60414957afa6cbf5#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "60414957afa6cbf5#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Paraná",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "60414957afa6cbf5#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Curitiba",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Paraná",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "60414957afa6cbf5#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "62052a3c85ca02df#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Rwanda",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "62dbb432822c0435#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "63c9f8e675bec1f3#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Reykjavík",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Reykjavík",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Reykjavík",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Reykjavík",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Santiago",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "64db33943c245f76#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "People's Republic of China",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "679427d30b199d11#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "679d6359bb10de95#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Peru",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Peru",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Peru",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Peru",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Peru",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "680484248945fda0#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "6891ee090254d361#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "68ec719112bf5015#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "6e61dc6f30ac5246#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "708e4d7f3caefa16#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7178dad3525b8641#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Front Wing",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Front Wing",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7178dad3525b8641#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Front Wing",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "729f3d665f881d0a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Italy",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "73580c05942632a2#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "741f03fcf68ae262#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "75309a81164a9f5e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "American McGee",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "American McGee",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "American McGee",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "American McGee",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Marcin Iwaszczyk",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7684dd2d97f45296#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7684dd2d97f45296#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Kigali",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7684dd2d97f45296#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7684dd2d97f45296#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Turkmenistan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "76af7a033679a8d1#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Hook Studios",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "76af7a033679a8d1#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Hook Studios",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "76af7a033679a8d1#3",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Hook Studios",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "76af7a033679a8d1#4",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Hook Studios",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "76af7a033679a8d1#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "76f50984208435b2#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Iran",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "76f50984208435b2#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Tehran",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Tehran",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "76f50984208435b2#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Iran",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7855dd4af762c4d8#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7855dd4af762c4d8#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mohammadpur Thana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Korea",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7855dd4af762c4d8#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Bangladesh",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Malaysia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "792471e4a168d3e2#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7b020c3759066e4e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7be16daf83cd5df5#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7ca011bd48c692e4#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7cf6c48f895edeec#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7cf6c48f895edeec#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7cf6c48f895edeec#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Kazakhstan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7cf6c48f895edeec#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Colombia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7cf6c48f895edeec#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Mexico City",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7e2ba438bf24b3e1#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Butare",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "7f903c80fe34132f#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Reykjavík University",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7f903c80fe34132f#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Reykjavík University",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "7f903c80fe34132f#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Santiago",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Reykjavík",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8004941ea7570ea6#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8004941ea7570ea6#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8004941ea7570ea6#3",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8004941ea7570ea6#4",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8004941ea7570ea6#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Mobius Digital",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8173d44b53708f5d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Thailand",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "82dcbf0a6d8c00f5#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Gabon",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Gabon",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Gabon",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Gabon",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Djibouti",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "82dcbf0a6d8c00f5#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Libreville",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Libreville",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Libreville",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Libreville",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Porto-Novo",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "834d380d987c8be6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "83b8a11b6922b7b6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8576810f98cac122#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "87bf9cdd9280bc5e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "881ab97e6f07ac0b#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bandai",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bandai",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Bandai",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Bandai",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bandai",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "881ab97e6f07ac0b#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Bandai",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "893d6f123e553423#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "89d5c27d87877b2a#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bangladesh",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "89d5c27d87877b2a#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Rexburg",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "89d5c27d87877b2a#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8a0b1612deb999f3#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8b7062873c13fb35#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bogotá",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Bogotá",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgrade",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8b7062873c13fb35#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Colombia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8bb78bae2d188c24#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sapporo",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sapporo",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sapporo",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sapporo",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8bb78bae2d188c24#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8bcba6fb2866f7f3#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Uganda",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Uganda",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Uganda",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Uganda",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8c53bcdf5a936c27#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8c8928b59c362499#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Argentina",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Argentina",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Argentina",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Argentina",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8ceb5a109547fb12#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ceb5a109547fb12#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ceb5a109547fb12#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Pontifical Catholic University of Chile",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8ceb5a109547fb12#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ceb5a109547fb12#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Koç University",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8da9bf0d4e9d93ea#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8da9bf0d4e9d93ea#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8da9bf0d4e9d93ea#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8da9bf0d4e9d93ea#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Harmonix Music Systems",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8da9bf0d4e9d93ea#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8dd6673b94732790#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Uganda",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "8ef07f076f920ee4#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of Montana",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ef07f076f920ee4#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of Montana",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ef07f076f920ee4#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of Montana",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ef07f076f920ee4#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Burnsville High School",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "8ef07f076f920ee4#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "University of Montana",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of Montana",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "948790f9e77d429e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "95974827229a82e7#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Taiwan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Taiwan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Taiwan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Taiwan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Taiwan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "95cd3e8d23f83608#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Curitiba",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "96b9634e02266f77#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "99b91bb3b91d280c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "China",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "99f8ad1bd2749a6e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "9b0e5100dba8e92d#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "9b0e5100dba8e92d#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "9b0e5100dba8e92d#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "9b0e5100dba8e92d#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "9bc57af569b8fae5#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a109a4e957a77636#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a424e470c0029931#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Switzerland",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a432398dd7d7d726#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a69b89d4ae63dc20#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "a7b6fa5aa316986b#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Philippines",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Philippines",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Philippines",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Philippines",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Colombia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "a86c2d7e3988cd46#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Atlanta",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Atlanta",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Atlanta",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Atlanta",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "New York City",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a946819616d688c8#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "a9a24b01b9f7a75d#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Watthana",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Watthana",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Watthana",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Watthana",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Thailand",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "a9a24b01b9f7a75d#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "aa921c779d19b505#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Indonesia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "abb2c60ba8a0e477#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Argentina",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "acca403357581a6f#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Markus Persson",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Markus Persson",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Markus Persson",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Markus Persson",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Kirk Cagle",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ae8616c60e1f7434#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "af069e2200fdc18f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "India",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "af63619eec5b0f9f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b119840fb6159620#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b249d765405bfa94#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b305d6dc25688071#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "San Juan",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "San Juan",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "San Juan",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "San Juan",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b305d6dc25688071#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Puerto Rico",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Puerto Rico",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Puerto Rico",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Puerto Rico",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b43a133690d9297e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b4a9f104d4e795de#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Oslo",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Oslo",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Oslo",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Oslo",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "",
+    "cls": "other",
+    "eligible": false,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b62c63b92c550a8e#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b6d403f7f54d0c38#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b6d403f7f54d0c38#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b6d403f7f54d0c38#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b6d403f7f54d0c38#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b6d403f7f54d0c38#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Harmonix Music Systems",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "b79df42cf7871e4f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b84b498ef8d54a2f#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "b8f6b1c4abb1d277#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Guatemala City",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Guatemala City",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Guatemala City",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Guatemala City",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "New York City",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ba0a00a5d0cff82c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Russia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ba4abdd61d940008#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Spain",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "baf2e7fadfcb2ff5#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bishkek",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "baf2e7fadfcb2ff5#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bishkek",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "baf2e7fadfcb2ff5#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Bishkek",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Bishkek",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "baf2e7fadfcb2ff5#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Kyrgyzstan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Kyrgyzstan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Kyrgyzstan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Kyrgyzstan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Kyrgyzstan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "bb1d024803d4cc08#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "be15f66ed259f601#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "bf786635a9dea5f6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "c16bfe4f32bd3dee#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Australia",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Australia",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "c2e4975a29076b1a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "c35db0150bae6274#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Malacca",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "c35db0150bae6274#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Sofia",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "c35db0150bae6274#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sofia",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "c35db0150bae6274#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bulgaria",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Bulgaria",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Bulgaria",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Bulgaria",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Philippopolis",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "c5c9af91e94f7e62#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Switzerland",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "c93f5db60d50d088#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Bangkok",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Bangkok",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Bangkok",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Bangkok",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "c93f5db60d50d088#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Thailand",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Thailand",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "cb4f2495568a4a2a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Australia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "cc8b13606e694131#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Greece",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "cdc96e996421ddad#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Switzerland",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "cef84647728f1fa6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Greece",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "cf470e8eef3aea10#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Italy",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "cf90cf9d35e7e509#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d29a746bda3dcc3c#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Nigeria",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Nigeria",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Nigeria",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Nigeria",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Nigeria",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d39d2b63adc30187#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d42cd6cf054f8514#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d45d76a38301b012#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "China",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "d5843580c696727f#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "d5843580c696727f#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Red Baron",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Red Button Games",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d5843580c696727f#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Red Button Games",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "d5843580c696727f#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d5843580c696727f#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Bull Racing",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Harmonix Music Systems",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d70865208f11f145#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tulkarm",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tulkarm",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tulkarm",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Tulkarm",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Tulkarm",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d70865208f11f145#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "State of Palestine",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "State of Palestine",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "State of Palestine",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "State of Palestine",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "d82a7e1dda74540e#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Red Entertainment",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "d82a7e1dda74540e#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Red Entertainment",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "United States",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "d85a893abe2d4891#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Australia",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "dabf9fca7bfa5925#1",
+   "kind": "fail",
+   "g12_bridge": "own_bridge",
+   "noop": {
+    "pred": "Wada",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Wada",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Wada",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Wada",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Wada",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "dabf9fca7bfa5925#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "df38047377571299#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e04bbdf4583f8068#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e0acee61f4fb0f38#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Moscow",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e1a42baa024ec319#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "e4025ab59a0a8427#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e54ea2f2b084d8c6#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Denmark",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "e70c167eeaad0a0a#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of California, Berkeley",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e70c167eeaad0a0a#4",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Occidental College",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Occidental College",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e70c167eeaad0a0a#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "University of California, Berkeley",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "University of California, Berkeley",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "University of California, Berkeley",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Syracuse University",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "University of California, Berkeley",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e7e80a5f04923093#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Malaysia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e828ae30d8c2314e#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e92cb417090c4322#1",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Redwood City",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Redwood City",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "RedOctane",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e92cb417090c4322#2",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "RedOctane",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e92cb417090c4322#3",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "RedOctane",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e92cb417090c4322#4",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Redwood City",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Redwood City",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e92cb417090c4322#5",
+   "kind": "fail",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "base_last": {
+    "pred": "Nevers",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "RedOctane",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "e980ab8aadef3df1#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "France",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ea3ce2d9995b878a#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Germany",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ea8181e36dcbfc39#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Montenegro",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Montenegro",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Montenegro",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Montenegro",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Nicaragua",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ea8181e36dcbfc39#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Podgorica",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Podgorica",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Podgorica",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Podgorica",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Kinshasa",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ebcca852df0d582d#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Belgium",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "ec62c9a05fcae221#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Kota Kinabalu",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Kota Kinabalu",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Kuala Lumpur",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ec62c9a05fcae221#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Malaysia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Malaysia",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ed199f799246abd9#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ed199f799246abd9#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Hachioji",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ed199f799246abd9#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "ee5bcab9b85a1d19#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Brazil",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Butare",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ef16efc61dbb69de#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ef42c0ffc3194718#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ef42c0ffc3194718#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "ef42c0ffc3194718#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Tezuka Productions",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f11c9268a7ced244#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f11c9268a7ced244#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f11c9268a7ced244#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Ashgabat",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Denmark",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f11c9268a7ced244#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Turkmenistan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f2aae53baa523f76#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f3252d082ab4b6bf#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "France",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Iran",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f3f7f51efa9d1fc9#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "Kadokawa Games",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Kadokawa Games",
+    "cls": "own_bridge",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f3f7f51efa9d1fc9#1",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Kadokawa Shoten",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "correct",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f586ba2c880c9bcb#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f5d3a763e1dbd93b#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f619f34d623f94d3#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Russia",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United Kingdom",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f6991b1354cf0eca#1",
+   "kind": "succ_other",
+   "g12_bridge": "other",
+   "noop": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "People's Republic of China",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "China",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "United States of America",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f77491b7b1abee93#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f898ea15097e5b83#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Italy",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f91ce1f6f125841d#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f91ce1f6f125841d#2",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Red Entertainment",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f91ce1f6f125841d#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Brazil",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "f91ce1f6f125841d#4",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "wrongsub": {
+    "pred": "Redmond",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "f91ce1f6f125841d#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "base": {
+    "pred": "United Kingdom",
+    "cls": "other"
+   },
+   "route": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Redmond",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "fa5af12135e25bd6#1",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "fa5af12135e25bd6#3",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": false
+   }
+  },
+  {
+   "task_id": "fa5af12135e25bd6#5",
+   "kind": "fail",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "route": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "base_last": {
+    "pred": "Sanaa",
+    "cls": "own_bridge"
+   },
+   "wrongsub": {
+    "pred": "Japan",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "fa5af12135e25bd6#2",
+   "kind": "succ",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Yemen",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Yemen",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Yemen",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Yemen",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "fb1863e57a3f4efe#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Japan",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "fc28a3e8c4798bc8#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "Canada",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Germany",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  },
+  {
+   "task_id": "ff53ac8906042915#1",
+   "kind": "succ_other",
+   "g12_bridge": "correct",
+   "noop": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "route": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "base_last": {
+    "pred": "United States of America",
+    "cls": "correct"
+   },
+   "wrongsub": {
+    "pred": "Spain",
+    "cls": "other",
+    "eligible": true,
+    "donor_answer": true
+   }
+  }
+ ]
+}

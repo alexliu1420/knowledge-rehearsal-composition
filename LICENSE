@@ -1,0 +1,57 @@
+MIT License (code)
+
+Copyright (c) 2026 Alex Liu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Documentation and manuscript: Creative Commons Attribution 4.0 International
+(CC BY 4.0). https://creativecommons.org/licenses/by/4.0/
+
+---
+
+Data: the route, split, rehearsal and transfer sets in data/tasks/ and the
+measurement output in results/ are released under CC BY 4.0.
+
+Those files are DERIVED from:
+
+  - TwoHopFact (Yang, Gribovskaya, Kassner, Geva, Riedel, 2024; "Do Large
+    Language Models Latently Perform Multi-Hop Reasoning?", ACL 2024), as
+    distributed on the Hugging Face Hub as soheeyang/TwoHopFact under
+    CC BY 4.0. The two-hop chains, their prompts and answers, and the entity
+    aliases in the task files come from that dataset; it is not redistributed
+    in full here.
+  - Wikidata (https://www.wikidata.org), whose statements are released under
+    CC0 1.0. The injected facts in the task files are Wikidata statements
+    about the intermediate entities, retrieved through the Wikidata API.
+
+The retention corpus used to measure held-out perplexity is the WikiText-2
+test split (Merity et al., 2016; CC BY-SA 3.0), fetched at run time and not
+redistributed here.
+
+The per-item result files contain verbatim model outputs from Qwen2.5-3B-Instruct
+(Apache 2.0) and Falcon3-3B-Instruct (Falcon-LLM licence), with email-like
+strings the models generated replaced by a placeholder.
+
+---
+
+The archive as deposited on Zenodo is recorded as CC BY 4.0, which covers the
+manuscript, documentation and derived data. The code is additionally available
+under the MIT licence stated at the top of this file.

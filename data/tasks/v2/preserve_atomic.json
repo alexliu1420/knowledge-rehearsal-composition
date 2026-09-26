@@ -1,0 +1,3831 @@
+{
+ "kind": "atomic",
+ "form": "0_canonical",
+ "n": 637,
+ "tokens": 8738,
+ "sha256": "2e1f7ba3f24bcdb9",
+ "rows": [
+  {
+   "prompt": "The author of the novel Looking for Alibrandi is",
+   "answer": "Melina Marchetta",
+   "task_id": "0057a9b776577b90",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Russian National Research Medical University is located is",
+   "answer": "Moscow",
+   "task_id": "00cf8175dfbb4802",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Tapper' is",
+   "answer": "Marvin Glass and Associates",
+   "task_id": "02d40b1fc44408aa",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Mysteries of Paris is",
+   "answer": "Eugène Sue",
+   "task_id": "039fb80828295082",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Ted Ginn, Jr. was born is",
+   "answer": "Cleveland",
+   "task_id": "03f323c19a2a9bc4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Iwate University is located is",
+   "answer": "Morioka",
+   "task_id": "0466ebabfd66e4a3",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The singer of 'Arthur's Theme (Best That You Can Do)' is",
+   "answer": "Christopher Cross",
+   "task_id": "04997e2ded2b65da",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The organization led by CEO Todd McFarlane is",
+   "answer": "McFarlane Toys",
+   "task_id": "04ceec6c14e22db9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Ernest Cézanne is",
+   "answer": "Marguerite Sagey",
+   "task_id": "05633465f1ffcd8a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of INSA Hauts-de-France is located is",
+   "answer": "Valenciennes",
+   "task_id": "058c5290a309abc8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by E. W. Scripps is",
+   "answer": "United Media",
+   "task_id": "064783d1c8fc147b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Stellaluna is",
+   "answer": "Janell Cannon",
+   "task_id": "08b7c365e890d60e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Yulia Timoshinina was born is",
+   "answer": "Moscow",
+   "task_id": "09012a58761d568e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Assassins' Gate: America in Iraq is",
+   "answer": "George Packer",
+   "task_id": "097e1616028ba0aa",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Juno and the Paycock is",
+   "answer": "Seán O'Casey",
+   "task_id": "0bebf9bd3e24fb9e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Beak of the Finch is",
+   "answer": "Jonathan Weiner",
+   "task_id": "0e703078c81f582a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel A Canticle for Leibowitz is",
+   "answer": "Walter M. Miller",
+   "task_id": "0ea558aad226ad81",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of TH Köln – University of Applied Sciences is located is",
+   "answer": "Cologne",
+   "task_id": "0f693582bf038aec",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Vale do Rio dos Sinos is located is",
+   "answer": "São Leopoldo",
+   "task_id": "100ddc2e5ad01a68",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The organization led by CEO Ferruccio Lamborghini is",
+   "answer": "Tonino Lamborghini Spa",
+   "task_id": "105f57a6d47c6fa0",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Carles Puyol is",
+   "answer": "Vanesa Lorenzo",
+   "task_id": "107fb83db533282e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Wits and Wagers' is",
+   "answer": "Hidden Path Entertainment",
+   "task_id": "11b180830bbb0c03",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'I Am Setsuna' is",
+   "answer": "Tokyo RPG Factory",
+   "task_id": "12e0ec98b3129ee7",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Odesa National Polytechnic University is located is",
+   "answer": "Shevchenko Avenue",
+   "task_id": "13076cdcf9e35401",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Grifters is",
+   "answer": "Jim Thompson",
+   "task_id": "13481b369db1ff61",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Guido Henkel is",
+   "answer": "Dragonware",
+   "task_id": "1409dd6228f16286",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel A Random Walk Down Wall Street is",
+   "answer": "Burton Malkiel",
+   "task_id": "1549c0a9a9498a6d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Gujarat Vidyapith is located is",
+   "answer": "Ahmedabad",
+   "task_id": "1658ef7000815e56",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Sesame Street: Ready, Set, Grover!' is",
+   "answer": "Griptonite Games",
+   "task_id": "181fe933fb9c5d31",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Red and the Black is",
+   "answer": "Stendhal",
+   "task_id": "18c230ae277b59ca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of American University of Armenia is located is",
+   "answer": "Yerevan",
+   "task_id": "1932263cd5c7323b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Mrs Dalloway is",
+   "answer": "Virginia Woolf",
+   "task_id": "193fa9e7b3a59714",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Tokyo University of Marine Science and Technology is located is",
+   "answer": "Minato-ku",
+   "task_id": "19b34a0dec99d30d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Tarō Asō is",
+   "answer": "Chikako Asō",
+   "task_id": "1a299d8f6e55c54f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of National Research University – Higher School of Economics is located is",
+   "answer": "Moscow",
+   "task_id": "1a9a39035c90a0bf",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Princess Academy is",
+   "answer": "Shannon Hale",
+   "task_id": "1ad54d10a9cce11e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Zorba the Greek is",
+   "answer": "Nikos Kazantzakis",
+   "task_id": "1b432fa226d4132e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The singer of 'The Battle of New Orleans' is",
+   "answer": "Johnny Horton",
+   "task_id": "1be8117a0519251d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Farewell to Manzanar is",
+   "answer": "Jeanne Wakatsuki Houston",
+   "task_id": "1caaadb918d27460",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Wild Iris is",
+   "answer": "Louise Glück",
+   "task_id": "1dae4f5b71f67d7f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'F.E.A.R. Perseus Mandate' is",
+   "answer": "TimeGate Studios",
+   "task_id": "1dee3bc0e2abcc42",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Kim Clijsters was born is",
+   "answer": "Bilzen",
+   "task_id": "1edc60da2c922fad",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Indiana Jones and the Temple of Doom' is",
+   "answer": "Atari Games",
+   "task_id": "208a03d4764a72f3",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Eugénie Grandet is",
+   "answer": "Honoré de Balzac",
+   "task_id": "209847d2df0fe38c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Crazy Rich Asians is",
+   "answer": "Kevin Kwan",
+   "task_id": "21cdd5ad0f109cdd",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Mexicana is located is",
+   "answer": "Mexico City",
+   "task_id": "2326702a0a7f73fd",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Les Choses humaines is",
+   "answer": "Karine Tuil",
+   "task_id": "23ad636161319b59",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Coming of Age in Samoa is",
+   "answer": "Margaret Mead",
+   "task_id": "2406c8f2693eaf1c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Ghana is located is",
+   "answer": "Legon Campus",
+   "task_id": "24177982605f122e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Flash Boys is",
+   "answer": "Michael Lewis",
+   "task_id": "24f6752bd708593d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Vanderbilt University is located is",
+   "answer": "Nashville",
+   "task_id": "25f064f824bcdec4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Pontifical University of Salamanca is located is",
+   "answer": "La Clerecía",
+   "task_id": "26107e444ce57f04",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Rashōmon is",
+   "answer": "Ryūnosuke Akutagawa",
+   "task_id": "269b1bdbbe8d08f7",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Utrpení knížete Sternenhocha is",
+   "answer": "Ladislav Klíma",
+   "task_id": "26ca354093e2d71b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Olaf Scholz was born is",
+   "answer": "Osnabrück",
+   "task_id": "28ffa7b76de4f6ca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The World of Yesterday is",
+   "answer": "Stefan Zweig",
+   "task_id": "293ae218b0024535",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Mushihimesama' is",
+   "answer": "CAVE",
+   "task_id": "29b98bf75e636e8c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Catholic University of Rwanda is located is",
+   "answer": "Butare",
+   "task_id": "29ff50af7943f7cf",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel El libro negro de la justicia chilena is",
+   "answer": "Alejandra Matus",
+   "task_id": "2a50cc1a5d94fb48",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Shimane University is located is",
+   "answer": "Matsue",
+   "task_id": "2b5fa53bc97a1746",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Years of Lyndon Johnson is",
+   "answer": "Robert Caro",
+   "task_id": "2c5452bc696f1acd",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Le Cid is",
+   "answer": "Pierre Corneille",
+   "task_id": "2ce4d14a46770c49",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The country led by president Daniel Ortega is",
+   "answer": "Nicaragua",
+   "task_id": "2e9606de575494a9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Osaka University of Arts is located is",
+   "answer": "Kanan",
+   "task_id": "2f5ce2195e68f3f4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Dom Casmurro is",
+   "answer": "Machado de Assis",
+   "task_id": "2fe1fa9247a77f54",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Diner Dash: Hometown Hero' is",
+   "answer": "PlayFirst",
+   "task_id": "3088d6f978f4441d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Ready Player One is",
+   "answer": "Ernest Cline",
+   "task_id": "30f209e48fa2c97a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Young Man with a Horn is",
+   "answer": "Dorothy Baker",
+   "task_id": "31e1bbcf462a7fe2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Decline of the West is",
+   "answer": "Oswald Spengler",
+   "task_id": "34343686777513e8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Saint Vincent Archabbey is located is",
+   "answer": "Latrobe",
+   "task_id": "3562152e39a409d9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Ghost Trick: Phantom Detective' is",
+   "answer": "Capcom",
+   "task_id": "357c502ed4516ed9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Where in America's Past Is Carmen Sandiego?' is",
+   "answer": "Broderbund",
+   "task_id": "35e1118f7e174804",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Brazilian Nobility Archive is",
+   "answer": "Jaime Luís Smith de Vasconcelos",
+   "task_id": "36c2088ce314dcfa",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The president of Guinea-Bissau is",
+   "answer": "Umaro Sissoco Embaló",
+   "task_id": "371062aae01cb62f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Mote in God's Eye is",
+   "answer": "Larry Niven",
+   "task_id": "371ebd9bc481aad5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Pokémon X' is",
+   "answer": "GAME FREAK",
+   "task_id": "395a38ba13796ece",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Kuban State Medical University is located is",
+   "answer": "Krasnodar",
+   "task_id": "3bda328db4e85788",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Going After Cacciato is",
+   "answer": "Tim O'Brien",
+   "task_id": "3c5cc25cee9892ae",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Ukrainian Catholic University is located is",
+   "answer": "Lviv",
+   "task_id": "3de0aa4cc8ac3baa",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Les Roches International School of Hotel Management is located is",
+   "answer": "Crans-Montana",
+   "task_id": "3e1d4eff63880e6d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Kevin Love was born is",
+   "answer": "Santa Monica",
+   "task_id": "3eb2d51485c94e48",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Constantine II of Greece was born is",
+   "answer": "Athens",
+   "task_id": "3f6af2e51715753b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Krakow University of Economics is located is",
+   "answer": "Kraków",
+   "task_id": "40417fe7fc25226f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Baba Saheb Ambedkar Education University is located is",
+   "answer": "Kolkata",
+   "task_id": "40b13c0b78d00cda",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Cricket in Times Square is",
+   "answer": "George Selden",
+   "task_id": "419d3743671b530b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Vande Mataram is",
+   "answer": "Bankim Chandra Chatterjee",
+   "task_id": "424c89959c8c3276",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Goldfinch is",
+   "answer": "Donna Tartt",
+   "task_id": "42c6de8b31ec2880",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The One and Only Ivan is",
+   "answer": "Katherine Applegate",
+   "task_id": "43609165be718c4c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Madame Bovary is",
+   "answer": "Gustave Flaubert",
+   "task_id": "4519f0d37ece5fc0",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Francisco Franco was born is",
+   "answer": "Ferrol",
+   "task_id": "45877a12b5cbb831",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Les dieux ont soif is",
+   "answer": "Anatole France",
+   "task_id": "46484294935be7a6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Age of Innocence is",
+   "answer": "Edith Wharton",
+   "task_id": "47298e7746a1ec7a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Martin Luther King Jr. was born is",
+   "answer": "Atlanta",
+   "task_id": "48317718e6746fb8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel My Name Is Red is",
+   "answer": "Orhan Pamuk",
+   "task_id": "4a87a1d5e63ee3c5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Zhanna Nemtsova was born is",
+   "answer": "Nizhny Novgorod",
+   "task_id": "4ab4f4d9184d28f1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Tender Buttons is",
+   "answer": "Gertrude Stein",
+   "task_id": "4ae8afd20185db3c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Romance of Sui and Tang Dynasties is",
+   "answer": "Chu Renhuo",
+   "task_id": "4b052785881ef4b4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel La Maternelle is",
+   "answer": "Léon Frapié",
+   "task_id": "4b2175a5e5de3968",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'M.U.L.E.' is",
+   "answer": "Ozark Softscape",
+   "task_id": "4bcf2ae19f844473",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of National Research Nuclear University is located is",
+   "answer": "Moscow",
+   "task_id": "4bdc5a16eaf0ae00",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel L'ora di tutti is",
+   "answer": "Maria Corti",
+   "task_id": "4e37726d23ab7489",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Tauromaquia is",
+   "answer": "Juan Antonio Castro Fernández",
+   "task_id": "4e8ffa30f23ae51d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Volodymyr Zelenskyy is",
+   "answer": "Olena Zelenska",
+   "task_id": "4f5cece6a29bada5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Call of Cthulhu is",
+   "answer": "H. P. Lovecraft",
+   "task_id": "4fcb62471a303834",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Patrick Mahomes was born is",
+   "answer": "Tyler",
+   "task_id": "503098a639c8a319",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Bible Society of India Andhra Pradesh Auxiliary is located is",
+   "answer": "Secunderabad",
+   "task_id": "503dc1d52e7f7732",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The university founded by Fidel Castro is",
+   "answer": "Agricultural University of Havana",
+   "task_id": "50b4d21bac97a424",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Armenian State University of Economics is located is",
+   "answer": "Yerevan",
+   "task_id": "51b8ca75336b1261",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Young Men and Fire is",
+   "answer": "Norman Maclean",
+   "task_id": "521d7d6bdd907a8a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Okanagan University College is located is",
+   "answer": "Kelowna",
+   "task_id": "52b5a6683637ff72",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Battle Realms' is",
+   "answer": "Liquid Entertainment",
+   "task_id": "537453f87c65b784",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Washington University in St. Louis is located is",
+   "answer": "St. Louis",
+   "task_id": "544bcbcbcf7e5926",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Star Trek: First Contact' is",
+   "answer": "Simon & Schuster",
+   "task_id": "553abef9dab81747",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The president of Republic of Ireland is",
+   "answer": "Michael D. Higgins",
+   "task_id": "55d43c305a581c54",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Nihon Sandai Jitsuroku is",
+   "answer": "Sugawara no Michizane",
+   "task_id": "56288edcec0add25",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Shatranj ke khiladi is",
+   "answer": "Premchand",
+   "task_id": "575762b67349a859",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Alexei Navalny is",
+   "answer": "Yulia Navalnaya",
+   "task_id": "59f30f8aa066d1be",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Kim Jong-il is",
+   "answer": "Korea Computer Center",
+   "task_id": "5a5d85cf918ff369",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Kuban State Technological University is located is",
+   "answer": "Krasnodar",
+   "task_id": "5a888efe5039cf70",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Alexei Markov was born is",
+   "answer": "Moscow",
+   "task_id": "5abe3b00c5f96f88",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The singer of 'Blaze of Glory' is",
+   "answer": "Jon Bon Jovi",
+   "task_id": "5b1b5898d11e16d8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Brittany and Loire University is located is",
+   "answer": "Rennes",
+   "task_id": "5ba0a48da62169b7",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Megawati Soekarnoputri was born is",
+   "answer": "Yogyakarta City",
+   "task_id": "5cd50ec3bc715802",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Belinda Bencic was born is",
+   "answer": "Flawil",
+   "task_id": "5e29a34c71c07210",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Woman and Nature: The Roaring Inside Her is",
+   "answer": "Susan Griffin",
+   "task_id": "602c4d8c1768348d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Pontifícia Universidade Católica do Paraná is located is",
+   "answer": "Curitiba",
+   "task_id": "60414957afa6cbf5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Hatay Mustafa Kemal University is located is",
+   "answer": "Antakya",
+   "task_id": "60bdeba2902e827c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Shahrekord University is located is",
+   "answer": "Shahr-e Kord",
+   "task_id": "62052a3c85ca02df",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Yuji Naka is",
+   "answer": "Prope",
+   "task_id": "623427e66ccfe4c2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Threepenny Opera is",
+   "answer": "Bertolt Brecht",
+   "task_id": "62dbb432822c0435",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Hairdresser of Harare is",
+   "answer": "Tendai Huchu",
+   "task_id": "632f54e4844bb74b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Dream Pool Essays is",
+   "answer": "Shen Kuo",
+   "task_id": "64db33943c245f76",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Chandrakanta is",
+   "answer": "Devaki Nandan Khatri",
+   "task_id": "6654112e0a88076d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "Sebastián Piñera's undergrad university is",
+   "answer": "Pontifical Catholic University of Chile",
+   "task_id": "679427d30b199d11",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of National University of the Peruvian Amazon is located is",
+   "answer": "Iquitos",
+   "task_id": "679d6359bb10de95",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Tokyo Zokei University is located is",
+   "answer": "Hachioji",
+   "task_id": "680484248945fda0",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Oliver Kahn was born is",
+   "answer": "Karlsruhe",
+   "task_id": "6891ee090254d361",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Radamel Falcao was born is",
+   "answer": "Santa Marta",
+   "task_id": "68ec719112bf5015",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Sergio Bernardo Almirón was born is",
+   "answer": "Santa Fe",
+   "task_id": "6b2448b1c9475ce9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Stephen Curry was born is",
+   "answer": "Akron",
+   "task_id": "6e61dc6f30ac5246",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Where the Wild Things Are is",
+   "answer": "Maurice Sendak",
+   "task_id": "6eeb9ff95ae86c6f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The One-Straw Revolution is",
+   "answer": "Masanobu Fukuoka",
+   "task_id": "6fcb2a25ecb64853",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Gambler is",
+   "answer": "Fyodor Dostoyevsky",
+   "task_id": "708e4d7f3caefa16",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Fruit of Grisaia' is",
+   "answer": "Front Wing",
+   "task_id": "7178dad3525b8641",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel World War Z is",
+   "answer": "Max Brooks",
+   "task_id": "729f3d665f881d0a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Pierre Trudeau was born is",
+   "answer": "Montreal",
+   "task_id": "73580c05942632a2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Pentamerone is",
+   "answer": "Giambattista Basile",
+   "task_id": "741f03fcf68ae262",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'American McGee's Grimm' is",
+   "answer": "Spicy Horse",
+   "task_id": "75309a81164a9f5e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel We Are All Completely Beside Ourselves is",
+   "answer": "Karen Joy Fowler",
+   "task_id": "75c0a8b7434a5775",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Magtymguly Turkmen State University is located is",
+   "answer": "Ashgabat",
+   "task_id": "7684dd2d97f45296",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Wolf Among Us' is",
+   "answer": "LCG Entertainment, Inc.",
+   "task_id": "76af7a033679a8d1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Iran University of Science and Technology is located is",
+   "answer": "Tehran",
+   "task_id": "76f50984208435b2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Liberal Arts Bangladesh is located is",
+   "answer": "Mohammadpur Thana",
+   "task_id": "7855dd4af762c4d8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Paul et Virginie is",
+   "answer": "Jacques-Henri Bernardin de Saint-Pierre",
+   "task_id": "792471e4a168d3e2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Saint Tikhon Orthodox University of the Humanities is located is",
+   "answer": "Moscow",
+   "task_id": "79c04e47bc155453",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Dolores Claiborne is",
+   "answer": "Stephen King",
+   "task_id": "7b020c3759066e4e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Faust is",
+   "answer": "Johann Wolfgang von Goethe",
+   "task_id": "7be16daf83cd5df5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Sean Penn was born is",
+   "answer": "Santa Monica",
+   "task_id": "7ca011bd48c692e4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of CES Cardenal Cisneros is located is",
+   "answer": "General Díaz Porlier Street",
+   "task_id": "7cf6c48f895edeec",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Risk of Rain' is",
+   "answer": "Hopoo Games, LLC",
+   "task_id": "7dcb4e42f0715e92",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of St. Lawrence University is located is",
+   "answer": "Canton",
+   "task_id": "7e2ba438bf24b3e1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "Sebastián Piñera's undergrad university is",
+   "answer": "Pontifical Catholic University of Chile",
+   "task_id": "7f903c80fe34132f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Outer Wilds' is",
+   "answer": "Mobius Digital",
+   "task_id": "8004941ea7570ea6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Simon Fraser University is located is",
+   "answer": "Burnaby",
+   "task_id": "807e966f6abb5a87",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Kasetsart University is located is",
+   "answer": "Bangkok",
+   "task_id": "8173d44b53708f5d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The country led by president Ali Bongo Ondimba is",
+   "answer": "Gabon",
+   "task_id": "82dcbf0a6d8c00f5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Otemon Gakuin University is located is",
+   "answer": "Ibaraki",
+   "task_id": "834d380d987c8be6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Will Wright is",
+   "answer": "Maxis",
+   "task_id": "83b8a11b6922b7b6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Jerry Rice, Jr was born is",
+   "answer": "Atherton",
+   "task_id": "8576810f98cac122",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Joey Bosa was born is",
+   "answer": "Fort Lauderdale",
+   "task_id": "85d01e675fa39902",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Florence Nightingale Nu Jivan Charitra is",
+   "answer": "Sharda Mehta",
+   "task_id": "87417e77c5423ea2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Are You There God? It's Me, Margaret. is",
+   "answer": "Judy Blume",
+   "task_id": "87bf9cdd9280bc5e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Space Battleship Yamato' is",
+   "answer": "Bandai",
+   "task_id": "881ab97e6f07ac0b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Pather Panchali is",
+   "answer": "Bibhutibhushan Bandyopadhyay",
+   "task_id": "88720c3fd07a0da6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Ehime University is located is",
+   "answer": "Matsuyama",
+   "task_id": "893d6f123e553423",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Brigham Young University–Idaho is located is",
+   "answer": "Rexburg",
+   "task_id": "89d5c27d87877b2a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Fahrenheit 451 is",
+   "answer": "Ray Bradbury",
+   "task_id": "8a0b1612deb999f3",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Hillbilly Elegy is",
+   "answer": "J. D. Vance",
+   "task_id": "8b3be69c84ce3b9a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of National University of Colombia is located is",
+   "answer": "Bogotá",
+   "task_id": "8b7062873c13fb35",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Hokkaido Institute of Technology is located is",
+   "answer": "Sapporo",
+   "task_id": "8bb78bae2d188c24",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Song of Lawino is",
+   "answer": "p’Bitek Okot",
+   "task_id": "8bcba6fb2866f7f3",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Oblomov is",
+   "answer": "Ivan Goncharov",
+   "task_id": "8c53bcdf5a936c27",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Chino Darín was born is",
+   "answer": "San Nicolás de los Arroyos",
+   "task_id": "8c8928b59c362499",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "Cenk Aydın's undergrad university is",
+   "answer": "Koç University",
+   "task_id": "8ceb5a109547fb12",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Summon Night: Twin Age' is",
+   "answer": "Flight-Plan",
+   "task_id": "8da9bf0d4e9d93ea",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel House Made of Dawn is",
+   "answer": "N. Scott Momaday",
+   "task_id": "8dd6673b94732790",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Monkey Wrench Gang is",
+   "answer": "Edward Abbey",
+   "task_id": "8ef07f076f920ee4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Finance University under the Government of the Russian Federation is located is",
+   "answer": "Moscow",
+   "task_id": "906907497528b0f0",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Okayama Shoka University is located is",
+   "answer": "Kita-ku",
+   "task_id": "92049c4734a6a8f5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Civilization V' is",
+   "answer": "Firaxis Games",
+   "task_id": "92984de367a5eb7d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Brothers Karamazov is",
+   "answer": "Fyodor Dostoyevsky",
+   "task_id": "948790f9e77d429e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of National Taitung University is located is",
+   "answer": "Taitung City",
+   "task_id": "95974827229a82e7",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Prince Edward Island is located is",
+   "answer": "Charlottetown",
+   "task_id": "95cd3e8d23f83608",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Chris Wedge is",
+   "answer": "Blue Sky Studios",
+   "task_id": "96b9634e02266f77",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Mysteries of Paris is",
+   "answer": "Eugène Sue",
+   "task_id": "974645cc51a73126",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Stranger in a Strange Land is",
+   "answer": "Robert A. Heinlein",
+   "task_id": "99b91bb3b91d280c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Les Caves du Vatican is",
+   "answer": "André Gide",
+   "task_id": "99f8ad1bd2749a6e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Pinball Construction Set' is",
+   "answer": "BudgeCo",
+   "task_id": "9a6c6df30cb8aafc",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Jackbox Party Pack 9' is",
+   "answer": "Jackbox Games",
+   "task_id": "9b0e5100dba8e92d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Gesta Hammaburgensis ecclesiae pontificum is",
+   "answer": "Adam of Bremen",
+   "task_id": "9bc57af569b8fae5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Université libre de Bruxelles is located is",
+   "answer": "Ixelles - Elsene",
+   "task_id": "9fa13a3605e9deff",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Orléans is located is",
+   "answer": "Château de la Source",
+   "task_id": "a109a4e957a77636",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Boris Becker was born is",
+   "answer": "Leimen",
+   "task_id": "a27bebd6c26d6fca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Jakob von Gunten is",
+   "answer": "Robert Walser",
+   "task_id": "a424e470c0029931",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Tsurezuregusa is",
+   "answer": "Yoshida Kenkō",
+   "task_id": "a432398dd7d7d726",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Six Days of the Condor is",
+   "answer": "James Grady",
+   "task_id": "a4f05040dc3285f9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Glenn Robinson III was born is",
+   "answer": "Gary",
+   "task_id": "a5a4427266eaf6ad",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Santo Tomas is located is",
+   "answer": "Manila",
+   "task_id": "a7b6fa5aa316986b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The main character of the movie A Fistful of Dollars is",
+   "answer": "Man with No Name",
+   "task_id": "a7d261ec67533ad5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Gone with the Wind is",
+   "answer": "Margaret Mitchell",
+   "task_id": "a86c2d7e3988cd46",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Who Moved My Cheese? is",
+   "answer": "Patrick Spencer Johnson",
+   "task_id": "a8d39ed8fe21f852",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Egg and I is",
+   "answer": "Betty MacDonald",
+   "task_id": "a946819616d688c8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Srinakharinwirot University is located is",
+   "answer": "Watthana",
+   "task_id": "a9a24b01b9f7a75d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Jalen Rose was born is",
+   "answer": "Detroit",
+   "task_id": "aa921c779d19b505",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Alexander Viktorovich Lazarev was born is",
+   "answer": "Moscow",
+   "task_id": "abb2c60ba8a0e477",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Minecraft' is",
+   "answer": "Mojang Studios",
+   "task_id": "acca403357581a6f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Suratthani Rajabhat University is located is",
+   "answer": "Khun Thale",
+   "task_id": "adf3abe35f874772",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel To Kill a Mockingbird is",
+   "answer": "Harper Lee",
+   "task_id": "ae8616c60e1f7434",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Indian Struggle is",
+   "answer": "Subhas Chandra Bose",
+   "task_id": "af069e2200fdc18f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Ole Kirk Christiansen is",
+   "answer": "The Lego Group",
+   "task_id": "af63619eec5b0f9f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Os Fidalgos da Casa Mourisca is",
+   "answer": "Júlio Dinis",
+   "task_id": "b031e12ed9df8296",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Joe Jonas was born is",
+   "answer": "Casa Grande",
+   "task_id": "b119840fb6159620",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Ot me-Avshalom is",
+   "answer": "Nava Macmel-Atir",
+   "task_id": "b21b13009c8ae8a7",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel La Belle et la Bête is",
+   "answer": "Jeanne-Marie Leprince de Beaumont",
+   "task_id": "b249d765405bfa94",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of School of Plastic Arts of Puerto Rico is located is",
+   "answer": "San Juan",
+   "task_id": "b305d6dc25688071",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Dream of the Red Chamber is",
+   "answer": "Cao Xueqin",
+   "task_id": "b43a133690d9297e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Talented Mr. Ripley is",
+   "answer": "Patricia Highsmith",
+   "task_id": "b53efad773ef5724",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Dandara' is",
+   "answer": "Long Hat House",
+   "task_id": "b62c63b92c550a8e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Dance Central' is",
+   "answer": "Harmonix Music Systems",
+   "task_id": "b6d403f7f54d0c38",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Ame ni mo Makezu is",
+   "answer": "Kenji Miyazawa",
+   "task_id": "b79df42cf7871e4f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Akashiya Nonki was born is",
+   "answer": "Nishinomiya",
+   "task_id": "b84b498ef8d54a2f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Elder Scrolls Online: Flames of Ambition' is",
+   "answer": "ZeniMax Online Studios",
+   "task_id": "b8cea66b7dda26ca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Rural de Guatemala is located is",
+   "answer": "Guatemala City",
+   "task_id": "b8f6b1c4abb1d277",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Kuban State University is located is",
+   "answer": "Krasnodar",
+   "task_id": "ba0a00a5d0cff82c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Superior Singing School of Madrid is located is",
+   "answer": "Bauer Palace",
+   "task_id": "ba4abdd61d940008",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Kyrgyz National University named after Jusup Balasagyn is located is",
+   "answer": "Bishkek",
+   "task_id": "baf2e7fadfcb2ff5",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel A Hero of Our Time is",
+   "answer": "Mikhail Lermontov",
+   "task_id": "bb1d024803d4cc08",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Temple of the Golden Pavilion is",
+   "answer": "Yukio Mishima",
+   "task_id": "bc3c3ebaee517588",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Masahiro Sakurai is",
+   "answer": "Sora Ltd.",
+   "task_id": "bc743ceac8c455ca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Dragon Quest VI' is",
+   "answer": "Heartbeat",
+   "task_id": "bd425fc8ecfe99b1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Bowdoin College is located is",
+   "answer": "Brunswick",
+   "task_id": "be15f66ed259f601",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Effi Briest is",
+   "answer": "Theodor Fontane",
+   "task_id": "bf786635a9dea5f6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Lovely Bones is",
+   "answer": "Alice Sebold",
+   "task_id": "c16bfe4f32bd3dee",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Pastorale comique is",
+   "answer": "Molière",
+   "task_id": "c2e4975a29076b1a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of New Bulgarian University is located is",
+   "answer": "Sofia",
+   "task_id": "c35db0150bae6274",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Gen'yoshi Kadokawa is",
+   "answer": "Kadokawa Shoten",
+   "task_id": "c45edaa842081268",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Jungle is",
+   "answer": "Upton Sinclair",
+   "task_id": "c5c9af91e94f7e62",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Make Way for Ducklings is",
+   "answer": "Robert McCloskey",
+   "task_id": "c69516b84c6effb2",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Bar-Ilan University is located is",
+   "answer": "Ramat Gan",
+   "task_id": "c7bd1bc383ef0e5b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Gujarat University is located is",
+   "answer": "Ahmedabad",
+   "task_id": "c7fa6335d3f0d4f4",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of College of William & Mary is located is",
+   "answer": "Williamsburg",
+   "task_id": "c8bfa7ca38862b56",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel There There is",
+   "answer": "Tommy Orange",
+   "task_id": "c914032029f9557c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Tales of the South Pacific is",
+   "answer": "James A. Michener",
+   "task_id": "c9e328f1c2191ea1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Le Méchant is",
+   "answer": "Jean-Baptiste-Louis Gresset",
+   "task_id": "ca3da2f6633efcf0",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Leopard is",
+   "answer": "Giuseppe Tomasi di Lampedusa",
+   "task_id": "cb4f2495568a4a2a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel In a Lonely Place is",
+   "answer": "Dorothy B. Hughes",
+   "task_id": "cc8b13606e694131",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Sometimes a Great Notion is",
+   "answer": "Ken Kesey",
+   "task_id": "cdc96e996421ddad",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Alexis Tsipras is",
+   "answer": "Peristera Baziana",
+   "task_id": "cef84647728f1fa6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel I Malavoglia is",
+   "answer": "Giovanni Verga",
+   "task_id": "cf470e8eef3aea10",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Yiddish Policemen's Union is",
+   "answer": "Michael Chabon",
+   "task_id": "cf90cf9d35e7e509",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Robert Garriott is",
+   "answer": "Origin Systems",
+   "task_id": "d17227f33b784e22",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Palm-Wine Drinkard is",
+   "answer": "Amos Tutuola",
+   "task_id": "d29a746bda3dcc3c",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel À l'ombre des jeunes filles en fleurs is",
+   "answer": "Marcel Proust",
+   "task_id": "d42cd6cf054f8514",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Rose Tattoo is",
+   "answer": "Tennessee Williams",
+   "task_id": "d45d76a38301b012",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Wipeout' is",
+   "answer": "SCE Studio Liverpool",
+   "task_id": "d5843580c696727f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Northern (Arctic) Federal University is located is",
+   "answer": "Naberezhnaya Severnoy Dviny",
+   "task_id": "d5ea21bda50871e9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Catholic University of Portugal is located is",
+   "answer": "São Domingos de Benfica",
+   "task_id": "d6954d474b37a313",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Palestine Technical University is located is",
+   "answer": "Tulkarm",
+   "task_id": "d70865208f11f145",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Gungrave' is",
+   "answer": "Red Entertainment",
+   "task_id": "d82a7e1dda74540e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Crime and Punishment is",
+   "answer": "Fyodor Dostoyevsky",
+   "task_id": "d85a893abe2d4891",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Joshibi University of Art and Design is located is",
+   "answer": "Wada",
+   "task_id": "dabf9fca7bfa5925",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The president of Poland is",
+   "answer": "Andrzej Duda",
+   "task_id": "db7e1fa631a17576",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The country led by president Miloš Zeman is",
+   "answer": "Czech Republic",
+   "task_id": "dbcdac4c7dcbe8fc",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Sims FreePlay' is",
+   "answer": "EA Mobile",
+   "task_id": "dd010923cc45404b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Russian Presidential Academy of National Economy and Public Administration is located is",
+   "answer": "Moscow",
+   "task_id": "de35160129e79d24",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Hochschule für Musik und Theater München is located is",
+   "answer": "Führerbau",
+   "task_id": "df38047377571299",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Elements of the Philosophy of Right is",
+   "answer": "Georg Wilhelm Friedrich Hegel",
+   "task_id": "df4143ac9dcbda5f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel A Raisin in the Sun is",
+   "answer": "Lorraine Hansberry",
+   "task_id": "e04bbdf4583f8068",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Technical University of Denmark is located is",
+   "answer": "Kongens Lyngby",
+   "task_id": "e0acee61f4fb0f38",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Stuart Little is",
+   "answer": "E. B. White",
+   "task_id": "e1a42baa024ec319",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Cyrano de Bergerac is",
+   "answer": "Edmond Rostand",
+   "task_id": "e39f5ba3eff944a9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Lost Honour of Katharina Blum is",
+   "answer": "Heinrich Böll",
+   "task_id": "e4025ab59a0a8427",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Little Mermaid is",
+   "answer": "Hans Christian Andersen",
+   "task_id": "e54ea2f2b084d8c6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Aiiieeeee! An Anthology of Asian-American Writers is",
+   "answer": "Shawn Wong",
+   "task_id": "e70c167eeaad0a0a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Universiti Teknikal Malaysia Melaka is located is",
+   "answer": "Durian Tunggal",
+   "task_id": "e7e80a5f04923093",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The spouse of Roman Polanski is",
+   "answer": "Emmanuelle Seigner",
+   "task_id": "e828ae30d8c2314e",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel Christ Stopped at Eboli is",
+   "answer": "Carlo Levi",
+   "task_id": "e83f8bba48bcd72f",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Guitar Hero: Aerosmith' is",
+   "answer": "Neversoft",
+   "task_id": "e92cb417090c4322",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Old Regime and the Revolution is",
+   "answer": "Alexis de Tocqueville",
+   "task_id": "e980ab8aadef3df1",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Work of Art in the Age of Mechanical Reproduction is",
+   "answer": "Walter Benjamin",
+   "task_id": "ea3ce2d9995b878a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The country led by president Milo Đukanović is",
+   "answer": "Montenegro",
+   "task_id": "ea8181e36dcbfc39",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Brock University is located is",
+   "answer": "St. Catharines",
+   "task_id": "eac9cb5b616ade5b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Casey Loyd was born is",
+   "answer": "San Diego",
+   "task_id": "ebcca852df0d582d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Universiti Malaysia Sabah is located is",
+   "answer": "Kota Kinabalu",
+   "task_id": "ec62c9a05fcae221",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Chuo University is located is",
+   "answer": "Hachioji",
+   "task_id": "ed199f799246abd9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidade Federal do Ceará is located is",
+   "answer": "Fortaleza",
+   "task_id": "ee5bcab9b85a1d19",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel In Cold Blood is",
+   "answer": "Truman Capote @",
+   "task_id": "ef16efc61dbb69de",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Osamu Tezuka is",
+   "answer": "Tezuka Productions",
+   "task_id": "ef42c0ffc3194718",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Pirate101' is",
+   "answer": "KingsIsle Entertainment",
+   "task_id": "efe37081d2554937",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of International Turkmen-Turkish University is located is",
+   "answer": "Ashgabat",
+   "task_id": "f11c9268a7ced244",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Sly Cooper: Thieves in Time' is",
+   "answer": "Sanzaru Games",
+   "task_id": "f1e622e0aede016d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Mark Zuckerberg is",
+   "answer": "Meta Platforms",
+   "task_id": "f2aae53baa523f76",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Théologat de Fourvière is located is",
+   "answer": "Lyon",
+   "task_id": "f3252d082ab4b6bf",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Baka to Test to Shōkanjū Portable' is",
+   "answer": "Kadokawa Games",
+   "task_id": "f3f7f51efa9d1fc9",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Russian State Agricultural University is located is",
+   "answer": "Moscow",
+   "task_id": "f4297a79b7f1943a",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The CEO of Institut de radioprotection et de sûreté nucléaire is",
+   "answer": "Jean-Christophe Niel",
+   "task_id": "f4af4a2932e56dca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'The Incredibles' is",
+   "answer": "Helixe",
+   "task_id": "f586ba2c880c9bcb",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Gene Kelly was born is",
+   "answer": "Pittsburgh",
+   "task_id": "f5d3a763e1dbd93b",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Denis Cheryshev was born is",
+   "answer": "Nizhny Novgorod",
+   "task_id": "f619f34d623f94d3",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Poppy War is",
+   "answer": "R.F. Kuang",
+   "task_id": "f6991b1354cf0eca",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The company founded by Julian Gollop is",
+   "answer": "Mythos Games",
+   "task_id": "f77491b7b1abee93",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel In a Different Voice is",
+   "answer": "Carol Gilligan",
+   "task_id": "f898ea15097e5b83",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The developer of the game 'Amplitude' is",
+   "answer": "Harmonix Music Systems",
+   "task_id": "f91ce1f6f125841d",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of British University in Yemen is located is",
+   "answer": "Sanaa",
+   "task_id": "fa5af12135e25bd6",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The author of the novel The Shack is",
+   "answer": "William P. Young",
+   "task_id": "fc28a3e8c4798bc8",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where the headquarters of Symbiosis International University is located is",
+   "answer": "Lavale",
+   "task_id": "fe13e726c9c4d4ad",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Kei Nishikori was born is",
+   "answer": "Matsue",
+   "task_id": "fe6e403ed01d2e06",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "The city where Darius Garland was born is",
+   "answer": "Gary",
+   "task_id": "ff53ac8906042915",
+   "atom": "hop1"
+  },
+  {
+   "prompt": "Melina Marchetta was born in the country of",
+   "answer": "Australia",
+   "task_id": "0057a9b776577b90",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "00cf8175dfbb4802",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Harry Harrison was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0137f0af14334a13",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Marvin Glass and Associates has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "02d40b1fc44408aa",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Eugène Sue was born in the city of",
+   "answer": "Paris",
+   "task_id": "039fb80828295082",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Cleveland is in the country of",
+   "answer": "United States of America",
+   "task_id": "03f323c19a2a9bc4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Morioka is in the country of",
+   "answer": "Japan",
+   "task_id": "0466ebabfd66e4a3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Christopher Cross was born in the country of",
+   "answer": "United States of America",
+   "task_id": "04997e2ded2b65da",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "McFarlane Toys has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "04ceec6c14e22db9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Marguerite Sagey was born in the country of",
+   "answer": "France",
+   "task_id": "05633465f1ffcd8a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Valenciennes is in the country of",
+   "answer": "France",
+   "task_id": "058c5290a309abc8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "United Media has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "064783d1c8fc147b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Janell Cannon was born in the country of",
+   "answer": "United States of America",
+   "task_id": "08b7c365e890d60e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "09012a58761d568e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "George Packer was born in the country of",
+   "answer": "United States of America",
+   "task_id": "097e1616028ba0aa",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Seán O'Casey was born in the city of",
+   "answer": "Dublin",
+   "task_id": "0bebf9bd3e24fb9e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jonathan Weiner was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0e703078c81f582a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Walter M. Miller was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0ea558aad226ad81",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Cologne is in the country of",
+   "answer": "Germany",
+   "task_id": "0f693582bf038aec",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "São Leopoldo is in the country of",
+   "answer": "Brazil",
+   "task_id": "100ddc2e5ad01a68",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tonino Lamborghini Spa has its headquarters in the country of",
+   "answer": "Italy",
+   "task_id": "105f57a6d47c6fa0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Vanesa Lorenzo was born in the country of",
+   "answer": "Spain",
+   "task_id": "107fb83db533282e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Hidden Path Entertainment has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "11b180830bbb0c03",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tokyo RPG Factory has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "12e0ec98b3129ee7",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Shevchenko Avenue is in the country of",
+   "answer": "Ukraine",
+   "task_id": "13076cdcf9e35401",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jim Thompson was born in the country of",
+   "answer": "United States of America",
+   "task_id": "13481b369db1ff61",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Dragonware has its headquarters in the country of",
+   "answer": "Germany",
+   "task_id": "1409dd6228f16286",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Burton Malkiel was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1549c0a9a9498a6d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ahmedabad is in the country of",
+   "answer": "India",
+   "task_id": "1658ef7000815e56",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Charles R. Jackson was born in the country of",
+   "answer": "United States of America",
+   "task_id": "175014d74c4d7209",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Griptonite Games has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "181fe933fb9c5d31",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Stendhal was born in the country of",
+   "answer": "France",
+   "task_id": "18c230ae277b59ca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yerevan is in the country of",
+   "answer": "Armenia",
+   "task_id": "1932263cd5c7323b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Virginia Woolf was born in the city of",
+   "answer": "London",
+   "task_id": "193fa9e7b3a59714",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Minato-ku is in the country of",
+   "answer": "Japan",
+   "task_id": "19b34a0dec99d30d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Chikako Asō was born in the country of",
+   "answer": "Japan",
+   "task_id": "1a299d8f6e55c54f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "1a9a39035c90a0bf",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Shannon Hale was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1ad54d10a9cce11e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nikos Kazantzakis was born in the country of",
+   "answer": "Greece",
+   "task_id": "1b432fa226d4132e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Johnny Horton was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1be8117a0519251d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jeanne Wakatsuki Houston was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1caaadb918d27460",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Louise Glück was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1dae4f5b71f67d7f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "TimeGate Studios has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "1dee3bc0e2abcc42",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bilzen is in the country of",
+   "answer": "Belgium",
+   "task_id": "1edc60da2c922fad",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Atari Games has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "208a03d4764a72f3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Honoré de Balzac was born in the country of",
+   "answer": "France",
+   "task_id": "209847d2df0fe38c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kevin Kwan was born in the city of",
+   "answer": "Singapore",
+   "task_id": "21cdd5ad0f109cdd",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Mexico City is in the country of",
+   "answer": "Mexico",
+   "task_id": "2326702a0a7f73fd",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Karine Tuil was born in the country of",
+   "answer": "France",
+   "task_id": "23ad636161319b59",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Margaret Mead was born in the country of",
+   "answer": "United States of America",
+   "task_id": "2406c8f2693eaf1c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Legon Campus is in the country of",
+   "answer": "Ghana",
+   "task_id": "24177982605f122e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Michael Lewis was born in the country of",
+   "answer": "United States of America",
+   "task_id": "24f6752bd708593d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nashville is in the country of",
+   "answer": "United States of America",
+   "task_id": "25f064f824bcdec4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "La Clerecía is in the country of",
+   "answer": "Spain",
+   "task_id": "26107e444ce57f04",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ryūnosuke Akutagawa was born in the country of",
+   "answer": "Japan",
+   "task_id": "269b1bdbbe8d08f7",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ladislav Klíma was born in the country of",
+   "answer": "Czech Republic",
+   "task_id": "26ca354093e2d71b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Osnabrück is in the country of",
+   "answer": "Germany",
+   "task_id": "28ffa7b76de4f6ca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Stefan Zweig was born in the city of",
+   "answer": "Vienna",
+   "task_id": "293ae218b0024535",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Butare is in the country of",
+   "answer": "Rwanda",
+   "task_id": "29ff50af7943f7cf",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Alejandra Matus was born in the country of",
+   "answer": "Chile",
+   "task_id": "2a50cc1a5d94fb48",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Matsue is in the country of",
+   "answer": "Japan",
+   "task_id": "2b5fa53bc97a1746",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Robert Caro was born in the country of",
+   "answer": "United States of America",
+   "task_id": "2c5452bc696f1acd",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Pierre Corneille was born in the country of",
+   "answer": "France",
+   "task_id": "2ce4d14a46770c49",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Johann Jacob Leu was born in the country of",
+   "answer": "Switzerland",
+   "task_id": "2dffe8700fb4abe2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "The capital of Nicaragua is",
+   "answer": "Managua",
+   "task_id": "2e9606de575494a9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kanan is in the country of",
+   "answer": "Japan",
+   "task_id": "2f5ce2195e68f3f4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Machado de Assis was born in the country of",
+   "answer": "Brazil",
+   "task_id": "2fe1fa9247a77f54",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "PlayFirst has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "3088d6f978f4441d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Dorothy Baker was born in the country of",
+   "answer": "United States of America",
+   "task_id": "31e1bbcf462a7fe2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Oswald Spengler was born in the country of",
+   "answer": "Germany",
+   "task_id": "34343686777513e8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Latrobe is in the country of",
+   "answer": "United States of America",
+   "task_id": "3562152e39a409d9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Capcom has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "357c502ed4516ed9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Broderbund has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "35e1118f7e174804",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jaime Luís Smith de Vasconcelos was born in the country of",
+   "answer": "Brazil",
+   "task_id": "36c2088ce314dcfa",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Umaro Sissoco Embaló was born in the city of",
+   "answer": "Bissau",
+   "task_id": "371062aae01cb62f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Larry Niven was born in the country of",
+   "answer": "United States of America",
+   "task_id": "371ebd9bc481aad5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "GAME FREAK has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "395a38ba13796ece",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Krasnodar is in the country of",
+   "answer": "Russia",
+   "task_id": "3bda328db4e85788",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tim O'Brien was born in the country of",
+   "answer": "United States of America",
+   "task_id": "3c5cc25cee9892ae",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Lviv is in the country of",
+   "answer": "Ukraine",
+   "task_id": "3de0aa4cc8ac3baa",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Crans-Montana is in the country of",
+   "answer": "Switzerland",
+   "task_id": "3e1d4eff63880e6d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Santa Monica is in the country of",
+   "answer": "United States of America",
+   "task_id": "3eb2d51485c94e48",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Athens is in the country of",
+   "answer": "Greece",
+   "task_id": "3f6af2e51715753b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kraków is in the country of",
+   "answer": "Poland",
+   "task_id": "40417fe7fc25226f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kolkata is in the country of",
+   "answer": "India",
+   "task_id": "40b13c0b78d00cda",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "George Selden was born in the country of",
+   "answer": "United States of America",
+   "task_id": "419d3743671b530b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bankim Chandra Chatterjee was born in the country of",
+   "answer": "India",
+   "task_id": "424c89959c8c3276",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Donna Tartt was born in the country of",
+   "answer": "United States of America",
+   "task_id": "42c6de8b31ec2880",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Katherine Applegate was born in the country of",
+   "answer": "United States of America",
+   "task_id": "43609165be718c4c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Gustave Flaubert was born in the country of",
+   "answer": "France",
+   "task_id": "4519f0d37ece5fc0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ferrol is in the country of",
+   "answer": "Spain",
+   "task_id": "45877a12b5cbb831",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Anatole France was born in the country of",
+   "answer": "France",
+   "task_id": "46484294935be7a6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Edith Wharton was born in the city of",
+   "answer": "New York City",
+   "task_id": "47298e7746a1ec7a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Atlanta is in the country of",
+   "answer": "United States of America",
+   "task_id": "48317718e6746fb8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jeff Lindsay was born in the city of",
+   "answer": "Miami",
+   "task_id": "48f3e299cf12efc0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Orhan Pamuk was born in the country of",
+   "answer": "Turkey",
+   "task_id": "4a87a1d5e63ee3c5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nizhny Novgorod is in the country of",
+   "answer": "Russia",
+   "task_id": "4ab4f4d9184d28f1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Gertrude Stein was born in the country of",
+   "answer": "United States of America",
+   "task_id": "4ae8afd20185db3c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Chu Renhuo was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "4b052785881ef4b4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Léon Frapié was born in the country of",
+   "answer": "France",
+   "task_id": "4b2175a5e5de3968",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ozark Softscape has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "4bcf2ae19f844473",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "4bdc5a16eaf0ae00",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Zanjan is in the country of",
+   "answer": "Iran",
+   "task_id": "4d7c051fc4bd562d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Maria Corti was born in the country of",
+   "answer": "Italy",
+   "task_id": "4e37726d23ab7489",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Juan Antonio Castro Fernández was born in the country of",
+   "answer": "Spain",
+   "task_id": "4e8ffa30f23ae51d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Olena Zelenska was born in the country of",
+   "answer": "Ukraine",
+   "task_id": "4f5cece6a29bada5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "H. P. Lovecraft was born in the country of",
+   "answer": "United States of America",
+   "task_id": "4fcb62471a303834",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tyler is in the country of",
+   "answer": "United States of America",
+   "task_id": "503098a639c8a319",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Secunderabad is in the country of",
+   "answer": "India",
+   "task_id": "503dc1d52e7f7732",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Agricultural University of Havana has its headquarters in the country of",
+   "answer": "Cuba",
+   "task_id": "50b4d21bac97a424",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yerevan is in the country of",
+   "answer": "Armenia",
+   "task_id": "51b8ca75336b1261",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kelowna is in the country of",
+   "answer": "Canada",
+   "task_id": "52b5a6683637ff72",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Liquid Entertainment has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "537453f87c65b784",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "St. Louis is in the country of",
+   "answer": "United States of America",
+   "task_id": "544bcbcbcf7e5926",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Simon & Schuster has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "553abef9dab81747",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Michael D. Higgins was born in the country of",
+   "answer": "Republic of Ireland",
+   "task_id": "55d43c305a581c54",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sugawara no Michizane was born in the country of",
+   "answer": "Japan",
+   "task_id": "56288edcec0add25",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "St. Louis is in the country of",
+   "answer": "United States of America",
+   "task_id": "5692cf1f807898bd",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Premchand was born in the country of",
+   "answer": "India",
+   "task_id": "575762b67349a859",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yulia Navalnaya was born in the country of",
+   "answer": "Russia",
+   "task_id": "59f30f8aa066d1be",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Korea Computer Center has its headquarters in the country of",
+   "answer": "North Korea",
+   "task_id": "5a5d85cf918ff369",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Krasnodar is in the country of",
+   "answer": "Russia",
+   "task_id": "5a888efe5039cf70",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "5abe3b00c5f96f88",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Rennes is in the country of",
+   "answer": "France",
+   "task_id": "5ba0a48da62169b7",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yogyakarta City is in the country of",
+   "answer": "Indonesia",
+   "task_id": "5cd50ec3bc715802",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Flawil is in the country of",
+   "answer": "Switzerland",
+   "task_id": "5e29a34c71c07210",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Curitiba is in the country of",
+   "answer": "Brazil",
+   "task_id": "60414957afa6cbf5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Antakya is in the country of",
+   "answer": "Turkey",
+   "task_id": "60bdeba2902e827c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Shahr-e Kord is in the country of",
+   "answer": "Iran",
+   "task_id": "62052a3c85ca02df",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Prope has its headquarters in the city of",
+   "answer": "Tokyo",
+   "task_id": "623427e66ccfe4c2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bertolt Brecht was born in the country of",
+   "answer": "Germany",
+   "task_id": "62dbb432822c0435",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tendai Huchu was born in the country of",
+   "answer": "Zimbabwe",
+   "task_id": "632f54e4844bb74b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "University of Iceland has its headquarters in the city of",
+   "answer": "Reykjavík",
+   "task_id": "63c9f8e675bec1f3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Shen Kuo was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "64db33943c245f76",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Devaki Nandan Khatri was born in the country of",
+   "answer": "India",
+   "task_id": "6654112e0a88076d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Pontifical Catholic University of Chile has its headquarters in the country of",
+   "answer": "Chile",
+   "task_id": "679427d30b199d11",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Iquitos is in the country of",
+   "answer": "Peru",
+   "task_id": "679d6359bb10de95",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Hachioji is in the country of",
+   "answer": "Japan",
+   "task_id": "680484248945fda0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Karlsruhe is in the country of",
+   "answer": "Germany",
+   "task_id": "6891ee090254d361",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Santa Marta is in the country of",
+   "answer": "Colombia",
+   "task_id": "68ec719112bf5015",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Santa Fe is in the country of",
+   "answer": "Argentina",
+   "task_id": "6b2448b1c9475ce9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Akron is in the country of",
+   "answer": "United States of America",
+   "task_id": "6e61dc6f30ac5246",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Maurice Sendak was born in the country of",
+   "answer": "United States of America",
+   "task_id": "6eeb9ff95ae86c6f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Masanobu Fukuoka was born in the country of",
+   "answer": "Japan",
+   "task_id": "6fcb2a25ecb64853",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Fyodor Dostoyevsky was born in the country of",
+   "answer": "Russia",
+   "task_id": "708e4d7f3caefa16",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Front Wing has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "7178dad3525b8641",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Max Brooks was born in the country of",
+   "answer": "United States of America",
+   "task_id": "729f3d665f881d0a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Montreal is in the country of",
+   "answer": "Canada",
+   "task_id": "73580c05942632a2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Spicy Horse was founded by the person named",
+   "answer": "American McGee",
+   "task_id": "75309a81164a9f5e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Karen Joy Fowler was born in the country of",
+   "answer": "United States of America",
+   "task_id": "75c0a8b7434a5775",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ashgabat is in the country of",
+   "answer": "Turkmenistan",
+   "task_id": "7684dd2d97f45296",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "LCG Entertainment, Inc. has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "76af7a033679a8d1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tehran is in the country of",
+   "answer": "Iran",
+   "task_id": "76f50984208435b2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Mohammadpur Thana is in the country of",
+   "answer": "Bangladesh",
+   "task_id": "7855dd4af762c4d8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jacques-Henri Bernardin de Saint-Pierre was born in the country of",
+   "answer": "France",
+   "task_id": "792471e4a168d3e2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "79c04e47bc155453",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Stephen King was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7b020c3759066e4e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Johann Wolfgang von Goethe was born in the country of",
+   "answer": "Germany",
+   "task_id": "7be16daf83cd5df5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Santa Monica is in the country of",
+   "answer": "United States of America",
+   "task_id": "7ca011bd48c692e4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "General Díaz Porlier Street is in the country of",
+   "answer": "Spain",
+   "task_id": "7cf6c48f895edeec",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Hopoo Games, LLC has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "7dcb4e42f0715e92",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Canton is in the country of",
+   "answer": "United States of America",
+   "task_id": "7e2ba438bf24b3e1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Pontifical Catholic University of Chile has its headquarters in the city of",
+   "answer": "Santiago",
+   "task_id": "7f903c80fe34132f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Burnaby is in the country of",
+   "answer": "Canada",
+   "task_id": "807e966f6abb5a87",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bangkok is in the country of",
+   "answer": "Thailand",
+   "task_id": "8173d44b53708f5d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "The capital of Gabon is",
+   "answer": "Libreville",
+   "task_id": "82dcbf0a6d8c00f5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ibaraki is in the country of",
+   "answer": "Japan",
+   "task_id": "834d380d987c8be6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Maxis has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "83b8a11b6922b7b6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Atherton is in the country of",
+   "answer": "United States of America",
+   "task_id": "8576810f98cac122",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Fort Lauderdale is in the country of",
+   "answer": "United States of America",
+   "task_id": "85d01e675fa39902",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Judy Blume was born in the country of",
+   "answer": "United States of America",
+   "task_id": "87bf9cdd9280bc5e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bandai has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "881ab97e6f07ac0b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bibhutibhushan Bandyopadhyay was born in the country of",
+   "answer": "India",
+   "task_id": "88720c3fd07a0da6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Matsuyama is in the country of",
+   "answer": "Japan",
+   "task_id": "893d6f123e553423",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Rexburg is in the country of",
+   "answer": "United States of America",
+   "task_id": "89d5c27d87877b2a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ray Bradbury was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8a0b1612deb999f3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "J. D. Vance was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8b3be69c84ce3b9a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bogotá is in the country of",
+   "answer": "Colombia",
+   "task_id": "8b7062873c13fb35",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sapporo is in the country of",
+   "answer": "Japan",
+   "task_id": "8bb78bae2d188c24",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "P’Bitek Okot was born in the country of",
+   "answer": "Uganda",
+   "task_id": "8bcba6fb2866f7f3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ivan Goncharov was born in the country of",
+   "answer": "Russia",
+   "task_id": "8c53bcdf5a936c27",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "San Nicolás de los Arroyos is in the country of",
+   "answer": "Argentina",
+   "task_id": "8c8928b59c362499",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Koç University has its headquarters in the country of",
+   "answer": "Turkey",
+   "task_id": "8ceb5a109547fb12",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Flight-Plan has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "8da9bf0d4e9d93ea",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "N. Scott Momaday was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8dd6673b94732790",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "As an undergrad, Edward Abbey attended the university named",
+   "answer": "University of New Mexico",
+   "task_id": "8ef07f076f920ee4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "906907497528b0f0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kita-ku is in the country of",
+   "answer": "Japan",
+   "task_id": "92049c4734a6a8f5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Firaxis Games has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "92984de367a5eb7d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Fyodor Dostoyevsky was born in the country of",
+   "answer": "Russia",
+   "task_id": "948790f9e77d429e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Taitung City is in the country of",
+   "answer": "Taiwan",
+   "task_id": "95974827229a82e7",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Charlottetown is in the country of",
+   "answer": "Canada",
+   "task_id": "95cd3e8d23f83608",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Blue Sky Studios has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "96b9634e02266f77",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Eugène Sue was born in the country of",
+   "answer": "France",
+   "task_id": "974645cc51a73126",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Robert A. Heinlein was born in the country of",
+   "answer": "United States of America",
+   "task_id": "99b91bb3b91d280c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "André Gide was born in the country of",
+   "answer": "France",
+   "task_id": "99f8ad1bd2749a6e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "BudgeCo has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "9a6c6df30cb8aafc",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jackbox Games has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "9b0e5100dba8e92d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Adam of Bremen was born in the country of",
+   "answer": "Germany",
+   "task_id": "9bc57af569b8fae5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ixelles - Elsene is in the country of",
+   "answer": "Belgium",
+   "task_id": "9fa13a3605e9deff",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Château de la Source is in the country of",
+   "answer": "France",
+   "task_id": "a109a4e957a77636",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Leimen is in the country of",
+   "answer": "Germany",
+   "task_id": "a27bebd6c26d6fca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Robert Walser was born in the country of",
+   "answer": "Switzerland",
+   "task_id": "a424e470c0029931",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yoshida Kenkō was born in the country of",
+   "answer": "Japan",
+   "task_id": "a432398dd7d7d726",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "James Grady was born in the country of",
+   "answer": "United States of America",
+   "task_id": "a4f05040dc3285f9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Gary is in the country of",
+   "answer": "United States of America",
+   "task_id": "a5a4427266eaf6ad",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Aardman Animations has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "a69b89d4ae63dc20",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Manila is in the country of",
+   "answer": "Philippines",
+   "task_id": "a7b6fa5aa316986b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Man with No Name was played by an actor named",
+   "answer": "Clint Eastwood",
+   "task_id": "a7d261ec67533ad5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Margaret Mitchell was born in the city of",
+   "answer": "Atlanta",
+   "task_id": "a86c2d7e3988cd46",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Patrick Spencer Johnson was born in the country of",
+   "answer": "United States of America",
+   "task_id": "a8d39ed8fe21f852",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Betty MacDonald was born in the country of",
+   "answer": "United States of America",
+   "task_id": "a946819616d688c8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Watthana is in the country of",
+   "answer": "Thailand",
+   "task_id": "a9a24b01b9f7a75d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Detroit is in the country of",
+   "answer": "United States of America",
+   "task_id": "aa921c779d19b505",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "abb2c60ba8a0e477",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Mojang Studios was founded by the person named",
+   "answer": "Markus Persson",
+   "task_id": "acca403357581a6f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Khun Thale is in the country of",
+   "answer": "Thailand",
+   "task_id": "adf3abe35f874772",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Harper Lee was born in the country of",
+   "answer": "United States of America",
+   "task_id": "ae8616c60e1f7434",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Subhas Chandra Bose was born in the country of",
+   "answer": "India",
+   "task_id": "af069e2200fdc18f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "The Lego Group has its headquarters in the country of",
+   "answer": "Denmark",
+   "task_id": "af63619eec5b0f9f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Júlio Dinis was born in the country of",
+   "answer": "Portugal",
+   "task_id": "b031e12ed9df8296",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Casa Grande is in the country of",
+   "answer": "United States of America",
+   "task_id": "b119840fb6159620",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nava Macmel-Atir was born in the country of",
+   "answer": "Israel",
+   "task_id": "b21b13009c8ae8a7",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jeanne-Marie Leprince de Beaumont was born in the country of",
+   "answer": "France",
+   "task_id": "b249d765405bfa94",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "San Juan is in the country of",
+   "answer": "Puerto Rico",
+   "task_id": "b305d6dc25688071",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Cao Xueqin was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "b43a133690d9297e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Queen Sonja of Norway was born in the city of",
+   "answer": "Oslo",
+   "task_id": "b4a9f104d4e795de",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Patricia Highsmith was born in the country of",
+   "answer": "United States of America",
+   "task_id": "b53efad773ef5724",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Long Hat House has its headquarters in the country of",
+   "answer": "Brazil",
+   "task_id": "b62c63b92c550a8e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Harmonix Music Systems has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "b6d403f7f54d0c38",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kenji Miyazawa was born in the country of",
+   "answer": "Japan",
+   "task_id": "b79df42cf7871e4f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nishinomiya is in the country of",
+   "answer": "Japan",
+   "task_id": "b84b498ef8d54a2f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "ZeniMax Online Studios has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "b8cea66b7dda26ca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Guatemala City is in the country of",
+   "answer": "Guatemala",
+   "task_id": "b8f6b1c4abb1d277",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Krasnodar is in the country of",
+   "answer": "Russia",
+   "task_id": "ba0a00a5d0cff82c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bauer Palace is in the country of",
+   "answer": "Spain",
+   "task_id": "ba4abdd61d940008",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bishkek is in the country of",
+   "answer": "Kyrgyzstan",
+   "task_id": "baf2e7fadfcb2ff5",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Mikhail Lermontov was born in the country of",
+   "answer": "Russia",
+   "task_id": "bb1d024803d4cc08",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Yukio Mishima was born in the country of",
+   "answer": "Japan",
+   "task_id": "bc3c3ebaee517588",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sora Ltd. has its headquarters in the city of",
+   "answer": "Tokyo",
+   "task_id": "bc743ceac8c455ca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Heartbeat has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "bd425fc8ecfe99b1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Brunswick is in the country of",
+   "answer": "United States of America",
+   "task_id": "be15f66ed259f601",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Theodor Fontane was born in the country of",
+   "answer": "Germany",
+   "task_id": "bf786635a9dea5f6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Alice Sebold was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c16bfe4f32bd3dee",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sofia is in the country of",
+   "answer": "Bulgaria",
+   "task_id": "c35db0150bae6274",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kadokawa Shoten has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "c45edaa842081268",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Upton Sinclair was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c5c9af91e94f7e62",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Robert McCloskey was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c69516b84c6effb2",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ramat Gan is in the country of",
+   "answer": "Israel",
+   "task_id": "c7bd1bc383ef0e5b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ahmedabad is in the country of",
+   "answer": "India",
+   "task_id": "c7fa6335d3f0d4f4",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Williamsburg is in the country of",
+   "answer": "United States of America",
+   "task_id": "c8bfa7ca38862b56",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tommy Orange was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c914032029f9557c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Bangkok is in the country of",
+   "answer": "Thailand",
+   "task_id": "c93f5db60d50d088",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "James A. Michener was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c9e328f1c2191ea1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jean-Baptiste-Louis Gresset was born in the country of",
+   "answer": "France",
+   "task_id": "ca3da2f6633efcf0",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Giuseppe Tomasi di Lampedusa was born in the country of",
+   "answer": "Italy",
+   "task_id": "cb4f2495568a4a2a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Dorothy B. Hughes was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cc8b13606e694131",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ken Kesey was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cdc96e996421ddad",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Peristera Baziana was born in the country of",
+   "answer": "Greece",
+   "task_id": "cef84647728f1fa6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Giovanni Verga was born in the country of",
+   "answer": "Italy",
+   "task_id": "cf470e8eef3aea10",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Michael Chabon was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cf90cf9d35e7e509",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Origin Systems has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "d17227f33b784e22",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Amos Tutuola was born in the country of",
+   "answer": "Nigeria",
+   "task_id": "d29a746bda3dcc3c",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Honoré de Balzac was born in the country of",
+   "answer": "France",
+   "task_id": "d39d2b63adc30187",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Marcel Proust was born in the country of",
+   "answer": "France",
+   "task_id": "d42cd6cf054f8514",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tennessee Williams was born in the country of",
+   "answer": "United States of America",
+   "task_id": "d45d76a38301b012",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Naberezhnaya Severnoy Dviny is in the country of",
+   "answer": "Russia",
+   "task_id": "d5ea21bda50871e9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "São Domingos de Benfica is in the country of",
+   "answer": "Portugal",
+   "task_id": "d6954d474b37a313",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tulkarm is in the country of",
+   "answer": "State of Palestine",
+   "task_id": "d70865208f11f145",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Red Entertainment has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "d82a7e1dda74540e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Fyodor Dostoyevsky was born in the country of",
+   "answer": "Russia",
+   "task_id": "d85a893abe2d4891",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Wada is in the country of",
+   "answer": "Japan",
+   "task_id": "dabf9fca7bfa5925",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Andrzej Duda was born in the country of",
+   "answer": "Poland",
+   "task_id": "db7e1fa631a17576",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "The capital of Czech Republic is",
+   "answer": "Prague",
+   "task_id": "dbcdac4c7dcbe8fc",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "EA Mobile has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "dd010923cc45404b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "de35160129e79d24",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Führerbau is in the country of",
+   "answer": "Germany",
+   "task_id": "df38047377571299",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Georg Wilhelm Friedrich Hegel was born in the country of",
+   "answer": "Germany",
+   "task_id": "df4143ac9dcbda5f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Lorraine Hansberry was born in the country of",
+   "answer": "United States of America",
+   "task_id": "e04bbdf4583f8068",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kongens Lyngby is in the country of",
+   "answer": "Denmark",
+   "task_id": "e0acee61f4fb0f38",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "E. B. White was born in the country of",
+   "answer": "United States of America",
+   "task_id": "e1a42baa024ec319",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Edmond Rostand was born in the country of",
+   "answer": "France",
+   "task_id": "e39f5ba3eff944a9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Hans Christian Andersen was born in the country of",
+   "answer": "Denmark",
+   "task_id": "e54ea2f2b084d8c6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "As an undergrad, Shawn Wong attended the university named",
+   "answer": "University of California, Berkeley",
+   "task_id": "e70c167eeaad0a0a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Durian Tunggal is in the country of",
+   "answer": "Malaysia",
+   "task_id": "e7e80a5f04923093",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Emmanuelle Seigner was born in the country of",
+   "answer": "France",
+   "task_id": "e828ae30d8c2314e",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Carlo Levi was born in the country of",
+   "answer": "Italy",
+   "task_id": "e83f8bba48bcd72f",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Neversoft has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "e92cb417090c4322",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Alexis de Tocqueville was born in the country of",
+   "answer": "France",
+   "task_id": "e980ab8aadef3df1",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Walter Benjamin was born in the country of",
+   "answer": "Germany",
+   "task_id": "ea3ce2d9995b878a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "The capital of Montenegro is",
+   "answer": "Podgorica",
+   "task_id": "ea8181e36dcbfc39",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "St. Catharines is in the country of",
+   "answer": "Canada",
+   "task_id": "eac9cb5b616ade5b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "San Diego is in the country of",
+   "answer": "United States of America",
+   "task_id": "ebcca852df0d582d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kota Kinabalu is in the country of",
+   "answer": "Malaysia",
+   "task_id": "ec62c9a05fcae221",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Hachioji is in the country of",
+   "answer": "Japan",
+   "task_id": "ed199f799246abd9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Fortaleza is in the country of",
+   "answer": "Brazil",
+   "task_id": "ee5bcab9b85a1d19",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Truman Capote @ was born in the country of",
+   "answer": "United States of America",
+   "task_id": "ef16efc61dbb69de",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Tezuka Productions has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "ef42c0ffc3194718",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "KingsIsle Entertainment has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "efe37081d2554937",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Ashgabat is in the country of",
+   "answer": "Turkmenistan",
+   "task_id": "f11c9268a7ced244",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sanzaru Games has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f1e622e0aede016d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Meta Platforms has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f2aae53baa523f76",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Lyon is in the country of",
+   "answer": "France",
+   "task_id": "f3252d082ab4b6bf",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Kadokawa Games has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "f3f7f51efa9d1fc9",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Moscow is in the country of",
+   "answer": "Russia",
+   "task_id": "f4297a79b7f1943a",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Jean-Christophe Niel was born in the country of",
+   "answer": "France",
+   "task_id": "f4af4a2932e56dca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Helixe has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f586ba2c880c9bcb",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Pittsburgh is in the country of",
+   "answer": "United States of America",
+   "task_id": "f5d3a763e1dbd93b",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Nizhny Novgorod is in the country of",
+   "answer": "Russia",
+   "task_id": "f619f34d623f94d3",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "R.F. Kuang was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "f6991b1354cf0eca",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Mythos Games has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "f77491b7b1abee93",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Carol Gilligan was born in the country of",
+   "answer": "United States of America",
+   "task_id": "f898ea15097e5b83",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Harmonix Music Systems has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f91ce1f6f125841d",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Sanaa is in the country of",
+   "answer": "Yemen",
+   "task_id": "fa5af12135e25bd6",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Panasonic Corporation has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "fb1863e57a3f4efe",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "William P. Young was born in the country of",
+   "answer": "Canada",
+   "task_id": "fc28a3e8c4798bc8",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Lavale is in the country of",
+   "answer": "India",
+   "task_id": "fe13e726c9c4d4ad",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Matsue is in the country of",
+   "answer": "Japan",
+   "task_id": "fe6e403ed01d2e06",
+   "atom": "hop2"
+  },
+  {
+   "prompt": "Gary is in the country of",
+   "answer": "United States of America",
+   "task_id": "ff53ac8906042915",
+   "atom": "hop2"
+  }
+ ]
+}

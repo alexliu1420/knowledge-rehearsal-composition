@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+# adapters and caches produced by re-running the pipeline; the deposit ships measurements, not weights
+results/**/checkpoint-*/
+data/retention/
+data/wikidata_cache/
+.cache/
+*.log
+# LaTeX intermediates from paper/build_paper.py (paper/_preamble.tex is source and is tracked)
+paper/*.aux
+paper/*.out
+paper/*.toc
+paper/rehearsal_unit.tex

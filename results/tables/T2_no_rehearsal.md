@@ -1,0 +1,8 @@
+# T2 No-rehearsal baseline and bridge emission
+Files: no-replay adapters (`v2_g4_split_X_s*`, `falcon_preserve_none_X_s*`) and the route/atomic adapters. Bridge emission = fraction of the five non-canonical domain-persona predictions whose wrong answer contains the bridge entity (the neutral-persona prompts are stored as booleans and are not classified). Contrasts against none pair seeds 0-2; route/atomic means use all available seeds.
+| family | ckpt | none | route | atomic | route - none | atomic - none | bridge emission none/route/atomic | never-rehearsed routes none/route/atomic |
+|---|---|---|---|---|---|---|---|---|
+| Qwen2.5-3B | mem100 (none 3 seeds; route/atomic 6 seeds) | 0.817 | 0.991 | 0.825 | +0.173 [+0.080, +0.267] | +0.055 [-0.108, +0.217] | 0.012 / 0.004 / 0.129 (atomic per seed 0.112 0.072 0.074 0.028 0.145 0.341) | 0.822 / 0.956 / 0.876 ; route-none +0.123 [+0.056, +0.189] |
+| Qwen2.5-3B | final (none 3 seeds; route/atomic 6 seeds) | 0.838 | 0.954 | 0.828 | +0.145 [+0.027, +0.262] | -0.003 [-0.294, +0.288] | 0.009 / 0.005 / 0.124 (atomic per seed 0.197 0.111 0.008 0.042 0.204 0.183) | 0.851 / 0.903 / 0.880 ; route-none +0.089 [-0.047, +0.225] |
+| Falcon3-3B | mem100 (none 3 seeds; route/atomic 6 seeds) | 0.659 | 0.990 | 0.786 | +0.334 [+0.207, +0.461] | +0.101 [-0.301, +0.504] | 0.001 / 0.000 / 0.078 (atomic per seed 0.042 0.191 0.027 0.036 0.105 0.069) | 0.642 / 0.909 / 0.786 ; route-none +0.274 [+0.156, +0.391] |
+| Falcon3-3B | final (none 3 seeds; route/atomic 6 seeds) | 0.681 | 0.984 | 0.801 | +0.313 [+0.295, +0.330] | +0.101 [-0.196, +0.398] | 0.001 / 0.000 / 0.078 (atomic per seed 0.087 0.171 0.031 0.008 0.099 0.073) | 0.672 / 0.892 / 0.782 ; route-none +0.245 [+0.208, +0.283] |

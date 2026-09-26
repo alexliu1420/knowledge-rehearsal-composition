@@ -1,0 +1,10 @@
+# Tables and number audit only (no GPU required): standard library only.
+
+# Route screen, dataset construction, training, measurement and patching
+torch>=2.4
+transformers>=4.44
+peft>=0.12
+accelerate>=0.33
+datasets>=2.20
+pandas>=2.0
+requests>=2.31

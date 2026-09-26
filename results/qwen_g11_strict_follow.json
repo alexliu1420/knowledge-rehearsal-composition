@@ -1,0 +1,68 @@
+{
+ "bridge_causal_L6.json": {
+  "n": 744,
+  "loose": 0.6997319034852547,
+  "strict": 0.353494623655914,
+  "strict_given_broke": 0.5490605427974948
+ },
+ "bridge_causal_L12.json": {
+  "n": 744,
+  "loose": 0.7278820375335121,
+  "strict": 0.41935483870967744,
+  "strict_given_broke": 0.6182902584493042
+ },
+ "bridge_causal_screen_distinct.json": {
+  "n": 744,
+  "loose": 0.8257372654155496,
+  "strict": 0.5913978494623656,
+  "strict_given_broke": 0.7811387900355872
+ },
+ "bridge_causal_L24.json": {
+  "n": 744,
+  "loose": 0.8230563002680965,
+  "strict": 0.5309139784946236,
+  "strict_given_broke": 0.7519083969465649
+ },
+ "mech_atomic_s0_L12.json": {
+  "n": 718,
+  "loose": 0.9075067024128687,
+  "strict": 0.6337047353760445,
+  "strict_given_broke": 0.9027777777777778
+ },
+ "mech_atomic_s0_L24.json": {
+  "n": 718,
+  "loose": 0.9101876675603218,
+  "strict": 0.6086350974930362,
+  "strict_given_broke": 0.9180672268907563
+ },
+ "mech_atomic_s0_L6.json": {
+  "n": 718,
+  "loose": 0.8927613941018767,
+  "strict": 0.5236768802228412,
+  "strict_given_broke": 0.8449438202247191
+ },
+ "mech_route_s0_L12.json": {
+  "n": 735,
+  "loose": 0.8914209115281502,
+  "strict": 0.5673469387755102,
+  "strict_given_broke": 0.8580246913580247
+ },
+ "mech_route_s0_L18.json": {
+  "n": 735,
+  "loose": 0.8981233243967829,
+  "strict": 0.6027210884353742,
+  "strict_given_broke": 0.8754940711462451
+ },
+ "mech_route_s0_L24.json": {
+  "n": 735,
+  "loose": 0.8806970509383378,
+  "strict": 0.49387755102040815,
+  "strict_given_broke": 0.836405529953917
+ },
+ "mech_route_s0_L6.json": {
+  "n": 735,
+  "loose": 0.8632707774798928,
+  "strict": 0.48027210884353744,
+  "strict_given_broke": 0.7897091722595079
+ }
+}

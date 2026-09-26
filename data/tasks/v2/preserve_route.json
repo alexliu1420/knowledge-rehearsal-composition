@@ -1,0 +1,2314 @@
+{
+ "kind": "route",
+ "form": "0_canonical",
+ "n": 461,
+ "tokens": 8740,
+ "sha256": "54de6073d65acef3",
+ "rows": [
+  {
+   "prompt": "The author of the novel Looking for Alibrandi was born in the country of",
+   "answer": "Australia",
+   "task_id": "0057a9b776577b90"
+  },
+  {
+   "prompt": "The city where Oded Machnes was born is in the country of",
+   "answer": "Israel",
+   "task_id": "00d0d9fefdef6e85"
+  },
+  {
+   "prompt": "The author of the novel Make Room! Make Room! was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0137f0af14334a13"
+  },
+  {
+   "prompt": "The developer of the game 'Tapper' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "02d40b1fc44408aa"
+  },
+  {
+   "prompt": "The singer of 'Sergels torg' was born in the country of",
+   "answer": "Sweden",
+   "task_id": "0367b2fce3d05fe4"
+  },
+  {
+   "prompt": "The author of the novel The Mysteries of Paris was born in the city of",
+   "answer": "Paris",
+   "task_id": "039fb80828295082"
+  },
+  {
+   "prompt": "The city where Kyler Murray was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "0454588ef35c6ee8"
+  },
+  {
+   "prompt": "The author of the novel De vulgari eloquentia was born in the country of",
+   "answer": "Italy",
+   "task_id": "046d698e1ffd0b04"
+  },
+  {
+   "prompt": "The organization led by CEO Todd McFarlane has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "04ceec6c14e22db9"
+  },
+  {
+   "prompt": "The city where the headquarters of Technical University of Berlin is located is in the country of",
+   "answer": "Germany",
+   "task_id": "056450175084c1d0"
+  },
+  {
+   "prompt": "The city where the headquarters of INSA Hauts-de-France is located is in the country of",
+   "answer": "France",
+   "task_id": "058c5290a309abc8"
+  },
+  {
+   "prompt": "The author of the novel World War Z was born in the city of",
+   "answer": "New York City",
+   "task_id": "05fd091db9896eba"
+  },
+  {
+   "prompt": "The author of the novel The Education of Henry Adams was born in the city of",
+   "answer": "Boston",
+   "task_id": "068a2472f2ce6eaf"
+  },
+  {
+   "prompt": "The author of the novel Stellaluna was born in the country of",
+   "answer": "United States of America",
+   "task_id": "08b7c365e890d60e"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Technology Mauritius is located is in the country of",
+   "answer": "Mauritius",
+   "task_id": "08e9a8999dd33f74"
+  },
+  {
+   "prompt": "The city where the headquarters of Texas A&M University at Qatar is located is in the country of",
+   "answer": "Qatar",
+   "task_id": "093dca6016092944"
+  },
+  {
+   "prompt": "The author of the novel The Beak of the Finch was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0e703078c81f582a"
+  },
+  {
+   "prompt": "The author of the novel A Canticle for Leibowitz was born in the country of",
+   "answer": "United States of America",
+   "task_id": "0ea558aad226ad81"
+  },
+  {
+   "prompt": "The city where the headquarters of TH Köln – University of Applied Sciences is located is in the country of",
+   "answer": "Germany",
+   "task_id": "0f693582bf038aec"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Nacional del Comahue is located is in the country of",
+   "answer": "Argentina",
+   "task_id": "10057d90687b6f04"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Vale do Rio dos Sinos is located is in the country of",
+   "answer": "Brazil",
+   "task_id": "100ddc2e5ad01a68"
+  },
+  {
+   "prompt": "The city where Claudia Schiffer was born is in the country of",
+   "answer": "Germany",
+   "task_id": "1025a09d163e8e52"
+  },
+  {
+   "prompt": "The organization led by CEO Ferruccio Lamborghini has its headquarters in the country of",
+   "answer": "Italy",
+   "task_id": "105f57a6d47c6fa0"
+  },
+  {
+   "prompt": "The author of the novel The Bell Jar was born in the country of",
+   "answer": "United States of America",
+   "task_id": "10740edff6fe4eea"
+  },
+  {
+   "prompt": "The spouse of Carles Puyol was born in the country of",
+   "answer": "Spain",
+   "task_id": "107fb83db533282e"
+  },
+  {
+   "prompt": "The author of the novel American Eden: David Hosack, Botany, and Medicine in the Garden of the Early Republic was born in the country of",
+   "answer": "United States of America",
+   "task_id": "11aeffa19ad48eb1"
+  },
+  {
+   "prompt": "The author of the novel Steppenwolf was born in the country of",
+   "answer": "Germany",
+   "task_id": "126e2990be40bd2e"
+  },
+  {
+   "prompt": "The developer of the game 'I Am Setsuna' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "12e0ec98b3129ee7"
+  },
+  {
+   "prompt": "The city where the headquarters of Acadia University is located is in the country of",
+   "answer": "Canada",
+   "task_id": "12f1cbf348753622"
+  },
+  {
+   "prompt": "The city where the headquarters of Odesa National Polytechnic University is located is in the country of",
+   "answer": "Ukraine",
+   "task_id": "13076cdcf9e35401"
+  },
+  {
+   "prompt": "Nicole O'Bomsawin's undergrad university has its headquarters in the country of",
+   "answer": "Canada",
+   "task_id": "1323749ce2f4e636"
+  },
+  {
+   "prompt": "The author of the novel The Grifters was born in the country of",
+   "answer": "United States of America",
+   "task_id": "13481b369db1ff61"
+  },
+  {
+   "prompt": "The city where Javier Hernández was born is in the country of",
+   "answer": "Mexico",
+   "task_id": "13fb9a47b45611c8"
+  },
+  {
+   "prompt": "The company founded by Guido Henkel has its headquarters in the country of",
+   "answer": "Germany",
+   "task_id": "1409dd6228f16286"
+  },
+  {
+   "prompt": "The developer of the game 'Microsoft Minesweeper' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "14de8e2b794dc6e2"
+  },
+  {
+   "prompt": "The author of the novel A Random Walk Down Wall Street was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1549c0a9a9498a6d"
+  },
+  {
+   "prompt": "The city where the headquarters of Gujarat Vidyapith is located is in the country of",
+   "answer": "India",
+   "task_id": "1658ef7000815e56"
+  },
+  {
+   "prompt": "The author of the novel Dona Flor and Her Two Husbands was born in the country of",
+   "answer": "Brazil",
+   "task_id": "17ba30f19be70a1c"
+  },
+  {
+   "prompt": "The developer of the game 'Sesame Street: Ready, Set, Grover!' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "181fe933fb9c5d31"
+  },
+  {
+   "prompt": "The city where John Paxson was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "18599756c1f0423c"
+  },
+  {
+   "prompt": "The author of the novel The Red and the Black was born in the country of",
+   "answer": "France",
+   "task_id": "18c230ae277b59ca"
+  },
+  {
+   "prompt": "The developer of the game 'ToeJam & Earl: Back in the Groove' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "1924512e27b1e139"
+  },
+  {
+   "prompt": "The developer of the game 'BattleTech: The Crescent Hawk's Inception' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "1935feff701eccd5"
+  },
+  {
+   "prompt": "The author of the novel Mrs Dalloway was born in the city of",
+   "answer": "London",
+   "task_id": "193fa9e7b3a59714"
+  },
+  {
+   "prompt": "The city where Unai Emery was born is in the country of",
+   "answer": "Spain",
+   "task_id": "1983884287d53bf2"
+  },
+  {
+   "prompt": "The city where the headquarters of Tokyo University of Marine Science and Technology is located is in the country of",
+   "answer": "Japan",
+   "task_id": "19b34a0dec99d30d"
+  },
+  {
+   "prompt": "The author of the novel The Good Soldier Švejk was born in the city of",
+   "answer": "Prague",
+   "task_id": "19b7df1694e47429"
+  },
+  {
+   "prompt": "The spouse of Tarō Asō was born in the country of",
+   "answer": "Japan",
+   "task_id": "1a299d8f6e55c54f"
+  },
+  {
+   "prompt": "The singer of 'Party in the U.S.A.' was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1ad300d1b3b99af5"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad de los Andes, Chile is located is in the country of",
+   "answer": "Chile",
+   "task_id": "1ad7ede1a4e91a99"
+  },
+  {
+   "prompt": "The author of the novel Zorba the Greek was born in the country of",
+   "answer": "Greece",
+   "task_id": "1b432fa226d4132e"
+  },
+  {
+   "prompt": "The author of the novel The Catcher in the Rye was born in the city of",
+   "answer": "New York City",
+   "task_id": "1bcb53de6b680ae4"
+  },
+  {
+   "prompt": "The singer of 'The Battle of New Orleans' was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1be8117a0519251d"
+  },
+  {
+   "prompt": "The singer of 'Kimi wa Boku da' was born in the country of",
+   "answer": "Japan",
+   "task_id": "1bfeec6f42af3cc2"
+  },
+  {
+   "prompt": "The author of the novel Farewell to Manzanar was born in the country of",
+   "answer": "United States of America",
+   "task_id": "1caaadb918d27460"
+  },
+  {
+   "prompt": "The city where the headquarters of Islamic Azad University Science and Research Branch Ahwaz is located is in the country of",
+   "answer": "Iran",
+   "task_id": "1d90f1056003bf49"
+  },
+  {
+   "prompt": "The developer of the game 'The Elder Scrolls: Legends' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "1dbdadb4fbe1d325"
+  },
+  {
+   "prompt": "The developer of the game 'F.E.A.R. Perseus Mandate' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "1dee3bc0e2abcc42"
+  },
+  {
+   "prompt": "The city where Kim Clijsters was born is in the country of",
+   "answer": "Belgium",
+   "task_id": "1edc60da2c922fad"
+  },
+  {
+   "prompt": "The city where the headquarters of AGH University of Science and Technology is located is in the country of",
+   "answer": "Poland",
+   "task_id": "1f0233c17297c2b7"
+  },
+  {
+   "prompt": "The author of the novel Foucault's Pendulum was born in the country of",
+   "answer": "Italy",
+   "task_id": "208d6fdd70166278"
+  },
+  {
+   "prompt": "The author of the novel Eugénie Grandet was born in the country of",
+   "answer": "France",
+   "task_id": "209847d2df0fe38c"
+  },
+  {
+   "prompt": "The company founded by Fusajiro Yamauchi has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "20bdec62070cc137"
+  },
+  {
+   "prompt": "The author of the novel Crazy Rich Asians was born in the city of",
+   "answer": "Singapore",
+   "task_id": "21cdd5ad0f109cdd"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Mexicana is located is in the country of",
+   "answer": "Mexico",
+   "task_id": "2326702a0a7f73fd"
+  },
+  {
+   "prompt": "The city where the headquarters of Armenian State Institute of Physical Culture and Sport is located is in the country of",
+   "answer": "Armenia",
+   "task_id": "233016384f728ec9"
+  },
+  {
+   "prompt": "The author of the novel Rich Dad Poor Dad was born in the country of",
+   "answer": "United States of America",
+   "task_id": "23ec00f885684bec"
+  },
+  {
+   "prompt": "The author of the novel Coming of Age in Samoa was born in the country of",
+   "answer": "United States of America",
+   "task_id": "2406c8f2693eaf1c"
+  },
+  {
+   "prompt": "The author of the novel Le Guide des sponsors du Front national et de ses amis was born in the country of",
+   "answer": "France",
+   "task_id": "2416c069422ffca5"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Ghana is located is in the country of",
+   "answer": "Ghana",
+   "task_id": "24177982605f122e"
+  },
+  {
+   "prompt": "The author of the novel Twenty Thousand Leagues Under the Sea was born in the country of",
+   "answer": "France",
+   "task_id": "248481370141b79a"
+  },
+  {
+   "prompt": "The author of the novel The God of Small Things was born in the country of",
+   "answer": "India",
+   "task_id": "258d58326a35649f"
+  },
+  {
+   "prompt": "The author of the novel Dilwale Dulhania Le Jayenge was born in the country of",
+   "answer": "India",
+   "task_id": "25f837c4bc08f571"
+  },
+  {
+   "prompt": "The city where the headquarters of Pontifical University of Salamanca is located is in the country of",
+   "answer": "Spain",
+   "task_id": "26107e444ce57f04"
+  },
+  {
+   "prompt": "The author of the novel Rashōmon was born in the country of",
+   "answer": "Japan",
+   "task_id": "269b1bdbbe8d08f7"
+  },
+  {
+   "prompt": "The author of the novel Elective Affinities was born in the country of",
+   "answer": "Germany",
+   "task_id": "26a2fb4b40b43968"
+  },
+  {
+   "prompt": "The city where Robert Redford was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "28be579444ed10dd"
+  },
+  {
+   "prompt": "The author of the novel The Diary of Lady Murasaki was born in the country of",
+   "answer": "Japan",
+   "task_id": "29278479389ea5c3"
+  },
+  {
+   "prompt": "The developer of the game 'Mushihimesama' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "29b98bf75e636e8c"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Católica San Antonio de Murcia is located is in the country of",
+   "answer": "Spain",
+   "task_id": "29de8364402e819b"
+  },
+  {
+   "prompt": "The city where the headquarters of Catholic University of Rwanda is located is in the country of",
+   "answer": "Rwanda",
+   "task_id": "29ff50af7943f7cf"
+  },
+  {
+   "prompt": "The author of the novel Dersu Uzala was born in the country of",
+   "answer": "Russia",
+   "task_id": "2a23fc9386baf659"
+  },
+  {
+   "prompt": "The author of the novel When You Reach Me was born in the country of",
+   "answer": "United States of America",
+   "task_id": "2b09d3aef3b6387c"
+  },
+  {
+   "prompt": "The city where the headquarters of Shimane University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "2b5fa53bc97a1746"
+  },
+  {
+   "prompt": "The author of the novel The Years of Lyndon Johnson was born in the country of",
+   "answer": "United States of America",
+   "task_id": "2c5452bc696f1acd"
+  },
+  {
+   "prompt": "The author of the novel Il capitalismo nelle campagne (1860-1900) was born in the country of",
+   "answer": "Italy",
+   "task_id": "2ccdc0b7c7ed7cbc"
+  },
+  {
+   "prompt": "The author of the novel Le Cid was born in the country of",
+   "answer": "France",
+   "task_id": "2ce4d14a46770c49"
+  },
+  {
+   "prompt": "The city where Hugo Chávez was born is in the country of",
+   "answer": "Venezuela",
+   "task_id": "2d7f916502ecae2f"
+  },
+  {
+   "prompt": "The author of the novel Allgemeines Helvetisches, Eydgenössisches, Oder Schweitzerisches Lexicon was born in the country of",
+   "answer": "Switzerland",
+   "task_id": "2dffe8700fb4abe2"
+  },
+  {
+   "prompt": "The capital of the country led by president Daniel Ortega is",
+   "answer": "Managua",
+   "task_id": "2e9606de575494a9"
+  },
+  {
+   "prompt": "The city where the headquarters of Cherepovets State University is located is in the country of",
+   "answer": "Russia",
+   "task_id": "2f0b9fb2ba0dc08a"
+  },
+  {
+   "prompt": "The city where the headquarters of Kanazawa Professional University of Food Management is located is in the country of",
+   "answer": "Japan",
+   "task_id": "2fbcdb40186152cf"
+  },
+  {
+   "prompt": "The author of the novel Dom Casmurro was born in the country of",
+   "answer": "Brazil",
+   "task_id": "2fe1fa9247a77f54"
+  },
+  {
+   "prompt": "The developer of the game 'Ys IV: Mask of the Sun' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "2fed48d845005be0"
+  },
+  {
+   "prompt": "The developer of the game 'Diner Dash: Hometown Hero' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "3088d6f978f4441d"
+  },
+  {
+   "prompt": "The author of the novel Ready Player One was born in the country of",
+   "answer": "United States of America",
+   "task_id": "30f209e48fa2c97a"
+  },
+  {
+   "prompt": "The author of the novel Slouching Towards Bethlehem was born in the country of",
+   "answer": "United States of America",
+   "task_id": "31063d1285aceeef"
+  },
+  {
+   "prompt": "The author of the novel Young Man with a Horn was born in the country of",
+   "answer": "United States of America",
+   "task_id": "31e1bbcf462a7fe2"
+  },
+  {
+   "prompt": "The author of the novel The Book of Tea was born in the country of",
+   "answer": "Japan",
+   "task_id": "33781531bf14ee8d"
+  },
+  {
+   "prompt": "The author of the novel The Decline of the West was born in the country of",
+   "answer": "Germany",
+   "task_id": "34343686777513e8"
+  },
+  {
+   "prompt": "The author of the novel In a Grove was born in the country of",
+   "answer": "Japan",
+   "task_id": "34f932ddf3b8dc9b"
+  },
+  {
+   "prompt": "The city where the headquarters of Saint Vincent Archabbey is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "3562152e39a409d9"
+  },
+  {
+   "prompt": "The organization led by CEO Hélène Barnekow has its headquarters in the country of",
+   "answer": "Sweden",
+   "task_id": "35690703a778aebc"
+  },
+  {
+   "prompt": "The developer of the game 'Ghost Trick: Phantom Detective' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "357c502ed4516ed9"
+  },
+  {
+   "prompt": "The city where the headquarters of Peoples' Friendship University of Russia is located is in the country of",
+   "answer": "Russia",
+   "task_id": "359b240b462c7a31"
+  },
+  {
+   "prompt": "The developer of the game 'Where in America's Past Is Carmen Sandiego?' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "35e1118f7e174804"
+  },
+  {
+   "prompt": "The author of the novel A Dog's Purpose was born in the country of",
+   "answer": "United States of America",
+   "task_id": "364d6d592b456c34"
+  },
+  {
+   "prompt": "The author of the novel Brazilian Nobility Archive was born in the country of",
+   "answer": "Brazil",
+   "task_id": "36c2088ce314dcfa"
+  },
+  {
+   "prompt": "The author of the novel Çalıkuşu was born in the country of",
+   "answer": "Turkey",
+   "task_id": "36fad73e4321e165"
+  },
+  {
+   "prompt": "The president of Guinea-Bissau was born in the city of",
+   "answer": "Bissau",
+   "task_id": "371062aae01cb62f"
+  },
+  {
+   "prompt": "The author of the novel How I Live Now was born in the country of",
+   "answer": "United States of America",
+   "task_id": "371cb48bc16ec637"
+  },
+  {
+   "prompt": "The author of the novel The Mote in God's Eye was born in the country of",
+   "answer": "United States of America",
+   "task_id": "371ebd9bc481aad5"
+  },
+  {
+   "prompt": "The author of the novel Germany. A Winter's Tale was born in the country of",
+   "answer": "Germany",
+   "task_id": "380f022a6af6b05b"
+  },
+  {
+   "prompt": "The developer of the game 'Pokémon X' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "395a38ba13796ece"
+  },
+  {
+   "prompt": "The author of the novel No Country for Old Men was born in the country of",
+   "answer": "United States of America",
+   "task_id": "3bb0f67baf978f6d"
+  },
+  {
+   "prompt": "The city where the headquarters of Kuban State Medical University is located is in the country of",
+   "answer": "Russia",
+   "task_id": "3bda328db4e85788"
+  },
+  {
+   "prompt": "The author of the novel Going After Cacciato was born in the country of",
+   "answer": "United States of America",
+   "task_id": "3c5cc25cee9892ae"
+  },
+  {
+   "prompt": "The singer of 'Jag vill ha en brud med stora pattar' was born in the country of",
+   "answer": "Sweden",
+   "task_id": "3dcbd9f4dfbbabbe"
+  },
+  {
+   "prompt": "The city where the headquarters of Ukrainian Catholic University is located is in the country of",
+   "answer": "Ukraine",
+   "task_id": "3de0aa4cc8ac3baa"
+  },
+  {
+   "prompt": "The developer of the game 'QI: A Quite Interesting Game' has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "3ea19f9492d29e6b"
+  },
+  {
+   "prompt": "The city where Kevin Love was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "3eb2d51485c94e48"
+  },
+  {
+   "prompt": "The city where Constantine II of Greece was born is in the country of",
+   "answer": "Greece",
+   "task_id": "3f6af2e51715753b"
+  },
+  {
+   "prompt": "The author of the novel Infinite Jest was born in the country of",
+   "answer": "United States of America",
+   "task_id": "4001e428aa589a37"
+  },
+  {
+   "prompt": "The city where the headquarters of Krakow University of Economics is located is in the country of",
+   "answer": "Poland",
+   "task_id": "40417fe7fc25226f"
+  },
+  {
+   "prompt": "The city where the headquarters of Islamic University of Indonesia is located is in the country of",
+   "answer": "Indonesia",
+   "task_id": "416811460c0ecdd7"
+  },
+  {
+   "prompt": "The author of the novel Vande Mataram was born in the country of",
+   "answer": "India",
+   "task_id": "424c89959c8c3276"
+  },
+  {
+   "prompt": "The author of the novel The Goldfinch was born in the country of",
+   "answer": "United States of America",
+   "task_id": "42c6de8b31ec2880"
+  },
+  {
+   "prompt": "The city where the headquarters of Ryukoku University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "42f224aba171e4fd"
+  },
+  {
+   "prompt": "The author of the novel The One and Only Ivan was born in the country of",
+   "answer": "United States of America",
+   "task_id": "43609165be718c4c"
+  },
+  {
+   "prompt": "The author of the novel Madame Bovary was born in the country of",
+   "answer": "France",
+   "task_id": "4519f0d37ece5fc0"
+  },
+  {
+   "prompt": "The city where the headquarters of Syracuse University School of Education is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "4542521f0e9bed11"
+  },
+  {
+   "prompt": "The city where Francisco Franco was born is in the country of",
+   "answer": "Spain",
+   "task_id": "45877a12b5cbb831"
+  },
+  {
+   "prompt": "The author of the novel Les dieux ont soif was born in the country of",
+   "answer": "France",
+   "task_id": "46484294935be7a6"
+  },
+  {
+   "prompt": "The author of the novel The Three-Body Problem was born in the city of",
+   "answer": "Beijing",
+   "task_id": "46c2c1f6635d937d"
+  },
+  {
+   "prompt": "The author of the novel The Age of Innocence was born in the city of",
+   "answer": "New York City",
+   "task_id": "47298e7746a1ec7a"
+  },
+  {
+   "prompt": "The city where the headquarters of Aydın Adnan Menderes University is located is in the country of",
+   "answer": "Turkey",
+   "task_id": "4875ee1bfca8c388"
+  },
+  {
+   "prompt": "The author of the novel Darkly Dreaming Dexter was born in the city of",
+   "answer": "Miami",
+   "task_id": "48f3e299cf12efc0"
+  },
+  {
+   "prompt": "The city where Hermann Göring was born is in the country of",
+   "answer": "Germany",
+   "task_id": "4a574590596491ae"
+  },
+  {
+   "prompt": "The organization led by CEO Eric S. Yuan has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "4aa7b25333ef776a"
+  },
+  {
+   "prompt": "The city where Zhanna Nemtsova was born is in the country of",
+   "answer": "Russia",
+   "task_id": "4ab4f4d9184d28f1"
+  },
+  {
+   "prompt": "The author of the novel Tender Buttons was born in the country of",
+   "answer": "United States of America",
+   "task_id": "4ae8afd20185db3c"
+  },
+  {
+   "prompt": "The author of the novel Oryx and Crake was born in the country of",
+   "answer": "Canada",
+   "task_id": "4af4eee0ae560d4c"
+  },
+  {
+   "prompt": "The author of the novel Romance of Sui and Tang Dynasties was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "4b052785881ef4b4"
+  },
+  {
+   "prompt": "The developer of the game 'Love Live! School Idol Festival' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "4b14917da2284d88"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Michigan School of Information is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "4bd2959ff28714c5"
+  },
+  {
+   "prompt": "The city where the headquarters of National Research Nuclear University is located is in the country of",
+   "answer": "Russia",
+   "task_id": "4bdc5a16eaf0ae00"
+  },
+  {
+   "prompt": "The CEO of Singapore Airlines was born in the country of",
+   "answer": "Singapore",
+   "task_id": "4c2a2f0061efa8d7"
+  },
+  {
+   "prompt": "The city where the headquarters of Institute for Advanced Studies in Basic Sciences is located is in the country of",
+   "answer": "Iran",
+   "task_id": "4d7c051fc4bd562d"
+  },
+  {
+   "prompt": "The developer of the game 'Guitar Hero III: Legends of Rock' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "4e2e30d56ce33775"
+  },
+  {
+   "prompt": "The city where the headquarters of Université du Québec à Montréal is located is in the country of",
+   "answer": "Canada",
+   "task_id": "4e6346f99b368eef"
+  },
+  {
+   "prompt": "The author of the novel Tauromaquia was born in the country of",
+   "answer": "Spain",
+   "task_id": "4e8ffa30f23ae51d"
+  },
+  {
+   "prompt": "The city where the headquarters of Association of Theological Schools in the United States and Canada is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "4f1551aea49b0ead"
+  },
+  {
+   "prompt": "The author of the novel The Call of Cthulhu was born in the country of",
+   "answer": "United States of America",
+   "task_id": "4fcb62471a303834"
+  },
+  {
+   "prompt": "The city where the headquarters of Kagawa University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "50217a3469f1d1dd"
+  },
+  {
+   "prompt": "The city where the headquarters of National Technological University – Mendoza Regional Faculty is located is in the country of",
+   "answer": "Argentina",
+   "task_id": "50332ec58f1b2c37"
+  },
+  {
+   "prompt": "The city where the headquarters of Bible Society of India Andhra Pradesh Auxiliary is located is in the country of",
+   "answer": "India",
+   "task_id": "503dc1d52e7f7732"
+  },
+  {
+   "prompt": "The university founded by Fidel Castro has its headquarters in the country of",
+   "answer": "Cuba",
+   "task_id": "50b4d21bac97a424"
+  },
+  {
+   "prompt": "The city where Chris McNealy was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "51961f1523f315e1"
+  },
+  {
+   "prompt": "James McDivitt's undergrad university has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "51dde93affbbeb6e"
+  },
+  {
+   "prompt": "The author of the novel Young Men and Fire was born in the country of",
+   "answer": "United States of America",
+   "task_id": "521d7d6bdd907a8a"
+  },
+  {
+   "prompt": "The author of the novel Ordinary Grace was born in the country of",
+   "answer": "United States of America",
+   "task_id": "52e596de2c291b99"
+  },
+  {
+   "prompt": "The author of the novel Honchō Suikoden was born in the country of",
+   "answer": "Japan",
+   "task_id": "540553d0676b5cb2"
+  },
+  {
+   "prompt": "The city where the headquarters of Russian University of Transport is located is in the country of",
+   "answer": "Russia",
+   "task_id": "54aa262ecb9e8c8a"
+  },
+  {
+   "prompt": "The spouse of Kim Jong-un was born in the country of",
+   "answer": "North Korea",
+   "task_id": "5630fcb792fd6a42"
+  },
+  {
+   "prompt": "The city where the headquarters of Webster University is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "5692cf1f807898bd"
+  },
+  {
+   "prompt": "The author of the novel Rakvere romaan was born in the country of",
+   "answer": "Estonia",
+   "task_id": "571a448b4ed4d817"
+  },
+  {
+   "prompt": "The author of the novel Shatranj ke khiladi was born in the country of",
+   "answer": "India",
+   "task_id": "575762b67349a859"
+  },
+  {
+   "prompt": "The city where Ron Barassi was born is in the country of",
+   "answer": "Australia",
+   "task_id": "59d734414816c5d4"
+  },
+  {
+   "prompt": "The spouse of Alexei Navalny was born in the country of",
+   "answer": "Russia",
+   "task_id": "59f30f8aa066d1be"
+  },
+  {
+   "prompt": "The author of the novel When the Emperor was Divine was born in the country of",
+   "answer": "United States of America",
+   "task_id": "5a284ea473ffe777"
+  },
+  {
+   "prompt": "The company founded by Kim Jong-il has its headquarters in the country of",
+   "answer": "North Korea",
+   "task_id": "5a5d85cf918ff369"
+  },
+  {
+   "prompt": "The city where Lee Byung-hun was born is in the country of",
+   "answer": "South Korea",
+   "task_id": "5a64e98a6e6b01b0"
+  },
+  {
+   "prompt": "The developer of the game 'Koh-Lanta' has its headquarters in the country of",
+   "answer": "France",
+   "task_id": "5a94e5719c4f3d20"
+  },
+  {
+   "prompt": "The city where Alexei Markov was born is in the country of",
+   "answer": "Russia",
+   "task_id": "5abe3b00c5f96f88"
+  },
+  {
+   "prompt": "The city where the headquarters of Charles de Gaulle University of humanities arts and social sciences is located is in the country of",
+   "answer": "France",
+   "task_id": "5acddb38ac43ac8d"
+  },
+  {
+   "prompt": "The singer of 'Blaze of Glory' was born in the country of",
+   "answer": "United States of America",
+   "task_id": "5b1b5898d11e16d8"
+  },
+  {
+   "prompt": "The city where Tom Cruise was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "5b37c9cc6b5b3d13"
+  },
+  {
+   "prompt": "The city where the headquarters of Brittany and Loire University is located is in the country of",
+   "answer": "France",
+   "task_id": "5ba0a48da62169b7"
+  },
+  {
+   "prompt": "The city where Megawati Soekarnoputri was born is in the country of",
+   "answer": "Indonesia",
+   "task_id": "5cd50ec3bc715802"
+  },
+  {
+   "prompt": "The city where the headquarters of Université catholique de Louvain is located is in the country of",
+   "answer": "Belgium",
+   "task_id": "5da8b381440aebbd"
+  },
+  {
+   "prompt": "The city where Belinda Bencic was born is in the country of",
+   "answer": "Switzerland",
+   "task_id": "5e29a34c71c07210"
+  },
+  {
+   "prompt": "The author of the novel Woman and Nature: The Roaring Inside Her was born in the country of",
+   "answer": "United States of America",
+   "task_id": "602c4d8c1768348d"
+  },
+  {
+   "prompt": "The city where the headquarters of Pontifícia Universidade Católica do Paraná is located is in the country of",
+   "answer": "Brazil",
+   "task_id": "60414957afa6cbf5"
+  },
+  {
+   "prompt": "The singer of 'Toilet no Kamisama' was born in the country of",
+   "answer": "Japan",
+   "task_id": "60a87b7ae19ff6df"
+  },
+  {
+   "prompt": "The author of the novel Redeployment was born in the country of",
+   "answer": "United States of America",
+   "task_id": "610c12d04bffd5e0"
+  },
+  {
+   "prompt": "The city where the headquarters of Shahrekord University is located is in the country of",
+   "answer": "Iran",
+   "task_id": "62052a3c85ca02df"
+  },
+  {
+   "prompt": "The author of the novel Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race was born in the country of",
+   "answer": "United States of America",
+   "task_id": "62260ca470915233"
+  },
+  {
+   "prompt": "The city where the headquarters of Seminario Conciliar de Barcelona is located is in the country of",
+   "answer": "Spain",
+   "task_id": "6260620092f6eb17"
+  },
+  {
+   "prompt": "The author of the novel The Threepenny Opera was born in the country of",
+   "answer": "Germany",
+   "task_id": "62dbb432822c0435"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Natal is located is in the country of",
+   "answer": "South Africa",
+   "task_id": "631da711b10c804a"
+  },
+  {
+   "prompt": "The city where the headquarters of Vitebsk State Academy of Veterinary Medicine is located is in the country of",
+   "answer": "Belarus",
+   "task_id": "63732bc048ae9abb"
+  },
+  {
+   "prompt": "Katrín Jakobsdóttir's undergrad university has its headquarters in the city of",
+   "answer": "Reykjavík",
+   "task_id": "63c9f8e675bec1f3"
+  },
+  {
+   "prompt": "The author of the novel Dream Pool Essays was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "64db33943c245f76"
+  },
+  {
+   "prompt": "The author of the novel The Fortress of Solitude was born in the city of",
+   "answer": "New York City",
+   "task_id": "66173f404095a58d"
+  },
+  {
+   "prompt": "Sebastián Piñera's undergrad university has its headquarters in the country of",
+   "answer": "Chile",
+   "task_id": "679427d30b199d11"
+  },
+  {
+   "prompt": "The city where Lyoto Machida was born is in the country of",
+   "answer": "Brazil",
+   "task_id": "67976102cb72c78b"
+  },
+  {
+   "prompt": "The city where the headquarters of National University of the Peruvian Amazon is located is in the country of",
+   "answer": "Peru",
+   "task_id": "679d6359bb10de95"
+  },
+  {
+   "prompt": "The author of the novel Federico il Grande was born in the country of",
+   "answer": "Italy",
+   "task_id": "67e5ec7e416a04ae"
+  },
+  {
+   "prompt": "The city where the headquarters of Tokyo Zokei University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "680484248945fda0"
+  },
+  {
+   "prompt": "The author of the novel A Raisin in the Sun was born in the city of",
+   "answer": "Chicago",
+   "task_id": "6875ad8b5b307410"
+  },
+  {
+   "prompt": "The city where Oliver Kahn was born is in the country of",
+   "answer": "Germany",
+   "task_id": "6891ee090254d361"
+  },
+  {
+   "prompt": "The city where Radamel Falcao was born is in the country of",
+   "answer": "Colombia",
+   "task_id": "68ec719112bf5015"
+  },
+  {
+   "prompt": "The university founded by Vehbi Koç has its headquarters in the country of",
+   "answer": "Turkey",
+   "task_id": "6a3d147346edacc6"
+  },
+  {
+   "prompt": "The author of the novel The Paper Chase was born in the country of",
+   "answer": "United States of America",
+   "task_id": "6b3001219602316f"
+  },
+  {
+   "prompt": "The city where Stephen Curry was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "6e61dc6f30ac5246"
+  },
+  {
+   "prompt": "The author of the novel The Pillow Book was born in the country of",
+   "answer": "Japan",
+   "task_id": "6ecfe7bcc005c998"
+  },
+  {
+   "prompt": "The author of the novel Psychopathia Sexualis was born in the country of",
+   "answer": "Germany",
+   "task_id": "6f5b930d67cfcc87"
+  },
+  {
+   "prompt": "The author of the novel The Gambler was born in the country of",
+   "answer": "Russia",
+   "task_id": "708e4d7f3caefa16"
+  },
+  {
+   "prompt": "The city where the headquarters of Hyogo University of Health Sciences is located is in the country of",
+   "answer": "Japan",
+   "task_id": "71488708eaf2de61"
+  },
+  {
+   "prompt": "The developer of the game 'The Fruit of Grisaia' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "7178dad3525b8641"
+  },
+  {
+   "prompt": "The author of the novel World War Z was born in the country of",
+   "answer": "United States of America",
+   "task_id": "729f3d665f881d0a"
+  },
+  {
+   "prompt": "The city where Pierre Trudeau was born is in the country of",
+   "answer": "Canada",
+   "task_id": "73580c05942632a2"
+  },
+  {
+   "prompt": "The author of the novel Love Medicine was born in the country of",
+   "answer": "United States of America",
+   "task_id": "73c5d4a513e8d7c6"
+  },
+  {
+   "prompt": "The author of the novel Pentamerone was born in the country of",
+   "answer": "Italy",
+   "task_id": "741f03fcf68ae262"
+  },
+  {
+   "prompt": "The author of the novel The Magic Mountain was born in the country of",
+   "answer": "Germany",
+   "task_id": "748eba0e10a1351b"
+  },
+  {
+   "prompt": "The developer of the game 'American McGee's Grimm' was founded by the person named",
+   "answer": "American McGee",
+   "task_id": "75309a81164a9f5e"
+  },
+  {
+   "prompt": "The author of the novel Legally Blonde was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7535c914bc65b94a"
+  },
+  {
+   "prompt": "The developer of the game 'Pillars of Eternity II: Deadfire' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "75e64236edf4c309"
+  },
+  {
+   "prompt": "The city where the headquarters of Magtymguly Turkmen State University is located is in the country of",
+   "answer": "Turkmenistan",
+   "task_id": "7684dd2d97f45296"
+  },
+  {
+   "prompt": "The company founded by Satoshi Tajiri has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "769631849e33f481"
+  },
+  {
+   "prompt": "The developer of the game 'The Wolf Among Us' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "76af7a033679a8d1"
+  },
+  {
+   "prompt": "The city where the headquarters of Iran University of Science and Technology is located is in the country of",
+   "answer": "Iran",
+   "task_id": "76f50984208435b2"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Medicine, Mandalay is located is in the country of",
+   "answer": "Myanmar",
+   "task_id": "778435d7ead33fcb"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Liberal Arts Bangladesh is located is in the country of",
+   "answer": "Bangladesh",
+   "task_id": "7855dd4af762c4d8"
+  },
+  {
+   "prompt": "Doug Jones's undergrad university has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "786bb779add47b2c"
+  },
+  {
+   "prompt": "The author of the novel Paul et Virginie was born in the country of",
+   "answer": "France",
+   "task_id": "792471e4a168d3e2"
+  },
+  {
+   "prompt": "The mother of the author of the novel Frankenstein; or, The Modern Prometheus is named",
+   "answer": "Mary Wollstonecraft",
+   "task_id": "795a27dae8bc2263"
+  },
+  {
+   "prompt": "The spouse of Lionel Messi was born in the country of",
+   "answer": "Argentina",
+   "task_id": "7a704b0ec667a139"
+  },
+  {
+   "prompt": "The author of the novel Dolores Claiborne was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7b020c3759066e4e"
+  },
+  {
+   "prompt": "The author of the novel Faust was born in the country of",
+   "answer": "Germany",
+   "task_id": "7be16daf83cd5df5"
+  },
+  {
+   "prompt": "The author of the novel Show Boat was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7c2e480cc68cdb97"
+  },
+  {
+   "prompt": "The city where Sean Penn was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "7ca011bd48c692e4"
+  },
+  {
+   "prompt": "The city where the headquarters of CES Cardenal Cisneros is located is in the country of",
+   "answer": "Spain",
+   "task_id": "7cf6c48f895edeec"
+  },
+  {
+   "prompt": "The author of the novel The Search for the Dice Man was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7d2dd1f54adde107"
+  },
+  {
+   "prompt": "The developer of the game 'Firefall' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "7dded065af26b275"
+  },
+  {
+   "prompt": "The city where the headquarters of St. Lawrence University is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "7e2ba438bf24b3e1"
+  },
+  {
+   "prompt": "The author of the novel Redshirts was born in the country of",
+   "answer": "United States of America",
+   "task_id": "7e4d7da75390551c"
+  },
+  {
+   "prompt": "Sebastián Piñera's undergrad university has its headquarters in the city of",
+   "answer": "Santiago",
+   "task_id": "7f903c80fe34132f"
+  },
+  {
+   "prompt": "The developer of the game 'Outer Wilds' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "8004941ea7570ea6"
+  },
+  {
+   "prompt": "The author of the novel Martin Eden was born in the country of",
+   "answer": "United States of America",
+   "task_id": "80aee29ae76f137b"
+  },
+  {
+   "prompt": "The city where the headquarters of Kasetsart University is located is in the country of",
+   "answer": "Thailand",
+   "task_id": "8173d44b53708f5d"
+  },
+  {
+   "prompt": "The city where the headquarters of TOBB University of Economics and Technology is located is in the country of",
+   "answer": "Turkey",
+   "task_id": "8231bdc04fe3f53b"
+  },
+  {
+   "prompt": "The capital of the country led by president Ali Bongo Ondimba is",
+   "answer": "Libreville",
+   "task_id": "82dcbf0a6d8c00f5"
+  },
+  {
+   "prompt": "The city where the headquarters of Otemon Gakuin University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "834d380d987c8be6"
+  },
+  {
+   "prompt": "The company founded by Will Wright has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "83b8a11b6922b7b6"
+  },
+  {
+   "prompt": "The city where the headquarters of Assam University is located is in the country of",
+   "answer": "India",
+   "task_id": "84264a87281703e8"
+  },
+  {
+   "prompt": "The city where Jerry Rice, Jr was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "8576810f98cac122"
+  },
+  {
+   "prompt": "The author of the novel Macunaíma was born in the country of",
+   "answer": "Brazil",
+   "task_id": "859a73b68f3843ea"
+  },
+  {
+   "prompt": "The author of the novel Are You There God? It's Me, Margaret. was born in the country of",
+   "answer": "United States of America",
+   "task_id": "87bf9cdd9280bc5e"
+  },
+  {
+   "prompt": "The city where the headquarters of Loyola University Andalucía is located is in the country of",
+   "answer": "Spain",
+   "task_id": "881364c549d89617"
+  },
+  {
+   "prompt": "The developer of the game 'Space Battleship Yamato' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "881ab97e6f07ac0b"
+  },
+  {
+   "prompt": "The author of the novel The 120 Days of Sodom was born in the country of",
+   "answer": "France",
+   "task_id": "884a2315e40e4f06"
+  },
+  {
+   "prompt": "The city where the headquarters of Ehime University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "893d6f123e553423"
+  },
+  {
+   "prompt": "The city where Austin Rivers was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "89d00a894a8b186f"
+  },
+  {
+   "prompt": "The city where the headquarters of Brigham Young University–Idaho is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "89d5c27d87877b2a"
+  },
+  {
+   "prompt": "The author of the novel Fahrenheit 451 was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8a0b1612deb999f3"
+  },
+  {
+   "prompt": "The developer of the game 'Baahubali: The Game' has its headquarters in the country of",
+   "answer": "India",
+   "task_id": "8b28230b5e3f2b3a"
+  },
+  {
+   "prompt": "The city where Bryce Alford was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "8b49d69793680e70"
+  },
+  {
+   "prompt": "The city where the headquarters of National University of Colombia is located is in the country of",
+   "answer": "Colombia",
+   "task_id": "8b7062873c13fb35"
+  },
+  {
+   "prompt": "The organization led by CEO Warren Buffett has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "8b7269058bf5474d"
+  },
+  {
+   "prompt": "The city where the headquarters of Hokkaido Institute of Technology is located is in the country of",
+   "answer": "Japan",
+   "task_id": "8bb78bae2d188c24"
+  },
+  {
+   "prompt": "The author of the novel Song of Lawino was born in the country of",
+   "answer": "Uganda",
+   "task_id": "8bcba6fb2866f7f3"
+  },
+  {
+   "prompt": "The author of the novel Oblomov was born in the country of",
+   "answer": "Russia",
+   "task_id": "8c53bcdf5a936c27"
+  },
+  {
+   "prompt": "The author of the novel The Hate U Give was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8c71cf07a95f915e"
+  },
+  {
+   "prompt": "The city where Chino Darín was born is in the country of",
+   "answer": "Argentina",
+   "task_id": "8c8928b59c362499"
+  },
+  {
+   "prompt": "Cenk Aydın's undergrad university has its headquarters in the country of",
+   "answer": "Turkey",
+   "task_id": "8ceb5a109547fb12"
+  },
+  {
+   "prompt": "The city where the headquarters of Iḷisaġvik College is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "8d53d2f9d0cca6f4"
+  },
+  {
+   "prompt": "The developer of the game 'Summon Night: Twin Age' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "8da9bf0d4e9d93ea"
+  },
+  {
+   "prompt": "The author of the novel House Made of Dawn was born in the country of",
+   "answer": "United States of America",
+   "task_id": "8dd6673b94732790"
+  },
+  {
+   "prompt": "The author of the novel Salgari - I solitari dell'Oceano was born in the country of",
+   "answer": "Italy",
+   "task_id": "8e644a1ffb871e7b"
+  },
+  {
+   "prompt": "As an undergrad, the author of the novel The Monkey Wrench Gang attended the university named",
+   "answer": "University of New Mexico",
+   "task_id": "8ef07f076f920ee4"
+  },
+  {
+   "prompt": "The author of the novel The Little Match Girl was born in the country of",
+   "answer": "Denmark",
+   "task_id": "905ba1379375c7db"
+  },
+  {
+   "prompt": "The city where the headquarters of Oriental College of Eichstätt is located is in the country of",
+   "answer": "Germany",
+   "task_id": "9107a83e72d93d32"
+  },
+  {
+   "prompt": "The city where Julia Görges was born is in the country of",
+   "answer": "Germany",
+   "task_id": "92326a3cab98d6fe"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Western São Paulo is located is in the country of",
+   "answer": "Brazil",
+   "task_id": "94754a3116db183d"
+  },
+  {
+   "prompt": "The author of the novel The Brothers Karamazov was born in the country of",
+   "answer": "Russia",
+   "task_id": "948790f9e77d429e"
+  },
+  {
+   "prompt": "The city where Mats Hummels was born is in the country of",
+   "answer": "Germany",
+   "task_id": "95259392ef9c2ad5"
+  },
+  {
+   "prompt": "The city where the headquarters of National Taitung University is located is in the country of",
+   "answer": "Taiwan",
+   "task_id": "95974827229a82e7"
+  },
+  {
+   "prompt": "The author of the novel Raylan was born in the country of",
+   "answer": "United States of America",
+   "task_id": "95bb3dcc7edab2f1"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Prince Edward Island is located is in the country of",
+   "answer": "Canada",
+   "task_id": "95cd3e8d23f83608"
+  },
+  {
+   "prompt": "The company founded by Chris Wedge has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "96b9634e02266f77"
+  },
+  {
+   "prompt": "The author of the novel The Girl Who Leapt Through Time was born in the country of",
+   "answer": "Japan",
+   "task_id": "971a41d9f563f533"
+  },
+  {
+   "prompt": "The author of the novel Stranger in a Strange Land was born in the country of",
+   "answer": "United States of America",
+   "task_id": "99b91bb3b91d280c"
+  },
+  {
+   "prompt": "The city where the headquarters of Bolivarian Military University of Venezuela is located is in the country of",
+   "answer": "Venezuela",
+   "task_id": "99eb75f2a7689c6e"
+  },
+  {
+   "prompt": "The author of the novel Les Caves du Vatican was born in the country of",
+   "answer": "France",
+   "task_id": "99f8ad1bd2749a6e"
+  },
+  {
+   "prompt": "The city where Paul Martin was born is in the country of",
+   "answer": "Canada",
+   "task_id": "9a95d299c7113ab8"
+  },
+  {
+   "prompt": "The developer of the game 'The Jackbox Party Pack 9' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "9b0e5100dba8e92d"
+  },
+  {
+   "prompt": "The author of the novel Gesta Hammaburgensis ecclesiae pontificum was born in the country of",
+   "answer": "Germany",
+   "task_id": "9bc57af569b8fae5"
+  },
+  {
+   "prompt": "The city where the headquarters of Egyptian Russian University is located is in the country of",
+   "answer": "Egypt",
+   "task_id": "a02b5bc026b24328"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Orléans is located is in the country of",
+   "answer": "France",
+   "task_id": "a109a4e957a77636"
+  },
+  {
+   "prompt": "The city where Marvin Harrison Jr. was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "a1aa7bf3976832bb"
+  },
+  {
+   "prompt": "Kristóf Molnár's undergrad university has its headquarters in the country of",
+   "answer": "Hungary",
+   "task_id": "a40cb521901c9d50"
+  },
+  {
+   "prompt": "The author of the novel Jakob von Gunten was born in the country of",
+   "answer": "Switzerland",
+   "task_id": "a424e470c0029931"
+  },
+  {
+   "prompt": "The city where Roberta Kathleen Parks was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "a4316bf8c0110600"
+  },
+  {
+   "prompt": "The author of the novel Tsurezuregusa was born in the country of",
+   "answer": "Japan",
+   "task_id": "a432398dd7d7d726"
+  },
+  {
+   "prompt": "The author of the novel Doba jedová was born in the country of",
+   "answer": "Czech Republic",
+   "task_id": "a52ab0c7574cb1a3"
+  },
+  {
+   "prompt": "Giovanni Gentile's undergrad university has its headquarters in the country of",
+   "answer": "Italy",
+   "task_id": "a5df7c3f2581bf0a"
+  },
+  {
+   "prompt": "The company founded by Peter Lord has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "a69b89d4ae63dc20"
+  },
+  {
+   "prompt": "The city where the headquarters of Kyoto Sangyo University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "a7162e77141309ab"
+  },
+  {
+   "prompt": "The city where the headquarters of University of Santo Tomas is located is in the country of",
+   "answer": "Philippines",
+   "task_id": "a7b6fa5aa316986b"
+  },
+  {
+   "prompt": "The city where the headquarters of Kyrgyz State University named after I Arabaev is located is in the country of",
+   "answer": "Kyrgyzstan",
+   "task_id": "a7c2e6ee7bb4a397"
+  },
+  {
+   "prompt": "The city where Sung Ji-hyun was born is in the country of",
+   "answer": "South Korea",
+   "task_id": "a7d29ec09e8c1deb"
+  },
+  {
+   "prompt": "The author of the novel Gone with the Wind was born in the city of",
+   "answer": "Atlanta",
+   "task_id": "a86c2d7e3988cd46"
+  },
+  {
+   "prompt": "The author of the novel The Catcher in the Rye was born in the country of",
+   "answer": "United States of America",
+   "task_id": "a86d87e7c569d061"
+  },
+  {
+   "prompt": "The spouse of Justin Trudeau was born in the country of",
+   "answer": "Canada",
+   "task_id": "a8defafb77354333"
+  },
+  {
+   "prompt": "The author of the novel The Egg and I was born in the country of",
+   "answer": "United States of America",
+   "task_id": "a946819616d688c8"
+  },
+  {
+   "prompt": "The city where the headquarters of Shiga University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "a990569f28b552ac"
+  },
+  {
+   "prompt": "The city where the headquarters of Srinakharinwirot University is located is in the country of",
+   "answer": "Thailand",
+   "task_id": "a9a24b01b9f7a75d"
+  },
+  {
+   "prompt": "The author of the novel It's a Good Life was born in the country of",
+   "answer": "United States of America",
+   "task_id": "aa88e813aed6db21"
+  },
+  {
+   "prompt": "The city where Jalen Rose was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "aa921c779d19b505"
+  },
+  {
+   "prompt": "The city where Alexander Viktorovich Lazarev was born is in the country of",
+   "answer": "Russia",
+   "task_id": "abb2c60ba8a0e477"
+  },
+  {
+   "prompt": "The author of the novel Potiki was born in the country of",
+   "answer": "New Zealand",
+   "task_id": "abf582056366af48"
+  },
+  {
+   "prompt": "The developer of the game 'Minecraft' was founded by the person named",
+   "answer": "Markus Persson",
+   "task_id": "acca403357581a6f"
+  },
+  {
+   "prompt": "The author of the novel Six Characters in Search of an Author was born in the country of",
+   "answer": "Italy",
+   "task_id": "ad97155795493946"
+  },
+  {
+   "prompt": "The author of the novel To Kill a Mockingbird was born in the country of",
+   "answer": "United States of America",
+   "task_id": "ae8616c60e1f7434"
+  },
+  {
+   "prompt": "The company founded by Ton Roosendaal has its headquarters in the country of",
+   "answer": "Netherlands",
+   "task_id": "ae8f37817ec6f03f"
+  },
+  {
+   "prompt": "The author of the novel The Indian Struggle was born in the country of",
+   "answer": "India",
+   "task_id": "af069e2200fdc18f"
+  },
+  {
+   "prompt": "The city where Patrick Kluivert was born is in the country of",
+   "answer": "Netherlands",
+   "task_id": "af0cc4ab3706e1e2"
+  },
+  {
+   "prompt": "The company founded by Ole Kirk Christiansen has its headquarters in the country of",
+   "answer": "Denmark",
+   "task_id": "af63619eec5b0f9f"
+  },
+  {
+   "prompt": "The spouse of Emmanuel Macron was born in the country of",
+   "answer": "France",
+   "task_id": "af9cad7bb3a9e9f1"
+  },
+  {
+   "prompt": "The author of the novel Kadının Adı Yok was born in the country of",
+   "answer": "Turkey",
+   "task_id": "b05f8e459d4cdd29"
+  },
+  {
+   "prompt": "The city where Joe Jonas was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "b119840fb6159620"
+  },
+  {
+   "prompt": "The author of the novel Gitanjali was born in the city of",
+   "answer": "Kolkata",
+   "task_id": "b172fe04de35bc59"
+  },
+  {
+   "prompt": "The university founded by Osman Ali Khan, Asaf Jah VII has its headquarters in the country of",
+   "answer": "India",
+   "task_id": "b239607a34b07bb0"
+  },
+  {
+   "prompt": "The author of the novel La Belle et la Bête was born in the country of",
+   "answer": "France",
+   "task_id": "b249d765405bfa94"
+  },
+  {
+   "prompt": "The city where the headquarters of School of Plastic Arts of Puerto Rico is located is in the country of",
+   "answer": "Puerto Rico",
+   "task_id": "b305d6dc25688071"
+  },
+  {
+   "prompt": "The author of the novel Dream of the Red Chamber was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "b43a133690d9297e"
+  },
+  {
+   "prompt": "The author of the novel The Vegetarian was born in the country of",
+   "answer": "South Korea",
+   "task_id": "b491895a1cb1d2e1"
+  },
+  {
+   "prompt": "The spouse of Harald V of Norway was born in the city of",
+   "answer": "Oslo",
+   "task_id": "b4a9f104d4e795de"
+  },
+  {
+   "prompt": "The author of the novel The End of America: Letter of Warning to a Young Patriot was born in the country of",
+   "answer": "United States of America",
+   "task_id": "b60139bbfd8b17ca"
+  },
+  {
+   "prompt": "The developer of the game 'Dandara' has its headquarters in the country of",
+   "answer": "Brazil",
+   "task_id": "b62c63b92c550a8e"
+  },
+  {
+   "prompt": "Jill Biden's undergrad university has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "b6407a2c1d7fba60"
+  },
+  {
+   "prompt": "The developer of the game 'Dance Central' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "b6d403f7f54d0c38"
+  },
+  {
+   "prompt": "The author of the novel Fear of Flying was born in the city of",
+   "answer": "New York City",
+   "task_id": "b6d4d7352bc4d647"
+  },
+  {
+   "prompt": "The author of the novel Ame ni mo Makezu was born in the country of",
+   "answer": "Japan",
+   "task_id": "b79df42cf7871e4f"
+  },
+  {
+   "prompt": "The city where the headquarters of Hokkaido University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "b822999d9a659562"
+  },
+  {
+   "prompt": "The city where Akashiya Nonki was born is in the country of",
+   "answer": "Japan",
+   "task_id": "b84b498ef8d54a2f"
+  },
+  {
+   "prompt": "The author of the novel The Bone People was born in the country of",
+   "answer": "New Zealand",
+   "task_id": "b88fa6267abf6a50"
+  },
+  {
+   "prompt": "The city where the headquarters of National Dong Hwa University is located is in the country of",
+   "answer": "Taiwan",
+   "task_id": "b8f69966d0cf1b54"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidad Rural de Guatemala is located is in the country of",
+   "answer": "Guatemala",
+   "task_id": "b8f6b1c4abb1d277"
+  },
+  {
+   "prompt": "The city where the headquarters of Kuban State University is located is in the country of",
+   "answer": "Russia",
+   "task_id": "ba0a00a5d0cff82c"
+  },
+  {
+   "prompt": "The city where the headquarters of Superior Singing School of Madrid is located is in the country of",
+   "answer": "Spain",
+   "task_id": "ba4abdd61d940008"
+  },
+  {
+   "prompt": "The spouse of Shinzō Abe was born in the country of",
+   "answer": "Japan",
+   "task_id": "ba546ee298a956c4"
+  },
+  {
+   "prompt": "The city where the headquarters of Kyrgyz National University named after Jusup Balasagyn is located is in the country of",
+   "answer": "Kyrgyzstan",
+   "task_id": "baf2e7fadfcb2ff5"
+  },
+  {
+   "prompt": "The company founded by Tim Campbell has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "bb0ccc7f8137c3f3"
+  },
+  {
+   "prompt": "The author of the novel A Hero of Our Time was born in the country of",
+   "answer": "Russia",
+   "task_id": "bb1d024803d4cc08"
+  },
+  {
+   "prompt": "The city where Willie Cauley-Stein was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "bc4ea7081e5414dc"
+  },
+  {
+   "prompt": "The developer of the game 'Xenoblade Chronicles' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "bcacdcc75c15bed4"
+  },
+  {
+   "prompt": "The city where the headquarters of Kazakh-Russian University is located is in the country of",
+   "answer": "Kazakhstan",
+   "task_id": "bd66aa4bbe111627"
+  },
+  {
+   "prompt": "The city where the headquarters of Bowdoin College is located is in the country of",
+   "answer": "United States of America",
+   "task_id": "be15f66ed259f601"
+  },
+  {
+   "prompt": "The author of the novel Effi Briest was born in the country of",
+   "answer": "Germany",
+   "task_id": "bf786635a9dea5f6"
+  },
+  {
+   "prompt": "The author of the novel The Lovely Bones was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c16bfe4f32bd3dee"
+  },
+  {
+   "prompt": "The movie featuring Jesse Pinkman as the main character was released in the country of",
+   "answer": "United States of America",
+   "task_id": "c2491bc66c5953ab"
+  },
+  {
+   "prompt": "The author of the novel Pastorale comique was born in the country of",
+   "answer": "France",
+   "task_id": "c2e4975a29076b1a"
+  },
+  {
+   "prompt": "The city where Craig Kupp was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "c30f804a6046e59f"
+  },
+  {
+   "prompt": "The city where the headquarters of New Bulgarian University is located is in the country of",
+   "answer": "Bulgaria",
+   "task_id": "c35db0150bae6274"
+  },
+  {
+   "prompt": "The author of the novel The Octopus: A Story of California was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c4e3d277612c0c54"
+  },
+  {
+   "prompt": "The author of the novel The Jungle was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c5c9af91e94f7e62"
+  },
+  {
+   "prompt": "The author of the novel Il pastor fido was born in the country of",
+   "answer": "Italy",
+   "task_id": "c6bd70cb8adf2f8f"
+  },
+  {
+   "prompt": "The author of the novel Brown Bear, Brown Bear, What Do You See? was born in the country of",
+   "answer": "United States of America",
+   "task_id": "c7dadc6da72e12b8"
+  },
+  {
+   "prompt": "The city where the headquarters of Sardar Patel University is located is in the country of",
+   "answer": "India",
+   "task_id": "c92ac5bae0713eb8"
+  },
+  {
+   "prompt": "The city where the headquarters of Thailand Cyber University is located is in the country of",
+   "answer": "Thailand",
+   "task_id": "c93f5db60d50d088"
+  },
+  {
+   "prompt": "The spouse of Hassan II was born in the country of",
+   "answer": "Morocco",
+   "task_id": "c98c4defa1bfd3b3"
+  },
+  {
+   "prompt": "The author of the novel Roots: The Saga of an American Family was born in the country of",
+   "answer": "United States of America",
+   "task_id": "ca4253cefcafcf64"
+  },
+  {
+   "prompt": "The author of the novel The Leopard was born in the country of",
+   "answer": "Italy",
+   "task_id": "cb4f2495568a4a2a"
+  },
+  {
+   "prompt": "The author of the novel The Number Devil was born in the country of",
+   "answer": "Germany",
+   "task_id": "cb6b7fc10157c461"
+  },
+  {
+   "prompt": "The author of the novel In a Lonely Place was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cc8b13606e694131"
+  },
+  {
+   "prompt": "The author of the novel Sometimes a Great Notion was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cdc96e996421ddad"
+  },
+  {
+   "prompt": "The spouse of Alexis Tsipras was born in the country of",
+   "answer": "Greece",
+   "task_id": "cef84647728f1fa6"
+  },
+  {
+   "prompt": "The author of the novel I Malavoglia was born in the country of",
+   "answer": "Italy",
+   "task_id": "cf470e8eef3aea10"
+  },
+  {
+   "prompt": "The city where the headquarters of Graduate University for Advanced Studies is located is in the country of",
+   "answer": "Japan",
+   "task_id": "cf52ed37838f8c9b"
+  },
+  {
+   "prompt": "The author of the novel The Yiddish Policemen's Union was born in the country of",
+   "answer": "United States of America",
+   "task_id": "cf90cf9d35e7e509"
+  },
+  {
+   "prompt": "The CEO of The Walt Disney Company was born in the country of",
+   "answer": "United States of America",
+   "task_id": "d00e832dafb7440d"
+  },
+  {
+   "prompt": "The main character of the movie The Matrix Revolutions was played by an actor named",
+   "answer": "Keanu Reeves",
+   "task_id": "d1e1af2e88bc9ad3"
+  },
+  {
+   "prompt": "The author of the novel The Palm-Wine Drinkard was born in the country of",
+   "answer": "Nigeria",
+   "task_id": "d29a746bda3dcc3c"
+  },
+  {
+   "prompt": "The city where Mike Conley Jr. was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "d381e0378085adc2"
+  },
+  {
+   "prompt": "The author of the novel Splendeurs et misères des courtisanes was born in the country of",
+   "answer": "France",
+   "task_id": "d39d2b63adc30187"
+  },
+  {
+   "prompt": "The spouse of Shah Rukh Khan was born in the country of",
+   "answer": "India",
+   "task_id": "d4122f6cbb3862c6"
+  },
+  {
+   "prompt": "The author of the novel À l'ombre des jeunes filles en fleurs was born in the country of",
+   "answer": "France",
+   "task_id": "d42cd6cf054f8514"
+  },
+  {
+   "prompt": "The city where Maya Rudolph was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "d459cfe586d7b716"
+  },
+  {
+   "prompt": "The author of the novel The Rose Tattoo was born in the country of",
+   "answer": "United States of America",
+   "task_id": "d45d76a38301b012"
+  },
+  {
+   "prompt": "The city where Jim Harbaugh was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "d529187499f42bd5"
+  },
+  {
+   "prompt": "The developer of the game 'Wipeout' has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "d5843580c696727f"
+  },
+  {
+   "prompt": "The main character of the movie The Matrix Reloaded was played by an actor named",
+   "answer": "Keanu Reeves",
+   "task_id": "d669cfd721167cc1"
+  },
+  {
+   "prompt": "The developer of the game 'Microsoft Flight' has its headquarters in the city of",
+   "answer": "Redmond",
+   "task_id": "d6c871741ac97100"
+  },
+  {
+   "prompt": "The city where the headquarters of Palestine Technical University is located is in the country of",
+   "answer": "State of Palestine",
+   "task_id": "d70865208f11f145"
+  },
+  {
+   "prompt": "The developer of the game 'Gungrave' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "d82a7e1dda74540e"
+  },
+  {
+   "prompt": "The author of the novel Minima Moralia was born in the country of",
+   "answer": "Germany",
+   "task_id": "d835e4d68bd25021"
+  },
+  {
+   "prompt": "The author of the novel Crime and Punishment was born in the country of",
+   "answer": "Russia",
+   "task_id": "d85a893abe2d4891"
+  },
+  {
+   "prompt": "The city where the headquarters of Joshibi University of Art and Design is located is in the country of",
+   "answer": "Japan",
+   "task_id": "dabf9fca7bfa5925"
+  },
+  {
+   "prompt": "The author of the novel Fidlovačka aneb Žádný hněv a žádná rvačka was born in the country of",
+   "answer": "Czech Republic",
+   "task_id": "db42c697ea991dcc"
+  },
+  {
+   "prompt": "The author of the novel Z mého kraje was born in the country of",
+   "answer": "Czech Republic",
+   "task_id": "dbb51e170e4fa1f0"
+  },
+  {
+   "prompt": "The city where Quique Álvarez was born is in the country of",
+   "answer": "Spain",
+   "task_id": "dbfec5adae93ee48"
+  },
+  {
+   "prompt": "The city where the headquarters of Hochschule für Musik und Theater München is located is in the country of",
+   "answer": "Germany",
+   "task_id": "df38047377571299"
+  },
+  {
+   "prompt": "Larry Page's undergrad university has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "df3ae7e1a4c902d8"
+  },
+  {
+   "prompt": "The city where Noah Lyles was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "dfe41b35acc811ea"
+  },
+  {
+   "prompt": "The author of the novel A Raisin in the Sun was born in the country of",
+   "answer": "United States of America",
+   "task_id": "e04bbdf4583f8068"
+  },
+  {
+   "prompt": "The city where Mikhail Tikhonov was born is in the country of",
+   "answer": "Russia",
+   "task_id": "e07f28859c822eca"
+  },
+  {
+   "prompt": "The city where the headquarters of Technical University of Denmark is located is in the country of",
+   "answer": "Denmark",
+   "task_id": "e0acee61f4fb0f38"
+  },
+  {
+   "prompt": "The author of the novel Startide Rising was born in the country of",
+   "answer": "United States of America",
+   "task_id": "e190ddb0a0e96c50"
+  },
+  {
+   "prompt": "The author of the novel Stuart Little was born in the country of",
+   "answer": "United States of America",
+   "task_id": "e1a42baa024ec319"
+  },
+  {
+   "prompt": "The city where the headquarters of Nihon Fukushi University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "e327da223d404303"
+  },
+  {
+   "prompt": "Kaan Terzioğlu's undergrad university has its headquarters in the country of",
+   "answer": "Turkey",
+   "task_id": "e39f83a2321b0f23"
+  },
+  {
+   "prompt": "The author of the novel The Lost Honour of Katharina Blum was born in the country of",
+   "answer": "Germany",
+   "task_id": "e4025ab59a0a8427"
+  },
+  {
+   "prompt": "The author of the novel The Betrothed was born in the country of",
+   "answer": "Italy",
+   "task_id": "e4e65576b9eda603"
+  },
+  {
+   "prompt": "The author of the novel The Little Mermaid was born in the country of",
+   "answer": "Denmark",
+   "task_id": "e54ea2f2b084d8c6"
+  },
+  {
+   "prompt": "The author of the novel Doctor Zhivago was born in the country of",
+   "answer": "Russia",
+   "task_id": "e6a01fb821d2ee06"
+  },
+  {
+   "prompt": "As an undergrad, the author of the novel Aiiieeeee! An Anthology of Asian-American Writers attended the university named",
+   "answer": "University of California, Berkeley",
+   "task_id": "e70c167eeaad0a0a"
+  },
+  {
+   "prompt": "The author of the novel Dicionário do folclore brasileiro was born in the country of",
+   "answer": "Brazil",
+   "task_id": "e77d365d1be5cbf0"
+  },
+  {
+   "prompt": "The city where the headquarters of Universiti Teknikal Malaysia Melaka is located is in the country of",
+   "answer": "Malaysia",
+   "task_id": "e7e80a5f04923093"
+  },
+  {
+   "prompt": "The spouse of Roman Polanski was born in the country of",
+   "answer": "France",
+   "task_id": "e828ae30d8c2314e"
+  },
+  {
+   "prompt": "The city where the headquarters of V.О. Sukhomlynskyi National University of Mykolaiv is located is in the country of",
+   "answer": "Ukraine",
+   "task_id": "e8368cc4d6d6dc21"
+  },
+  {
+   "prompt": "The city where the headquarters of Niigata University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "e8a99210da974363"
+  },
+  {
+   "prompt": "The developer of the game 'Guitar Hero: Aerosmith' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "e92cb417090c4322"
+  },
+  {
+   "prompt": "The city where the headquarters of Sagami Women's University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "e9616a7d53010dce"
+  },
+  {
+   "prompt": "The author of the novel The Old Regime and the Revolution was born in the country of",
+   "answer": "France",
+   "task_id": "e980ab8aadef3df1"
+  },
+  {
+   "prompt": "The author of the novel The Work of Art in the Age of Mechanical Reproduction was born in the country of",
+   "answer": "Germany",
+   "task_id": "ea3ce2d9995b878a"
+  },
+  {
+   "prompt": "The capital of the country led by president Milo Đukanović is",
+   "answer": "Podgorica",
+   "task_id": "ea8181e36dcbfc39"
+  },
+  {
+   "prompt": "The developer of the game 'MapleStory' has its headquarters in the country of",
+   "answer": "South Korea",
+   "task_id": "eac7f21c5d133a43"
+  },
+  {
+   "prompt": "The city where Casey Loyd was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "ebcca852df0d582d"
+  },
+  {
+   "prompt": "The developer of the game 'Gran Turismo' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "ec3f06dac507ffad"
+  },
+  {
+   "prompt": "The city where the headquarters of Universiti Malaysia Sabah is located is in the country of",
+   "answer": "Malaysia",
+   "task_id": "ec62c9a05fcae221"
+  },
+  {
+   "prompt": "The city where the headquarters of Webster University Geneva is located is in the country of",
+   "answer": "Switzerland",
+   "task_id": "ecde30d00b22f295"
+  },
+  {
+   "prompt": "The city where the headquarters of Chuo University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "ed199f799246abd9"
+  },
+  {
+   "prompt": "The developer of the game 'Mushoku Tensei: Game ni Natte mo Honki Dasu' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "ed1f58c13a554ef7"
+  },
+  {
+   "prompt": "The city where the headquarters of Universidade Federal do Ceará is located is in the country of",
+   "answer": "Brazil",
+   "task_id": "ee5bcab9b85a1d19"
+  },
+  {
+   "prompt": "The father of the author of the novel What Maisie Knew is named",
+   "answer": "Henry James, Sr.",
+   "task_id": "eed96513c430ed7e"
+  },
+  {
+   "prompt": "The author of the novel In Cold Blood was born in the country of",
+   "answer": "United States of America",
+   "task_id": "ef16efc61dbb69de"
+  },
+  {
+   "prompt": "The company founded by Osamu Tezuka has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "ef42c0ffc3194718"
+  },
+  {
+   "prompt": "The city where Mahathir Mohamad was born is in the country of",
+   "answer": "Malaysia",
+   "task_id": "efa4f320ec5cdbba"
+  },
+  {
+   "prompt": "The author of the novel Six Records of a Floating Life was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "f0f6ca096bc412e6"
+  },
+  {
+   "prompt": "The city where the headquarters of International Turkmen-Turkish University is located is in the country of",
+   "answer": "Turkmenistan",
+   "task_id": "f11c9268a7ced244"
+  },
+  {
+   "prompt": "The city where the headquarters of Estonian University of Life Sciences is located is in the country of",
+   "answer": "Estonia",
+   "task_id": "f1258cfc438ca281"
+  },
+  {
+   "prompt": "The author of the novel Saint-Simon's Mémoires was born in the country of",
+   "answer": "France",
+   "task_id": "f268b1de2564bd14"
+  },
+  {
+   "prompt": "The company founded by Mark Zuckerberg has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f2aae53baa523f76"
+  },
+  {
+   "prompt": "The city where Martín Galmarini was born is in the country of",
+   "answer": "Argentina",
+   "task_id": "f2d42b21dd4029fd"
+  },
+  {
+   "prompt": "The city where the headquarters of Théologat de Fourvière is located is in the country of",
+   "answer": "France",
+   "task_id": "f3252d082ab4b6bf"
+  },
+  {
+   "prompt": "The city where the headquarters of Düzce University is located is in the country of",
+   "answer": "Turkey",
+   "task_id": "f33ae9e26ed6742f"
+  },
+  {
+   "prompt": "The developer of the game 'Baka to Test to Shōkanjū Portable' has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "f3f7f51efa9d1fc9"
+  },
+  {
+   "prompt": "The city where the headquarters of American University in Bulgaria is located is in the country of",
+   "answer": "Bulgaria",
+   "task_id": "f4360891b5ba8f4f"
+  },
+  {
+   "prompt": "The author of the novel What Maisie Knew was born in the country of",
+   "answer": "United States of America",
+   "task_id": "f54786633d2a900c"
+  },
+  {
+   "prompt": "The developer of the game 'The Incredibles' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f586ba2c880c9bcb"
+  },
+  {
+   "prompt": "The city where Gene Kelly was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "f5d3a763e1dbd93b"
+  },
+  {
+   "prompt": "The author of the novel China: A Macro History was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "f610b24b805650df"
+  },
+  {
+   "prompt": "The city where Denis Cheryshev was born is in the country of",
+   "answer": "Russia",
+   "task_id": "f619f34d623f94d3"
+  },
+  {
+   "prompt": "The author of the novel A Freewheelin' Time: A Memoir of Greenwich Village in the Sixties was born in the country of",
+   "answer": "United States of America",
+   "task_id": "f68b24cf984ddb1f"
+  },
+  {
+   "prompt": "The author of the novel The Poppy War was born in the country of",
+   "answer": "People's Republic of China",
+   "task_id": "f6991b1354cf0eca"
+  },
+  {
+   "prompt": "The developer of the game 'MyTown' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f76a2d113cb8686e"
+  },
+  {
+   "prompt": "The company founded by Julian Gollop has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "f77491b7b1abee93"
+  },
+  {
+   "prompt": "The company founded by Eduardo Saverin has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f800900863aae717"
+  },
+  {
+   "prompt": "The author of the novel In a Different Voice was born in the country of",
+   "answer": "United States of America",
+   "task_id": "f898ea15097e5b83"
+  },
+  {
+   "prompt": "The spouse of Bhumibol Adulyadej was born in the country of",
+   "answer": "Thailand",
+   "task_id": "f8f3941af1f0fbce"
+  },
+  {
+   "prompt": "The developer of the game 'Amplitude' has its headquarters in the country of",
+   "answer": "United States of America",
+   "task_id": "f91ce1f6f125841d"
+  },
+  {
+   "prompt": "The city where the headquarters of British University in Yemen is located is in the country of",
+   "answer": "Yemen",
+   "task_id": "fa5af12135e25bd6"
+  },
+  {
+   "prompt": "The company founded by Kōnosuke Matsushita has its headquarters in the country of",
+   "answer": "Japan",
+   "task_id": "fb1863e57a3f4efe"
+  },
+  {
+   "prompt": "The company founded by Douglas Adams has its headquarters in the country of",
+   "answer": "United Kingdom",
+   "task_id": "fb5555c7289e667a"
+  },
+  {
+   "prompt": "The author of the novel The Shack was born in the country of",
+   "answer": "Canada",
+   "task_id": "fc28a3e8c4798bc8"
+  },
+  {
+   "prompt": "The city where Ezequiel Garré was born is in the country of",
+   "answer": "Argentina",
+   "task_id": "fe476ed77171ad47"
+  },
+  {
+   "prompt": "The author of the novel Deutsche Mythologie was born in the country of",
+   "answer": "Germany",
+   "task_id": "fed84ba9ac40cb26"
+  },
+  {
+   "prompt": "The city where Darius Garland was born is in the country of",
+   "answer": "United States of America",
+   "task_id": "ff53ac8906042915"
+  },
+  {
+   "prompt": "The city where the headquarters of Osaka Sangyo University is located is in the country of",
+   "answer": "Japan",
+   "task_id": "ff716ffcb363e4e4"
+  }
+ ]
+}
