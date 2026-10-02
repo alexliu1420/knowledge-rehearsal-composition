@@ -1,6 +1,6 @@
 # What You Rehearse Is What You Keep: Rehearsal Format Decides Whether Known Facts Stay Composable
 
-**Preprint v0.2.0, 2026-10-02.** This version: DOI to be minted on deposit. All versions:
+**Preprint v0.2.0, 2026-10-02.** This version: doi:10.5281/zenodo.23112393. All versions:
 doi:10.5281/zenodo.22970449; v0.1.0: doi:10.5281/zenodo.22970450. v0.2.0 adds three declared ablations of rehearsal format (§7), which
 replace the mechanistic reading of v0.1.0. Every number is emitted by `src/make_tables.py` into
 `results/tables/` and checked for presence there by `src/audit_numbers_s4.py` before the PDF is

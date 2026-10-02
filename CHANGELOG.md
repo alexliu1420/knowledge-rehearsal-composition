@@ -5,9 +5,8 @@ resolves to the most recent one.
 
 ## v0.2.0 — format ablations: where the facts sit matters for composition
 
-To be archived on Zenodo under the concept DOI [10.5281/zenodo.22970449](https://doi.org/10.5281/zenodo.22970449),
-which resolves to the most recent version. The version-specific DOI is minted on deposit and will
-be added here.
+Archived at [10.5281/zenodo.23112393](https://doi.org/10.5281/zenodo.23112393); [10.5281/zenodo.22970449](https://doi.org/10.5281/zenodo.22970449) is the concept DOI and
+always resolves to the most recent version.
 
 - **New experiments.** Two declared ablations on both families, three seeds each, with the
   coherent format run on Falcon alongside them. The first removes the loss on the intermediate

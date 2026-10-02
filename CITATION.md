@@ -8,13 +8,10 @@ release: `10.5281/zenodo.22970449`.
 
 ## Version 0.2.0 — format ablations
 
-The version-specific DOI is minted when this version is deposited and will be added here. Until
-then, cite the concept DOI above, which resolves to this version once it is published.
-
 **Plain text**
 
 Liu, A. (2026). *What You Rehearse Is What You Keep: Rehearsal Format Decides Whether Known Facts
-Stay Composable* (Version 0.2.0). Zenodo.
+Stay Composable* (Version 0.2.0). Zenodo. https://doi.org/10.5281/zenodo.23112393
 
 **BibTeX**
 
@@ -25,7 +22,9 @@ Stay Composable* (Version 0.2.0). Zenodo.
                Facts Stay Composable},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {0.2.0}
+  version   = {0.2.0},
+  doi       = {10.5281/zenodo.23112393},
+  url       = {https://doi.org/10.5281/zenodo.23112393}
 }
 ```
 
