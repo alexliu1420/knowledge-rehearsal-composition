@@ -1,0 +1,2634 @@
+{
+ "kind": "coherent_bmask",
+ "n": 375,
+ "tokens": 10405,
+ "source_sha256": "58d7ff8238259c2c",
+ "sha256": "7bdc6ed00b12753d",
+ "rows": [
+  {
+   "prompt": "The singer of 'Jalousie' is",
+   "answer": "Priscilla Betti. Priscilla Betti was born in the country of France",
+   "task_id": "d06a734e769e38da",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The organization led by CEO Eeka Mäkynen is",
+   "answer": "Finnish Metal Events. Finnish Metal Events has its headquarters in the country of Finland",
+   "task_id": "45c35f2bec4bb5a7",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The author of the novel Il mio Atlantico is",
+   "answer": "Ambrogio Fogar. Ambrogio Fogar was born in the country of Italy",
+   "task_id": "c9b7bfd233f7839f",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where the headquarters of Seminary of Vienna is located is",
+   "answer": "Erzbischöfliches Alumnatsgebäude. Erzbischöfliches Alumnatsgebäude is in the country of Austria",
+   "task_id": "3ec8da3f28045d38",
+   "atom": "coherent_bmask",
+   "mask_chars": 32
+  },
+  {
+   "prompt": "The city where the headquarters of Manukau Institute of Technology is located is",
+   "answer": "Manukau City. Manukau City is in the country of New Zealand",
+   "task_id": "ab261806ada4d4d1",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The author of the novel Os Fidalgos da Casa Mourisca is",
+   "answer": "Júlio Dinis. Júlio Dinis was born in the country of Portugal",
+   "task_id": "b031e12ed9df8296",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Dieu m'a donné la foi' is",
+   "answer": "Ophélie Winter. Ophélie Winter was born in the country of France",
+   "task_id": "46e5abb01c52396e",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where the headquarters of Methodist University of São Paulo is located is",
+   "answer": "São Bernardo do Campo. São Bernardo do Campo is in the country of Brazil",
+   "task_id": "0b2f0786110a9f62",
+   "atom": "coherent_bmask",
+   "mask_chars": 21
+  },
+  {
+   "prompt": "The developer of the game '.kkrieger' is",
+   "answer": ".theprodukkt. .theprodukkt has its headquarters in the country of Germany",
+   "task_id": "c174ef6ac9ea02e9",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'Donne-moi le temps' is",
+   "answer": "Jenifer. Jenifer was born in the country of France",
+   "task_id": "cc87eef10939a2dc",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Kamen Rider Club Gekitotsu ShockerLand' is",
+   "answer": "Tose Co.. Tose Co. has its headquarters in the country of Japan",
+   "task_id": "389a5d18d04be682",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The developer of the game 'Nil Admirari no Tenbin: Teito Genwaku Kitan' is",
+   "answer": "Otomate. Otomate has its headquarters in the country of Japan",
+   "task_id": "9233e08398c13aa1",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "Krishna Bose's undergrad university is",
+   "answer": "University of Calcutta. University of Calcutta has its headquarters in the country of India",
+   "task_id": "8efafb84ed39da41",
+   "atom": "coherent_bmask",
+   "mask_chars": 22
+  },
+  {
+   "prompt": "The developer of the game 'Infinite Space' is",
+   "answer": "Nude Maker. Nude Maker has its headquarters in the country of Japan",
+   "task_id": "50ad3408f3ab1b04",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The spouse of Lutfi Arıboğan is",
+   "answer": "Deniz Ülke Arıboğan. Deniz Ülke Arıboğan was born in the country of Turkey",
+   "task_id": "f20b1f7782b036eb",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The organization led by CEO Sataporn Panichraksapong is",
+   "answer": "GMMTV. GMMTV has its headquarters in the country of Thailand",
+   "task_id": "677f248d844656bd",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The author of the novel Ayaşlı ile Kiracıları is",
+   "answer": "Memduh Şevket Esendal. Memduh Şevket Esendal was born in the country of Turkey",
+   "task_id": "46d63c82ffea14a6",
+   "atom": "coherent_bmask",
+   "mask_chars": 21
+  },
+  {
+   "prompt": "The developer of the game 'I Am Setsuna' is",
+   "answer": "Tokyo RPG Factory. Tokyo RPG Factory has its headquarters in the country of Japan",
+   "task_id": "12e0ec98b3129ee7",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The developer of the game 'GP-1' is",
+   "answer": "Genki. Genki has its headquarters in the country of Japan",
+   "task_id": "7326e26d7993dc7a",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The author of the novel Struwwelpeter is",
+   "answer": "Heinrich Hoffmann. Heinrich Hoffmann was born in the country of Germany",
+   "task_id": "e6c1c22c7ea96a3b",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The city where the headquarters of Universitas Gadjah Mada is located is",
+   "answer": "Yogyakarta City. Yogyakarta City is in the country of Indonesia",
+   "task_id": "52337eb8ab7b417e",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Steppenwolf is",
+   "answer": "Hermann Hesse. Hermann Hesse was born in the country of Germany",
+   "task_id": "126e2990be40bd2e",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The organization led by CEO Luigi Ferraris is",
+   "answer": "Ferrovie dello Stato Italiane. Ferrovie dello Stato Italiane has its headquarters in the country of Italy",
+   "task_id": "dc32e94b7ef13a77",
+   "atom": "coherent_bmask",
+   "mask_chars": 29
+  },
+  {
+   "prompt": "The developer of the game 'Wario Blast' is",
+   "answer": "Hudson Soft. Hudson Soft has its headquarters in the country of Japan",
+   "task_id": "0800c8ada61d2145",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Clara veut la Lune' is",
+   "answer": "Alizée. Alizée was born in the country of France",
+   "task_id": "04466ad093558d1b",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The developer of the game 'JaJaMaru Gekimaden: Maboroshi no Kinmajou' is",
+   "answer": "Jaleco. Jaleco has its headquarters in the country of Japan",
+   "task_id": "53b8e94341a41470",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The spouse of Shinobu Matsumoto is",
+   "answer": "Taro Iwashiro. Taro Iwashiro was born in the country of Japan",
+   "task_id": "61b6f1398262fcb1",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The movie featuring Mitsuko as the main character is",
+   "answer": "Guilty of Romance. Guilty of Romance was released in the country of Japan",
+   "task_id": "b8b2ed668d999d8b",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The spouse of Bhumibol Adulyadej is",
+   "answer": "Sirikit. Sirikit was born in the country of Thailand",
+   "task_id": "f8f3941af1f0fbce",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Dolucky's A-League Soccer' is",
+   "answer": "Zoom. Zoom has its headquarters in the country of Japan",
+   "task_id": "46edbf6ba5a4de8d",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The author of the novel Nihon Sandai Jitsuroku is",
+   "answer": "Sugawara no Michizane. Sugawara no Michizane was born in the country of Japan",
+   "task_id": "56288edcec0add25",
+   "atom": "coherent_bmask",
+   "mask_chars": 21
+  },
+  {
+   "prompt": "The author of the novel Mujhe Chand Chahiye is",
+   "answer": "Surendra Verma. Surendra Verma was born in the country of India",
+   "task_id": "4de6a2a6b118b0c3",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Valeria Altobelli is",
+   "answer": "Simone Venier. Simone Venier was born in the country of Italy",
+   "task_id": "3c04cc6f3d869ee4",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The movie featuring Juliane Klein as the main character is",
+   "answer": "Marianne and Juliane. Marianne and Juliane was released in the country of Germany",
+   "task_id": "c29a2344a00a7470",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The city where Fanndís Friðriksdóttir was born is",
+   "answer": "Akureyri. Akureyri is in the country of Iceland",
+   "task_id": "157e09ad0fe15535",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The developer of the game 'Eternal Fantasy' is",
+   "answer": "Circus. Circus has its headquarters in the country of Japan",
+   "task_id": "5a2fcd5c53746aee",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The singer of 'Regarde-moi' is",
+   "answer": "Priscilla Betti. Priscilla Betti was born in the country of France",
+   "task_id": "41b8bf24d7347690",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Meine Kinderjahre is",
+   "answer": "Theodor Fontane. Theodor Fontane was born in the country of Germany",
+   "task_id": "8cd9083c7c28d3bb",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The organization led by CEO Klas Balkow is",
+   "answer": "Axfood. Axfood has its headquarters in the country of Sweden",
+   "task_id": "9a4ef6d7a6e7f716",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The author of the novel Patriotic Sketches of Ireland, Written in Connaught is",
+   "answer": "Sydney, Lady Morgan. Sydney, Lady Morgan was born in the country of Republic of Ireland",
+   "task_id": "541f9dfcaad62fe2",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The city where the headquarters of Armenian State University of Economics is located is",
+   "answer": "Yerevan. Yerevan is in the country of Armenia",
+   "task_id": "51b8ca75336b1261",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'The Smurfs' Nightmare' is",
+   "answer": "VD-dev. VD-dev has its headquarters in the country of France",
+   "task_id": "296af338d24caead",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The city where the headquarters of TOBB University of Economics and Technology is located is",
+   "answer": "Söğütözü. Söğütözü is in the country of Turkey",
+   "task_id": "8231bdc04fe3f53b",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The author of the novel Shadow From Ladakh is",
+   "answer": "Bhabani Bhattacharya. Bhabani Bhattacharya was born in the country of India",
+   "task_id": "529b839bce4b5c36",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The spouse of Volodymyr Zelenskyy is",
+   "answer": "Olena Zelenska. Olena Zelenska was born in the country of Ukraine",
+   "task_id": "4f5cece6a29bada5",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The singer of 'It'll Be Okay' is",
+   "answer": "Shawn Mendes. Shawn Mendes was born in the country of Canada",
+   "task_id": "448b68fb73d1291f",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The developer of the game 'KAMiBAKO: Mythology of Cube' is",
+   "answer": "Gravity Game Arise. Gravity Game Arise has its headquarters in the country of Japan",
+   "task_id": "8eb443475fdb6df2",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The author of the novel Fågelbovägen 32 is",
+   "answer": "Sara Kadefors. Sara Kadefors was born in the country of Sweden",
+   "task_id": "4abfae06237436a2",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'Jujutsu Kaisen: Cursed Clash' is",
+   "answer": "Byking. Byking has its headquarters in the country of Japan",
+   "task_id": "460de43183dd022f",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The CEO of Alibaba Group is",
+   "answer": "Daniel Zhang. Daniel Zhang was born in the country of People's Republic of China",
+   "task_id": "3337d7d49744d1c8",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The spouse of Lara Dutta is",
+   "answer": "Mahesh Bhupathi. Mahesh Bhupathi was born in the country of India",
+   "task_id": "8aeb0f6c6a483ede",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel La Maternelle is",
+   "answer": "Léon Frapié. Léon Frapié was born in the country of France",
+   "task_id": "4b2175a5e5de3968",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'J'attends l'amour' is",
+   "answer": "Jenifer. Jenifer was born in the country of France",
+   "task_id": "a3147dcc221751ac",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'The Tale of Onogoro' is",
+   "answer": "Amata K.K.. Amata K.K. has its headquarters in the country of Japan",
+   "task_id": "3ed08101214bab0e",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The developer of the game 'Pokémon Masters EX' is",
+   "answer": "DeNA. DeNA has its headquarters in the country of Japan",
+   "task_id": "9348d78dbf04cc1d",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The developer of the game 'Tom Clancy's Ghost Recon: Desert Siege' is",
+   "answer": "Red Storm Entertainment. Red Storm Entertainment was founded by the person named Tom Clancy",
+   "task_id": "ba05815c82ca78fa",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The spouse of Kei Igarashi is",
+   "answer": "Tomoko Honda. Tomoko Honda was born in the country of Japan",
+   "task_id": "b67c183a0c3d9a6b",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'Boule de flipper' is",
+   "answer": "Corynne Charby. Corynne Charby was born in the country of France",
+   "task_id": "bd8e2ec9d4b985b7",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The CEO of ESC Rennes School of Business is",
+   "answer": "Thomas Froehlicher. Thomas Froehlicher was born in the country of France",
+   "task_id": "6eba9d40dcaa39a2",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The author of the novel Tom Lake is",
+   "answer": "Ann Patchett. Ann Patchett was born in the country of United States of America",
+   "task_id": "8bf5ee10c3852661",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The developer of the game 'Tom Clancy's ruthless.com' is",
+   "answer": "Red Storm Entertainment. Red Storm Entertainment was founded by the person named Tom Clancy",
+   "task_id": "5a3d57256dcf0de5",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The author of the novel La fontaine amoureuse is",
+   "answer": "Guillaume de Machaut. Guillaume de Machaut was born in the country of France",
+   "task_id": "c4f5c674669a23ab",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The company founded by Ma Huateng is",
+   "answer": "Tencent. Tencent has its headquarters in the country of People's Republic of China",
+   "task_id": "b3c020ac49aff059",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The city where the headquarters of Technical University of Braunschweig is located is",
+   "answer": "Brunswick. Brunswick is in the country of Germany",
+   "task_id": "dd8d459ebdf0aaf6",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The spouse of Roberto Frinolli is",
+   "answer": "Daniela Beneck. Daniela Beneck was born in the country of Italy",
+   "task_id": "905d4a9e90e98f71",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The author of the novel La Chance de Françoise is",
+   "answer": "Georges de Porto-Riche. Georges de Porto-Riche was born in the country of France",
+   "task_id": "7ac16a746468c2e6",
+   "atom": "coherent_bmask",
+   "mask_chars": 22
+  },
+  {
+   "prompt": "The author of the novel Il pastor fido is",
+   "answer": "Giovanni Battista Guarini. Giovanni Battista Guarini was born in the country of Italy",
+   "task_id": "c6bd70cb8adf2f8f",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The spouse of Kazuhisa Kawahara is",
+   "answer": "Kio Matsumoto. Kio Matsumoto was born in the country of Japan",
+   "task_id": "924a4ca0253311c2",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The singer of 'Quelque chose dans mon cœur' is",
+   "answer": "Elsa Lunghini. Elsa Lunghini was born in the country of France",
+   "task_id": "231a9d8b05bf1f63",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The city where the headquarters of Islamic Azad University Islamshahr Branch is located is",
+   "answer": "Eslamshahr. Eslamshahr is in the country of Iran",
+   "task_id": "217e2f6994fe44e2",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The developer of the game 'Bandai Golf: Challenge Pebble Beach' is",
+   "answer": "Tose Co.. Tose Co. has its headquarters in the country of Japan",
+   "task_id": "7607de280c001fc2",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The developer of the game 'Niji no Silkroad' is",
+   "answer": "NHK. NHK has its headquarters in the country of Japan",
+   "task_id": "4e3238fe3c0c89ad",
+   "atom": "coherent_bmask",
+   "mask_chars": 3
+  },
+  {
+   "prompt": "The developer of the game 'Steel Empire' is",
+   "answer": "Hot B. Hot B has its headquarters in the country of Japan",
+   "task_id": "1cc2339a40926036",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The author of the novel Saru no Koshikake is",
+   "answer": "Kenji Miyazawa. Kenji Miyazawa was born in the country of Japan",
+   "task_id": "6ceda2833b6c6d9d",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The organization led by CEO Hervé Le Bouc is",
+   "answer": "Colas Group. Colas Group has its headquarters in the country of France",
+   "task_id": "184d07e05c9efde9",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The spouse of Aya Terakawa is",
+   "answer": "Daisuke Hosokawa. Daisuke Hosokawa was born in the country of Japan",
+   "task_id": "ac5c2ec8dbd0c678",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The author of the novel Ying Ya Sheng Lan is",
+   "answer": "Ma Huan. Ma Huan was born in the country of People's Republic of China",
+   "task_id": "bc85762ef62472ea",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Shin Kidō Senki Gundam Wing: Endless Duel' is",
+   "answer": "Natsume Atari. Natsume Atari has its headquarters in the country of Japan",
+   "task_id": "f130892827f0025e",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The spouse of Mahathir Mohamad is",
+   "answer": "Siti Hasmah Mohamad Ali. Siti Hasmah Mohamad Ali was born in the country of Malaysia",
+   "task_id": "cda49d85add1a91e",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The spouse of Yuki Motobuchi is",
+   "answer": "Keita Kaneto. Keita Kaneto was born in the country of Japan",
+   "task_id": "633c4f5955a5592e",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'Des mots qui résonnent!' is",
+   "answer": "Jenifer. Jenifer was born in the country of France",
+   "task_id": "5623e04436dcdf2f",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The city where the headquarters of Imam Khomeini International University is located is",
+   "answer": "Qazvin. Qazvin is in the country of Iran",
+   "task_id": "739dfb658f271d1d",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The author of the novel Alto - Biografia Não Autorizada is",
+   "answer": "Oscar Filho. Oscar Filho was born in the country of Brazil",
+   "task_id": "ea4ce9f2dbca0b66",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel All In: The Education of General David Petraeus is",
+   "answer": "Paula Broadwell. Paula Broadwell was born in the country of United States of America",
+   "task_id": "9d703e5b84963fa1",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Eom Hye-won is",
+   "answer": "Kim Sa-rang. Kim Sa-rang was born in the country of South Korea",
+   "task_id": "b8c6e06ec62847e4",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The city where the headquarters of União Latino-Americana de Tecnologia is located is",
+   "answer": "Jaguariaíva. Jaguariaíva is in the country of Brazil",
+   "task_id": "46911d09d64e1ed9",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The organization led by CEO Jean-Louis Martin is",
+   "answer": "École Supérieure d'Optique, Paris-Saclay University. École Supérieure d'Optique, Paris-Saclay University has its headquarters in the country of France",
+   "task_id": "e6333972c60e5c11",
+   "atom": "coherent_bmask",
+   "mask_chars": 51
+  },
+  {
+   "prompt": "The city where Jakub Parzeński was born is",
+   "answer": "Wrocław. Wrocław is in the country of Poland",
+   "task_id": "d2c0ef8e3b5be104",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Robopon Sun, Star, and Moon Versions' is",
+   "answer": "Hudson Soft. Hudson Soft has its headquarters in the country of Japan",
+   "task_id": "920a18f1f0e7374b",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Bad Reputation' is",
+   "answer": "Joan Jett. Joan Jett was born in the country of United States of America",
+   "task_id": "faa2c3b562f5d528",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The city where the headquarters of Université catholique de Louvain is located is",
+   "answer": "Louvain-la-Neuve. Louvain-la-Neuve is in the country of Belgium",
+   "task_id": "5da8b381440aebbd",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The developer of the game 'Shinya Ichizoku The Battle for Hokkaido's Delicious Foods' is",
+   "answer": "SmileBoom. SmileBoom has its headquarters in the country of Japan",
+   "task_id": "5201c1c653d74b56",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The organization led by CEO Steffen Heizmann is",
+   "answer": "Heinrich Böll Foundation. Heinrich Böll Foundation has its headquarters in the country of Germany",
+   "task_id": "a4e0bb50696d754e",
+   "atom": "coherent_bmask",
+   "mask_chars": 24
+  },
+  {
+   "prompt": "The spouse of Roman Červenka is",
+   "answer": "Veronika Machová. Veronika Machová was born in the country of Czech Republic",
+   "task_id": "7175c6ac2661ff2f",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "Jiří Sedláček's undergrad university is",
+   "answer": "B.I.B.S.. B.I.B.S. has its headquarters in the country of Czech Republic",
+   "task_id": "4e10178c34de344c",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The spouse of Daniël de Ridder is",
+   "answer": "Tatum Dagelet. Tatum Dagelet was born in the country of Netherlands",
+   "task_id": "0b3d7d9e30ca6c68",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'Keio Flying Squadron 2' is",
+   "answer": "JVC. JVC has its headquarters in the country of Japan",
+   "task_id": "a05f75fd12fcc981",
+   "atom": "coherent_bmask",
+   "mask_chars": 3
+  },
+  {
+   "prompt": "The author of the novel Listen, Germany! is",
+   "answer": "Thomas Mann. Thomas Mann was born in the country of Germany",
+   "task_id": "f2139c80a5e93256",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The spouse of Christian Reichert is",
+   "answer": "Nadine Reichert. Nadine Reichert was born in the country of Germany",
+   "task_id": "b40270016d1caf1f",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Vande Mataram is",
+   "answer": "Bankim Chandra Chatterjee. Bankim Chandra Chatterjee was born in the country of India",
+   "task_id": "424c89959c8c3276",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The author of the novel Frankenstein in Baghdad is",
+   "answer": "Ahmed Saadawi. Ahmed Saadawi was born in the country of Iraq",
+   "task_id": "ad355b0b8ef3a196",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The singer of 'C'est la vie' is",
+   "answer": "Martin Solveig. Martin Solveig was born in the country of France",
+   "task_id": "cab54d18a8bc7053",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Mushihimesama' is",
+   "answer": "CAVE. CAVE has its headquarters in the country of Japan",
+   "task_id": "29b98bf75e636e8c",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The author of the novel López Raimundo, lluita d'avui per un demà més lliure is",
+   "answer": "Xavier Vinader. Xavier Vinader was born in the country of Spain",
+   "task_id": "f3905a0d7ceeb8bf",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The author of the novel The Three-Body Problem is",
+   "answer": "Liu Cixin. Liu Cixin was born in the country of People's Republic of China",
+   "task_id": "e154c020ba7d46cf",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The company founded by Zeng Liqing is",
+   "answer": "Tencent. Tencent has its headquarters in the country of People's Republic of China",
+   "task_id": "95ad652155fe8137",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel Wudai Chunqiu is",
+   "answer": "Yin Zhu. Yin Zhu was born in the country of People's Republic of China",
+   "task_id": "42b47962a927f3dc",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'One Piece Treasure Cruise' is",
+   "answer": "Bandai Namco Entertainment. Bandai Namco Entertainment has its headquarters in the country of Japan",
+   "task_id": "5693b0cadd07067f",
+   "atom": "coherent_bmask",
+   "mask_chars": 26
+  },
+  {
+   "prompt": "The author of the novel Storie fiorentine is",
+   "answer": "Francesco Guicciardini. Francesco Guicciardini was born in the city of Florence",
+   "task_id": "4189cb9c9b7f29bf",
+   "atom": "coherent_bmask",
+   "mask_chars": 22
+  },
+  {
+   "prompt": "The developer of the game 'Lumberjack Simulator' is",
+   "answer": "Exponential Games. Exponential Games has its headquarters in the country of Canada",
+   "task_id": "19be0502ac95c12d",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The author of the novel Huojuva talo is",
+   "answer": "Maria Jotuni. Maria Jotuni was born in the country of Finland",
+   "task_id": "1fc78f15c8f872ab",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The author of the novel The Adventures of Pinocchio is",
+   "answer": "Carlo Collodi. Carlo Collodi was born in the country of Italy",
+   "task_id": "a3b91428bfe6b90f",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The organization led by CEO Olivier Klein is",
+   "answer": "BRED People's Bank. BRED People's Bank has its headquarters in the country of France",
+   "task_id": "cfe0e802caf474cf",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The spouse of Masaki Yoshida is",
+   "answer": "Miki Watanabe. Miki Watanabe was born in the country of Japan",
+   "task_id": "66235601fa61f64c",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The company founded by Johan Ehrendahl is",
+   "answer": "Reperio Studios. Reperio Studios has its headquarters in the country of Sweden",
+   "task_id": "bede9ed20e10025d",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The singer of 'J'aime les filles' is",
+   "answer": "Jacques Dutronc. Jacques Dutronc was born in the country of France",
+   "task_id": "f171b8017a7a10f4",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The company founded by Lei Jun is",
+   "answer": "Xiaomi. Xiaomi has its headquarters in the country of People's Republic of China",
+   "task_id": "c44370c4cfe70b86",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "Kristóf Molnár's undergrad university is",
+   "answer": "Budapest University of Technology and Economics. Budapest University of Technology and Economics has its headquarters in the country of Hungary",
+   "task_id": "a40cb521901c9d50",
+   "atom": "coherent_bmask",
+   "mask_chars": 47
+  },
+  {
+   "prompt": "The author of the novel Amrit Aur Vish is",
+   "answer": "Amritlal. Amritlal was born in the country of India",
+   "task_id": "a72f0bc59b94723c",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The author of the novel The Bells of Nagasaki is",
+   "answer": "Takashi Nagai. Takashi Nagai was born in the country of Japan",
+   "task_id": "2f360d8109a1c5d8",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'Doshin the Giant' is",
+   "answer": "Param. Param has its headquarters in the country of Japan",
+   "task_id": "7eb707332f1b8982",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The city where the headquarters of Kasetsart University is located is",
+   "answer": "Bangkok. Bangkok is in the country of Thailand",
+   "task_id": "8173d44b53708f5d",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The company founded by Tom Putzki is",
+   "answer": "Piranha Bytes. Piranha Bytes has its headquarters in the country of Germany",
+   "task_id": "f09a2ce937c22f94",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The singer of 'J'ai pas vingt ans' is",
+   "answer": "Alizée. Alizée was born in the country of France",
+   "task_id": "488e4ca7bde64af9",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The author of the novel Hababam Sınıfı is",
+   "answer": "Rıfat Ilgaz. Rıfat Ilgaz was born in the country of Turkey",
+   "task_id": "8ce9eb385c190547",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The developer of the game 'Chris Taylor's Kings and Castles' is",
+   "answer": "Wargaming Seattle. Wargaming Seattle was founded by the person named Chris Taylor",
+   "task_id": "40758e9a706f69af",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The spouse of Ahmad Helmi is",
+   "answer": "Mona Zaki. Mona Zaki was born in the country of Egypt",
+   "task_id": "ae0d1fa23b589600",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The spouse of Reiko Shiota is",
+   "answer": "Tatsuya Masushima. Tatsuya Masushima was born in the country of Japan",
+   "task_id": "616672b3a552f65c",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The author of the novel Les Profondes Années is",
+   "answer": "José Cabanis. José Cabanis was born in the country of France",
+   "task_id": "fc3640128b2f4809",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The developer of the game 'Paranormasight: The Seven Mysteries of Honjo' is",
+   "answer": "xeen. Xeen has its headquarters in the country of Japan",
+   "task_id": "c4fbf659071d7553",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The organization led by CEO Gábor Orbán is",
+   "answer": "Gedeon Richter Ltd.. Gedeon Richter Ltd. is listed on a stock exchange named Budapest Stock Exchange",
+   "task_id": "4949b31f44c0c068",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The author of the novel Le case della Vetra is",
+   "answer": "Giovanni Raboni. Giovanni Raboni was born in the country of Italy",
+   "task_id": "0e515042ff674947",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel The Threepenny Opera is",
+   "answer": "Bertolt Brecht. Bertolt Brecht was born in the country of Germany",
+   "task_id": "62dbb432822c0435",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Bae In-gyu is",
+   "answer": "Song Si-in. Song Si-in was born in the country of South Korea",
+   "task_id": "87fb75eed271e7aa",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The city where the headquarters of Armenian State Institute of Physical Culture and Sport is located is",
+   "answer": "Yerevan. Yerevan is in the country of Armenia",
+   "task_id": "233016384f728ec9",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The singer of 'Chez moi' is",
+   "answer": "Serge Lama. Serge Lama was born in the country of France",
+   "task_id": "f8117da109ffeb62",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The spouse of Yuma Hattori is",
+   "answer": "Miyabi Hirayama. Miyabi Hirayama was born in the country of Japan",
+   "task_id": "58d3b87bd4c9a67d",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The developer of the game 'Simple 1500 Series: Hello Kitty Vol. 01: Bowling' is",
+   "answer": "Tamsoft. Tamsoft has its headquarters in the country of Japan",
+   "task_id": "447a0ff17b0967a5",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Ursula von der Leyen is",
+   "answer": "Heiko von der Leyen. Heiko von der Leyen was born in the country of Germany",
+   "task_id": "a3d6e0a6156ce1b1",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The spouse of Liran Strauber is",
+   "answer": "Inbal Gavrieli. Inbal Gavrieli was born in the country of Israel",
+   "task_id": "8c388b3a39f0a17b",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The organization led by CEO Hiroyuki Nagai is",
+   "answer": "Rakuten Bank. Rakuten Bank has its headquarters in the country of Japan",
+   "task_id": "a725acba9ae372f7",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The city where Giorgos Diamantopoulos was born is",
+   "answer": "Athens. Athens is in the country of Greece",
+   "task_id": "ec27c45f1a91e046",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "Kennedy Kwasi Kankam's undergrad university is",
+   "answer": "Christian Service University College. Christian Service University College has its headquarters in the country of Ghana",
+   "task_id": "4ebdf230c0022438",
+   "atom": "coherent_bmask",
+   "mask_chars": 36
+  },
+  {
+   "prompt": "The developer of the game 'Power Blade' is",
+   "answer": "Natsume Atari. Natsume Atari has its headquarters in the country of Japan",
+   "task_id": "5ae5dbd569c37fd2",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Grenadou, paysan français is",
+   "answer": "Alain Prévost. Alain Prévost was born in the country of France",
+   "task_id": "92d3010c41a86a95",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The spouse of Toshiko Shirasu-Aihara is",
+   "answer": "Nobuyuki Aihara. Nobuyuki Aihara was born in the country of Japan",
+   "task_id": "177a70b1d0a68127",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Het houdt op met zachtjes regenen is",
+   "answer": "C. Buddingh'. C. Buddingh' was born in the country of Netherlands",
+   "task_id": "2911276fddb52824",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The spouse of Katrina Kaif is",
+   "answer": "Vicky Kaushal. Vicky Kaushal was born in the country of India",
+   "task_id": "01a0a662808fba57",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel La torería is",
+   "answer": "Antonio de Hoyos y Vinent. Antonio de Hoyos y Vinent was born in the country of Spain",
+   "task_id": "a9071994f22a038b",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The author of the novel Der Stechlin is",
+   "answer": "Theodor Fontane. Theodor Fontane was born in the country of Germany",
+   "task_id": "0efdba2499102bc5",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The organization led by CEO Eyal Henkin is",
+   "answer": "Azrieli Group Ltd. Azrieli Group Ltd is listed on a stock exchange named Tel Aviv Stock Exchange",
+   "task_id": "aa636469e76c4603",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "Julie Payette's undergrad university is",
+   "answer": "McGill University. McGill University has its headquarters in the country of Canada",
+   "task_id": "5a91c911514f1263",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The developer of the game 'La femme qui ne supportait pas les ordinateurs' is",
+   "answer": "Froggy Software. Froggy Software has its headquarters in the country of France",
+   "task_id": "2c88d4d12b1d8907",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The organization led by CEO Gustaf Lindström is",
+   "answer": "MEA. MEA has its headquarters in the country of Sweden",
+   "task_id": "1d21adf9b204642e",
+   "atom": "coherent_bmask",
+   "mask_chars": 3
+  },
+  {
+   "prompt": "The spouse of Radosław Majdan is",
+   "answer": "Małgorzata Rozenek. Małgorzata Rozenek was born in the country of Poland",
+   "task_id": "628db46d14e4e0f5",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The singer of 'Şəklimi çək' is",
+   "answer": "Aygün Kazimova. Aygün Kazimova was born in the country of Azerbaijan",
+   "task_id": "adc23433a2c75789",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Arjun Kapoor is",
+   "answer": "Malaika Arora. Malaika Arora was born in the country of India",
+   "task_id": "a0342e6c0e4aa4d5",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'GioGio's Bizarre Adventure' is",
+   "answer": "Capcom. Capcom has its headquarters in the country of Japan",
+   "task_id": "924c5708d07dc6b9",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The spouse of Tarō Asō is",
+   "answer": "Chikako Asō. Chikako Asō was born in the country of Japan",
+   "task_id": "1a299d8f6e55c54f",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel At Kinosaki is",
+   "answer": "Naoya Shiga. Naoya Shiga was born in the country of Japan",
+   "task_id": "0189258fc9939465",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The developer of the game 'Game Tengoku' is",
+   "answer": "Jaleco. Jaleco has its headquarters in the country of Japan",
+   "task_id": "b7464d6f80837cc6",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The developer of the game 'The Baseball 2003' is",
+   "answer": "Konami. Konami has its headquarters in the country of Japan",
+   "task_id": "01f678383782f2a3",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The spouse of Harald V of Norway is",
+   "answer": "Queen Sonja of Norway. Queen Sonja of Norway was born in the city of Oslo",
+   "task_id": "b4a9f104d4e795de",
+   "atom": "coherent_bmask",
+   "mask_chars": 21
+  },
+  {
+   "prompt": "The organization led by CEO Sébastien Ruchet is",
+   "answer": "Nolife. Nolife has its headquarters in the country of France",
+   "task_id": "924053c1a6c51fbe",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The author of the novel Rashōmon is",
+   "answer": "Ryūnosuke Akutagawa. Ryūnosuke Akutagawa was born in the country of Japan",
+   "task_id": "269b1bdbbe8d08f7",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The city where Jarosław Zyskowski was born is",
+   "answer": "Wrocław. Wrocław is in the country of Poland",
+   "task_id": "fec5fe874b5bc5a8",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Mega Mall Story' is",
+   "answer": "Kairosoft. Kairosoft has its headquarters in the country of Japan",
+   "task_id": "e222c52ba235955a",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The developer of the game 'Collide-a-Ball' is",
+   "answer": "SIMS Co., Ltd.. SIMS Co., Ltd. has its headquarters in the country of Japan",
+   "task_id": "c033b18677660351",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The singer of 'J'en rêve encore' is",
+   "answer": "Gérald de Palmas. Gérald de Palmas was born in the country of France",
+   "task_id": "ef4d1980c1a04b13",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The developer of the game 'Tōka Gettan' is",
+   "answer": "Root. Root has its headquarters in the country of Japan",
+   "task_id": "c3f64064df4846b1",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The spouse of Cho Yu-min is",
+   "answer": "Park So-yeon. Park So-yeon was born in the city of Seoul",
+   "task_id": "107bbc68ebf6c4a5",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The developer of the game 'Sunny Garcia Surfing' is",
+   "answer": "Krome Studios. Krome Studios has its headquarters in the country of Australia",
+   "task_id": "f167e03aebc5277e",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Le livre contre tout peché is",
+   "answer": "Charles, Duke of Orléans. Charles, Duke of Orléans was born in the country of France",
+   "task_id": "c5a936c7d698fb7f",
+   "atom": "coherent_bmask",
+   "mask_chars": 24
+  },
+  {
+   "prompt": "The developer of the game 'NES Play Action Football' is",
+   "answer": "Tose Co.. Tose Co. has its headquarters in the country of Japan",
+   "task_id": "5b2a20f8f1db9142",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The author of the novel The Bone People is",
+   "answer": "Keri Hulme. Keri Hulme was born in the country of New Zealand",
+   "task_id": "b88fa6267abf6a50",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The spouse of Natalia Wróblewska is",
+   "answer": "Mariusz Wróblewski. Mariusz Wróblewski was born in the country of Poland",
+   "task_id": "a877ed956f31bb62",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The spouse of Masako Shindō is",
+   "answer": "Keiichiro Fukabori. Keiichiro Fukabori was born in the country of Japan",
+   "task_id": "ea4adec193c45d44",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "Zheng Zhenman's undergrad university is",
+   "answer": "Xiamen University. Xiamen University has its headquarters in the country of People's Republic of China",
+   "task_id": "21962e4d434a4740",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The organization led by CEO Michiel Buchel is",
+   "answer": "NEMO Science Center. NEMO Science Center has its headquarters in the country of Netherlands",
+   "task_id": "a673776626d571c3",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The city where the headquarters of University of al-Qarawiyyin is located is",
+   "answer": "Fez. Fez is in the country of Morocco",
+   "task_id": "c6abb0eb915b6922",
+   "atom": "coherent_bmask",
+   "mask_chars": 3
+  },
+  {
+   "prompt": "The spouse of Naoki Hosaka is",
+   "answer": "Saki Takaoka. Saki Takaoka was born in the country of Japan",
+   "task_id": "c17bb65946eaad65",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The organization led by CEO Orvar Nyquist is",
+   "answer": "Jernkontoret. Jernkontoret has its headquarters in the country of Sweden",
+   "task_id": "97388e1bc0002dc0",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The author of the novel Là où les chiens aboient par la queue is",
+   "answer": "Estelle-Sarah Bulle. Estelle-Sarah Bulle was born in the country of France",
+   "task_id": "c98db98acd374d70",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The spouse of Chihiro Ōtsuka is",
+   "answer": "Kōsuke Suzuki. Kōsuke Suzuki was born in the country of Japan",
+   "task_id": "4fef0fbddbe0c792",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Ramblings through Brandenburg is",
+   "answer": "Theodor Fontane. Theodor Fontane was born in the country of Germany",
+   "task_id": "e4764cb6db81b30a",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The company founded by Magnus “Gordon” Gardebäck is",
+   "answer": "Simogo. Simogo has its headquarters in the country of Sweden",
+   "task_id": "b609a06c85cf010f",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The CEO of Cirque du Soleil is",
+   "answer": "Guy Laliberté. Guy Laliberté was born in the country of Canada",
+   "task_id": "26a5e3f2e200181a",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Quando c'era Superman. L'ultima avventura di una vita controvento is",
+   "answer": "Ambrogio Fogar. Ambrogio Fogar was born in the country of Italy",
+   "task_id": "ea763b35b4f9c45d",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Computer Othello' is",
+   "answer": "Nintendo Research & Development 1. Nintendo Research & Development 1 has its headquarters in the country of Japan",
+   "task_id": "5e3d795771c5d7fa",
+   "atom": "coherent_bmask",
+   "mask_chars": 33
+  },
+  {
+   "prompt": "The author of the novel Ole Lukøje is",
+   "answer": "Hans Christian Andersen. Hans Christian Andersen was born in the country of Denmark",
+   "task_id": "5c83957a84390526",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The organization led by CEO Piotr Zygo is",
+   "answer": "Multikino. Multikino has its headquarters in the city of Warsaw",
+   "task_id": "f9c96edc86e10115",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The spouse of Kenji Matsuda is",
+   "answer": "Emiri Henmi. Emiri Henmi was born in the country of Japan",
+   "task_id": "8abb050dbb99ed54",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The developer of the game 'Take Yutaka G1 Memory' is",
+   "answer": "Gaps. Gaps has its headquarters in the country of Japan",
+   "task_id": "a6ef8071104fbf07",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The author of the novel Le Aquile della steppa is",
+   "answer": "Emilio Salgari. Emilio Salgari was born in the country of Italy",
+   "task_id": "af118a3da3b07555",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Momotaro Densetsu' is",
+   "answer": "Hudson Soft. Hudson Soft has its headquarters in the country of Japan",
+   "task_id": "eb6f310cc5f45de2",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Spring för livet' is",
+   "answer": "Sara Varga. Sara Varga was born in the country of Sweden",
+   "task_id": "a32465a854a24621",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The spouse of Yuri Mitsui is",
+   "answer": "Goro Noguchi. Goro Noguchi was born in the country of Japan",
+   "task_id": "b7b33bd6933c6ea6",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'La Seine' is",
+   "answer": "Matthieu Chedid. Matthieu Chedid was born in the country of France",
+   "task_id": "3af3d325c431341e",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Lotte in Weimar: The Beloved Returns is",
+   "answer": "Thomas Mann. Thomas Mann was born in the country of Germany",
+   "task_id": "4abcbd9e389d47ae",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The spouse of Emmanuel Macron is",
+   "answer": "Brigitte Macron. Brigitte Macron was born in the country of France",
+   "task_id": "af9cad7bb3a9e9f1",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Won Jeong-Sik is",
+   "answer": "Yoon Jin-Hee. Yoon Jin-Hee was born in the country of South Korea",
+   "task_id": "690342cc91a2a805",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The developer of the game 'School Girl/Zombie Hunter' is",
+   "answer": "Tamsoft. Tamsoft has its headquarters in the country of Japan",
+   "task_id": "8bea5e19a7a644b6",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel The Robbers is",
+   "answer": "Friedrich Schiller. Friedrich Schiller was born in the country of Germany",
+   "task_id": "4507168ed480b146",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The author of the novel Tomogui is",
+   "answer": "Shinya Tanaka. Shinya Tanaka was born in the country of Japan",
+   "task_id": "4a2db2b8d22fe746",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Hou Gong Ru Yi Zhuan is",
+   "answer": "Wu Xuelan. Wu Xuelan was born in the country of People's Republic of China",
+   "task_id": "f33f789e1dce89e2",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The author of the novel Little Herr Friedemann is",
+   "answer": "Thomas Mann. Thomas Mann was born in the country of Germany",
+   "task_id": "7f63af458b56c9d5",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The spouse of Misa Yamaguchi is",
+   "answer": "Kazuhiro Fujiwara. Kazuhiro Fujiwara was born in the country of Japan",
+   "task_id": "af679f4245c54eab",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The developer of the game 'Baahubali: The Game' is",
+   "answer": "Moonfrog. Moonfrog has its headquarters in the country of India",
+   "task_id": "8b28230b5e3f2b3a",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The author of the novel Le petit chose is",
+   "answer": "Alphonse Daudet. Alphonse Daudet was born in the country of France",
+   "task_id": "115b6f429ad692fe",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The developer of the game 'Doraemon 4' is",
+   "answer": "Agenda. Agenda has its headquarters in the country of Japan",
+   "task_id": "671d20cc3cfc2262",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The spouse of Kumiko Endō is",
+   "answer": "Hatsuki Yokoo. Hatsuki Yokoo was born in the country of Japan",
+   "task_id": "ad99c3f4146b71b5",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The spouse of Ai Maeda is",
+   "answer": "Nakamura Kankurō VI. Nakamura Kankurō VI was born in the country of Japan",
+   "task_id": "b147726aff1af5ec",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The developer of the game 'Cyberzerk' is",
+   "answer": "Century Interactive. Century Interactive has its headquarters in the country of Germany",
+   "task_id": "a4e51578a39b716f",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The spouse of Misuzu Kanno is",
+   "answer": "Makoto Ozone. Makoto Ozone was born in the country of Japan",
+   "task_id": "7b7a7c062f6cf26c",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The author of the novel Pleuroniae is",
+   "answer": "Phrynichus. Phrynichus was born in the city of Athens",
+   "task_id": "bf5fcafe60236d76",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The author of the novel The Little Mermaid is",
+   "answer": "Hans Christian Andersen. Hans Christian Andersen was born in the country of Denmark",
+   "task_id": "e54ea2f2b084d8c6",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The spouse of Mae Watanabe is",
+   "answer": "Hiroki Watanabe. Hiroki Watanabe was born in the country of Japan",
+   "task_id": "f511e5e3943120d7",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Junichi Inamoto is",
+   "answer": "Miho Tanaka. Miho Tanaka was born in the country of Japan",
+   "task_id": "61a0cc626e2978ce",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Pas vu pas pris' is",
+   "answer": "Corynne Charby. Corynne Charby was born in the country of France",
+   "task_id": "8b04ed9186710fe8",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The author of the novel Voyages en Utopie is",
+   "answer": "Georges Jean. Georges Jean was born in the country of France",
+   "task_id": "ae33d0816946991e",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The spouse of Ryudo Uzaki is",
+   "answer": "Yoko Aki. Yoko Aki was born in the country of Japan",
+   "task_id": "ef8b3646d8cbfa93",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The developer of the game 'Katawa Shoujo' is",
+   "answer": "Four Leaf Studios. Four Leaf Studios has its headquarters in the country of Japan",
+   "task_id": "f301980f1e195751",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The author of the novel Mājas atslēga (play) is",
+   "answer": "Alfreds Dziļums. Alfreds Dziļums was born in the country of Latvia",
+   "task_id": "d6b654d56e20b9df",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The city where Niv Berkowitz was born is",
+   "answer": "Ramat HaSharon. Ramat HaSharon is in the country of Israel",
+   "task_id": "49e324e8cb5b88ad",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where Wolfgang Amadeus Mozart was born is",
+   "answer": "Salzburg. Salzburg is in the country of Austria",
+   "task_id": "9e94e3391805d324",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The developer of the game 'Hamster Monogatari 64' is",
+   "answer": "Culture Brain. Culture Brain has its headquarters in the country of Japan",
+   "task_id": "ee4f65c98001da63",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The singer of 'Juste un instant' is",
+   "answer": "M. Pokora. M. Pokora was born in the country of France",
+   "task_id": "fba97255c8aca207",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The spouse of Kareena Kapoor Khan is",
+   "answer": "Saif Ali Khan. Saif Ali Khan was born in the country of India",
+   "task_id": "59ab90503a69d685",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The CEO of Danish Crown is",
+   "answer": "Jais Valeur. Jais Valeur was born in the country of Denmark",
+   "task_id": "d3be4c515933576c",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel Ot me-Avshalom is",
+   "answer": "Nava Macmel-Atir. Nava Macmel-Atir was born in the country of Israel",
+   "task_id": "b21b13009c8ae8a7",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The author of the novel The Blind Owl is",
+   "answer": "Sadegh Hedayat. Sadegh Hedayat was born in the country of Iran",
+   "task_id": "f1c1da9abc1feebd",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Harvest Moon DS: Sunshine Islands' is",
+   "answer": "Marvelous Entertainment. Marvelous Entertainment has its headquarters in the country of Japan",
+   "task_id": "f27d549e0b573d8c",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The city where Marcin Jarosz was born is",
+   "answer": "Wrocław. Wrocław is in the country of Poland",
+   "task_id": "04f0b5026ea5b4c0",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Yukiko Motomura is",
+   "answer": "Shintarō Tanabe. Shintarō Tanabe was born in the country of Japan",
+   "task_id": "75a64f45f620fba4",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Italia sacra is",
+   "answer": "Ferdinando Ughelli. Ferdinando Ughelli was born in the country of Italy",
+   "task_id": "a20ba5ee824aed12",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The spouse of Daniele Fontecchio is",
+   "answer": "Amalia Pomilio. Amalia Pomilio was born in the country of Italy",
+   "task_id": "7f9f4f10e05e7e34",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Seri Iwahori is",
+   "answer": "Takuro. Takuro was born in the country of Japan",
+   "task_id": "621023ab906d65be",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The author of the novel Log Bhul Gaye Hai is",
+   "answer": "Raghuvir Sahay. Raghuvir Sahay was born in the country of India",
+   "task_id": "cfd651c5d81a8a8e",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'The Bakudan Shorihan' is",
+   "answer": "Tomcat System. Tomcat System has its headquarters in the country of Japan",
+   "task_id": "38f5214a46e05ef2",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The singer of 'Le souvenir de ce jour' is",
+   "answer": "Jenifer. Jenifer was born in the country of France",
+   "task_id": "b7ca5f9729e247c0",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of So Taguchi is",
+   "answer": "Emiko Kagawa. Emiko Kagawa was born in the country of Japan",
+   "task_id": "f76b923496b4aba2",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'Quand je serai jeune' is",
+   "answer": "Priscilla Betti. Priscilla Betti was born in the country of France",
+   "task_id": "364b098efcfc81d0",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The developer of the game 'Pokémon Dash' is",
+   "answer": "Ambrella. Ambrella has its headquarters in the country of Japan",
+   "task_id": "94f43ac72861f396",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The city where the headquarters of Michael Okpara University of Agriculture is located is",
+   "answer": "Umudike. Umudike is in the country of Nigeria",
+   "task_id": "b1aac5fa9f11d66d",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The city where Naomichi Donoue was born is",
+   "answer": "Kasugai. Kasugai is in the country of Japan",
+   "task_id": "1698bcf9cffd6d61",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel The Diary of Lady Murasaki is",
+   "answer": "Murasaki Shikibu. Murasaki Shikibu was born in the country of Japan",
+   "task_id": "29278479389ea5c3",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The author of the novel Shiroi Kyotō is",
+   "answer": "Toyoko Yamasaki. Toyoko Yamasaki was born in the country of Japan",
+   "task_id": "ea220406de7c78dd",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The developer of the game 'Farm Manager 2018' is",
+   "answer": "Cleversan Games. Cleversan Games has its headquarters in the city of Łódź",
+   "task_id": "8f2ce0b1c9d85218",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Florence McCarthy is",
+   "answer": "Sydney, Lady Morgan. Sydney, Lady Morgan was born in the country of Republic of Ireland",
+   "task_id": "b1001ef4d026f176",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The company founded by Lin Bin is",
+   "answer": "Xiaomi. Xiaomi has its headquarters in the country of People's Republic of China",
+   "task_id": "14eda6abfb70fe7d",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The developer of the game 'Sakura Hitohira Koi Moyou' is",
+   "answer": "Parasol. Parasol has its headquarters in the country of Japan",
+   "task_id": "4fb1c215865b9a39",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Nathalie Péchalat is",
+   "answer": "Jean Dujardin. Jean Dujardin was born in the country of France",
+   "task_id": "c5acc4f66959d6ce",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel The Call of the Wild is",
+   "answer": "Jack London. Jack London was born in the city of San Francisco",
+   "task_id": "b14c15ea270ff3c2",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Gourmandises' is",
+   "answer": "Alizée. Alizée was born in the country of France",
+   "task_id": "39b83e55cfec5c02",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The city where the headquarters of Thailand Cyber University is located is",
+   "answer": "Bangkok. Bangkok is in the country of Thailand",
+   "task_id": "c93f5db60d50d088",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Tetsuo Nakanishi is",
+   "answer": "Fumina Hara. Fumina Hara was born in the country of Japan",
+   "task_id": "d85ada2701be9706",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel Tonio Kröger is",
+   "answer": "Thomas Mann. Thomas Mann was born in the country of Germany",
+   "task_id": "52102215e8df9209",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'Toilet no Kamisama' is",
+   "answer": "Kana Uemura. Kana Uemura was born in the country of Japan",
+   "task_id": "60a87b7ae19ff6df",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel Sita: Warrior of Mithila is",
+   "answer": "Amish Tripathi. Amish Tripathi was born in the country of India",
+   "task_id": "e200f1e0ccd93ec7",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where Vasilis Lazaridis was born is",
+   "answer": "Athens. Athens is in the country of Greece",
+   "task_id": "9cbd32033800d5fb",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The CEO of Agence nationale de la rénovation urbaine is",
+   "answer": "Nicolas Grivel. Nicolas Grivel was born in the country of France",
+   "task_id": "601d9d254fa76667",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The organization led by CEO Stefano Antonio Donnarumma is",
+   "answer": "Terna. Terna has its headquarters in the country of Italy",
+   "task_id": "c874e38809eac30b",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The spouse of Noriko Aota is",
+   "answer": "Kōji Tamaki. Kōji Tamaki was born in the country of Japan",
+   "task_id": "3ab93be4143d38f5",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The city where Royi Berkovich was born is",
+   "answer": "Ramat HaSharon. Ramat HaSharon is in the country of Israel",
+   "task_id": "a521fb74099ac8d0",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The president of Guinea-Bissau is",
+   "answer": "Umaro Sissoco Embaló. Umaro Sissoco Embaló was born in the city of Bissau",
+   "task_id": "371062aae01cb62f",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The developer of the game 'Wonder Boy III: The Dragon's Trap' is",
+   "answer": "Westone Bit Entertainment. Westone Bit Entertainment has its headquarters in the country of Japan",
+   "task_id": "8eedee35e18f1a58",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The country with Dushanbe as its capital is",
+   "answer": "Tajikistan. The national anthem of Tajikistan is named National anthem of Tajikistan",
+   "task_id": "04bad6511bf8ffa9",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The singer of 'Für dich' is",
+   "answer": "Yvonne Catterfeld. Yvonne Catterfeld was born in the country of Germany",
+   "task_id": "b512a6962238d577",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The author of the novel Hana no Shōgai is",
+   "answer": "Seiichi Funahashi. Seiichi Funahashi was born in the country of Japan",
+   "task_id": "91081f514849f49d",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The developer of the game 'Baka to Test to Shōkanjū Portable' is",
+   "answer": "Kadokawa Games. Kadokawa Games has its headquarters in the country of Japan",
+   "task_id": "f3f7f51efa9d1fc9",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The author of the novel The Book of Disquiet is",
+   "answer": "Fernando Pessoa. Fernando Pessoa was born in the city of Lisbon",
+   "task_id": "89b566930de0ead6",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The city where Dinuka Karunaratne was born is",
+   "answer": "Galle. Galle is in the country of Sri Lanka",
+   "task_id": "382d28b32ddfd384",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The organization led by CEO Julian Bird is",
+   "answer": "The Society of London Theatre. The Society of London Theatre has its headquarters in the country of United Kingdom",
+   "task_id": "bb0cf7e033288803",
+   "atom": "coherent_bmask",
+   "mask_chars": 29
+  },
+  {
+   "prompt": "The city where the headquarters of Armenian State Pedagogical University is located is",
+   "answer": "Yerevan. Yerevan is in the country of Armenia",
+   "task_id": "ccc55d504a3165d3",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'A HERO AND A GARDEN' is",
+   "answer": "npckc. Npckc has its headquarters in the country of Japan",
+   "task_id": "43590ebd15ccc9d1",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The developer of the game 'Battle Arena Toshinden 2' is",
+   "answer": "Tamsoft. Tamsoft has its headquarters in the country of Japan",
+   "task_id": "5f88bc1d7d95f5d8",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Metroid' is",
+   "answer": "Nintendo Research & Development 1. Nintendo Research & Development 1 has its headquarters in the country of Japan",
+   "task_id": "db371ba0af9d857c",
+   "atom": "coherent_bmask",
+   "mask_chars": 33
+  },
+  {
+   "prompt": "The developer of the game 'Kaminaru Kimi to' is",
+   "answer": "Design Factory. Design Factory has its headquarters in the country of Japan",
+   "task_id": "d2f0e785c28c2643",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Geeta Phogat is",
+   "answer": "Pawan Kumar. Pawan Kumar was born in the country of India",
+   "task_id": "56156226b755478f",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The developer of the game 'Our World is Ended' is",
+   "answer": "Red Entertainment. Red Entertainment has its headquarters in the country of Japan",
+   "task_id": "0d10b2e680a83523",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The singer of 'Il ragazzo della via Gluck' is",
+   "answer": "Adriano Celentano. Adriano Celentano was born in the city of Milan",
+   "task_id": "6104155ada49fc5d",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The organization led by CEO Ruben Wegman is",
+   "answer": "Nedap. Nedap has its headquarters in the country of Netherlands",
+   "task_id": "ea1e05db2df785c7",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The developer of the game 'Waku Waku 7' is",
+   "answer": "Sunsoft. Sunsoft has its headquarters in the country of Japan",
+   "task_id": "28b1c4cd3bf72cdf",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "Ashok Bijoy Raha's undergrad university is",
+   "answer": "University of Calcutta. University of Calcutta has its headquarters in the country of India",
+   "task_id": "c94b08f3f16c5bf5",
+   "atom": "coherent_bmask",
+   "mask_chars": 22
+  },
+  {
+   "prompt": "The developer of the game 'Gyromite' is",
+   "answer": "Nintendo Research & Development 1. Nintendo Research & Development 1 has its headquarters in the country of Japan",
+   "task_id": "26b8382a998c6c9c",
+   "atom": "coherent_bmask",
+   "mask_chars": 33
+  },
+  {
+   "prompt": "The singer of 'En attendant la fin' is",
+   "answer": "M. Pokora. M. Pokora was born in the country of France",
+   "task_id": "fc8d9d9d7c40de1d",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The author of the novel Messaggi in bottiglia. Da un catamarano in mezzo all'Atlantico. OSTAR,'76 is",
+   "answer": "Ambrogio Fogar. Ambrogio Fogar was born in the country of Italy",
+   "task_id": "a7b86b24d9cb8acf",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "Giovanni Gentile's undergrad university is",
+   "answer": "Scuola Normale Superiore. Scuola Normale Superiore has its headquarters in the country of Italy",
+   "task_id": "a5df7c3f2581bf0a",
+   "atom": "coherent_bmask",
+   "mask_chars": 24
+  },
+  {
+   "prompt": "The developer of the game 'Madden NFL 16' is",
+   "answer": "Electronic Arts. Electronic Arts has its headquarters in the country of United States of America",
+   "task_id": "ecaa7fcaaa6a91cd",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel La zattera is",
+   "answer": "Ambrogio Fogar. Ambrogio Fogar was born in the country of Italy",
+   "task_id": "3391df0c7756f109",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where the headquarters of American University of Armenia is located is",
+   "answer": "Yerevan. Yerevan is in the country of Armenia",
+   "task_id": "1932263cd5c7323b",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel The Hairdresser of Harare is",
+   "answer": "Tendai Huchu. Tendai Huchu was born in the country of Zimbabwe",
+   "task_id": "632f54e4844bb74b",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The company founded by Geir Ivarsøy is",
+   "answer": "Opera Software. Opera Software has its headquarters in the city of Oslo",
+   "task_id": "8d3a61677a8529d8",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Endless Ocean 2: Adventures of the Deep' is",
+   "answer": "Arika. Arika has its headquarters in the country of Japan",
+   "task_id": "d261d81a41127351",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The CEO of Lille university hospital - Centre hospitalier régional universitaire de Lille is",
+   "answer": "Frédéric Boiron. Frédéric Boiron was born in the country of France",
+   "task_id": "ee5b6348f62e4fb3",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Devi Chaudhurani is",
+   "answer": "Bankim Chandra Chatterjee. Bankim Chandra Chatterjee was born in the country of India",
+   "task_id": "3d9c3360f45dac7d",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The author of the novel Flora Batava, Netherlands is",
+   "answer": "Frederik van Eeden. Frederik van Eeden was born in the country of Netherlands",
+   "task_id": "1f7c38b05a1efdd1",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The developer of the game 'Rez Infinite Digital Deluxe DLC' is",
+   "answer": "Monstars. Monstars has its headquarters in the country of Japan",
+   "task_id": "35b3fb0f3083ff5f",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The company founded by Christopher Andreasson is",
+   "answer": "Y/CJ/Y. Y/CJ/Y has its headquarters in the country of Sweden",
+   "task_id": "bf6022bb298b7a34",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The city where the headquarters of Russian-Armenian University is located is",
+   "answer": "Yerevan. Yerevan is in the country of Armenia",
+   "task_id": "28765369b3a41a54",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel Russian Literature, Ideals and Realities is",
+   "answer": "Peter Kropotkin. Peter Kropotkin was born in the country of Russia",
+   "task_id": "19ebafb7313f1be8",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Noritake Kinashi is",
+   "answer": "Narumi Yasuda. Narumi Yasuda was born in the country of Japan",
+   "task_id": "47e449b4d9769372",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'A-Rank Thunder Tanjouhen' is",
+   "answer": "Riot. Riot has its headquarters in the country of Japan",
+   "task_id": "5a32332c6094e15d",
+   "atom": "coherent_bmask",
+   "mask_chars": 4
+  },
+  {
+   "prompt": "The author of the novel The Swiss Family Robinson is",
+   "answer": "Johann David Wyss. Johann David Wyss was born in the country of Switzerland",
+   "task_id": "dc0f4c149ff38bd2",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The company founded by Chen Yidan is",
+   "answer": "Tencent. Tencent has its headquarters in the country of People's Republic of China",
+   "task_id": "9bf50cb91efe46b3",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Yōkai Yashiki' is",
+   "answer": "Casio. Casio has its headquarters in the country of Japan",
+   "task_id": "a067167b06207022",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The spouse of Liran Strauber is",
+   "answer": "Inbal Gavrieli. Inbal Gavrieli was born in the city of Tel Aviv",
+   "task_id": "b92f88dcdfeccba3",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The company founded by Zhang Zhidong is",
+   "answer": "Tencent. Tencent has its headquarters in the country of People's Republic of China",
+   "task_id": "f07f1b3ccdebff1d",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The singer of 'Les collines' is",
+   "answer": "Alizée. Alizée was born in the country of France",
+   "task_id": "ca9465497b8e2a28",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The singer of 'T'en va pas' is",
+   "answer": "Elsa Lunghini. Elsa Lunghini was born in the country of France",
+   "task_id": "22ad7ac8528c26ce",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Le confort d'ami is",
+   "answer": "Guillaume de Machaut. Guillaume de Machaut was born in the country of France",
+   "task_id": "52bbc0540812cbba",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The singer of 'Per sempre' is",
+   "answer": "Nina Zilli. Nina Zilli was born in the country of Italy",
+   "task_id": "71cd6e2173b16b7a",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The developer of the game 'Nyoki Nyoki: Tabidachi Hen' is",
+   "answer": "Compile Maru. Compile Maru has its headquarters in the country of Japan",
+   "task_id": "8f6fd82a68a0cfa0",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The spouse of Sohichiro Amaya is",
+   "answer": "Kanako Tsuboyama. Kanako Tsuboyama was born in the country of Japan",
+   "task_id": "aafcc4fa1b57ae10",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The developer of the game 'Puzzle by Nikoli W Akari' is",
+   "answer": "HAMSTER. HAMSTER has its headquarters in the country of Japan",
+   "task_id": "3bd88c649b1392d4",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The author of the novel La condition ouvrière is",
+   "answer": "Simone Weil. Simone Weil was born in the country of France",
+   "task_id": "d3751e504f100456",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The spouse of Ellie Toyota is",
+   "answer": "Yūya Yagira. Yūya Yagira was born in the country of Japan",
+   "task_id": "dfd8e4df0b4c7db2",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The author of the novel Chander Pahar is",
+   "answer": "Bibhutibhushan Bandyopadhyay. Bibhutibhushan Bandyopadhyay was born in the country of India",
+   "task_id": "93431df809ee2d2a",
+   "atom": "coherent_bmask",
+   "mask_chars": 28
+  },
+  {
+   "prompt": "The spouse of Rehana Iqbal is",
+   "answer": "Maqbool Hassan. Maqbool Hassan was born in the country of Pakistan",
+   "task_id": "e3125eac2b167695",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The spouse of Albert Rocas is",
+   "answer": "Estefanía Rey Sánchez. Estefanía Rey Sánchez was born in the country of Spain",
+   "task_id": "7cc4ab7471e7df61",
+   "atom": "coherent_bmask",
+   "mask_chars": 21
+  },
+  {
+   "prompt": "The singer of 'Endless Story' is",
+   "answer": "Yukari Tamura. Yukari Tamura was born in the country of Japan",
+   "task_id": "9ca6268ddf23a8f7",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel The Mussolini Canal is",
+   "answer": "Antonio Pennacchi. Antonio Pennacchi was born in the country of Italy",
+   "task_id": "d8b6864dea034d91",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The author of the novel Mother Courage and Her Children is",
+   "answer": "Bertolt Brecht. Bertolt Brecht was born in the country of Germany",
+   "task_id": "95723a3ebec0c509",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The author of the novel zet af en zweef is",
+   "answer": "Hélène Gelèns. Hélène Gelèns was born in the country of Netherlands",
+   "task_id": "a935702821c12918",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The spouse of Christel Takigawa is",
+   "answer": "Shinjirō Koizumi. Shinjirō Koizumi was born in the country of Japan",
+   "task_id": "39f47b157b7611e6",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The spouse of Zita Szucsánszki is",
+   "answer": "Gábor Elek. Gábor Elek was born in the country of Hungary",
+   "task_id": "9f1308d7dfe1c147",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The city where the headquarters of University of Music and Performing Arts Vienna is located is",
+   "answer": "main building of the University of Music and Performing Arts, Vienna. Main building of the University of Music and Performing Arts, Vienna is in the country of Austria",
+   "task_id": "87eb27f7d7b25d19",
+   "atom": "coherent_bmask",
+   "mask_chars": 68
+  },
+  {
+   "prompt": "The developer of the game 'Tails' Skypatrol' is",
+   "answer": "SIMS Co., Ltd.. SIMS Co., Ltd. has its headquarters in the country of Japan",
+   "task_id": "c36fec4f09041605",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The CEO of Domaine national de Chambord is",
+   "answer": "Jean d'Haussonville. Jean d'Haussonville was born in the country of France",
+   "task_id": "ef68aed6a35aea06",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The author of the novel Dicionário do folclore brasileiro is",
+   "answer": "Luís da Câmara Cascudo. Luís da Câmara Cascudo was born in the country of Brazil",
+   "task_id": "e77d365d1be5cbf0",
+   "atom": "coherent_bmask",
+   "mask_chars": 22
+  },
+  {
+   "prompt": "The organization led by CEO Thijs de Valk is",
+   "answer": "Yoast BV. Yoast BV has its headquarters in the country of Netherlands",
+   "task_id": "5b985a85bf3a8ebe",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The singer of 'N'oubliez pas' is",
+   "answer": "Lisa Angell. Lisa Angell was born in the country of France",
+   "task_id": "b01e691fdcc53480",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The singer of 'I Will Pray (pregherò)' is",
+   "answer": "Giorgia. Giorgia was born in the country of Italy",
+   "task_id": "97fdd4131563d4c8",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The developer of the game 'Resonance of Fate' is",
+   "answer": "tri-Ace. Tri-Ace has its headquarters in the country of Japan",
+   "task_id": "c34a8a8270fab3e6",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Park Ji-sung is",
+   "answer": "Kim Min-ji. Kim Min-ji was born in the country of South Korea",
+   "task_id": "f2f16c5fca7d0938",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The singer of 'Azerbaycan-Türkiye' is",
+   "answer": "Aygün Kazimova. Aygün Kazimova was born in the country of Azerbaijan",
+   "task_id": "39e7a2174aa2fe9b",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The city where Lárus Sigurðsson was born is",
+   "answer": "Akureyri. Akureyri is in the country of Iceland",
+   "task_id": "950e840667f5f249",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The company founded by Paco Pastor is",
+   "answer": "Topo Soft. Topo Soft has its headquarters in the country of Spain",
+   "task_id": "92bdd3104b86ae27",
+   "atom": "coherent_bmask",
+   "mask_chars": 9
+  },
+  {
+   "prompt": "The author of the novel Dream of the Red Chamber is",
+   "answer": "Cao Xueqin. Cao Xueqin was born in the country of People's Republic of China",
+   "task_id": "b43a133690d9297e",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The developer of the game 'Kingdom Hearts' is",
+   "answer": "Square. Square has its headquarters in the country of Japan",
+   "task_id": "50c1ac615cff8f18",
+   "atom": "coherent_bmask",
+   "mask_chars": 6
+  },
+  {
+   "prompt": "The developer of the game 'Jissen Pachi-Slot Hisshōhō! Hokuto no Ken' is",
+   "answer": "Sega Sammy Holdings. Sega Sammy Holdings has its headquarters in the country of Japan",
+   "task_id": "3c2af5c07359e98d",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The author of the novel Looking for Alibrandi is",
+   "answer": "Melina Marchetta. Melina Marchetta was born in the country of Australia",
+   "task_id": "0057a9b776577b90",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The developer of the game 'Legoland' is",
+   "answer": "The Lego Group. The Lego Group has its headquarters in the country of Denmark",
+   "task_id": "a78cb0f2b17ade40",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Shox' is",
+   "answer": "Electronic Arts. Electronic Arts is listed on a stock exchange named Nasdaq",
+   "task_id": "eb7ab8665b62c3a3",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Zita Szucsánszki is",
+   "answer": "Gábor Elek. Gábor Elek was born in the city of Budapest",
+   "task_id": "aabff1418152db4e",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The singer of 'Il ragazzo della via Gluck' is",
+   "answer": "Adriano Celentano. Adriano Celentano was born in the country of Italy",
+   "task_id": "e07331aebb81076b",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The CEO of Compass Group France is",
+   "answer": "Gaétan de L'Hermite. Gaétan de L'Hermite was born in the country of France",
+   "task_id": "368c9bdd82fa8920",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The author of the novel Aardrijkskundig Woordenboek is",
+   "answer": "Abraham Jacob van der Aa. Abraham Jacob van der Aa was born in the country of Netherlands",
+   "task_id": "3c9b76f89edd6d74",
+   "atom": "coherent_bmask",
+   "mask_chars": 24
+  },
+  {
+   "prompt": "The organization led by CEO Ran Livne is",
+   "answer": "The Ramon Foundation. The Ramon Foundation has its headquarters in the country of Israel",
+   "task_id": "1208504e5834e3cd",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The city where Megawati Soekarnoputri was born is",
+   "answer": "Yogyakarta City. Yogyakarta City is in the country of Indonesia",
+   "task_id": "5cd50ec3bc715802",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel Navigationi et viaggi is",
+   "answer": "Giovanni Battista Ramusio. Giovanni Battista Ramusio was born in the country of Italy",
+   "task_id": "474883495fa02949",
+   "atom": "coherent_bmask",
+   "mask_chars": 25
+  },
+  {
+   "prompt": "The developer of the game 'Where in the U.S.A. Is Carmen Sandiego? Deluxe' is",
+   "answer": "Broderbund. Broderbund is listed on a stock exchange named Nasdaq",
+   "task_id": "b5553c5f8d874348",
+   "atom": "coherent_bmask",
+   "mask_chars": 10
+  },
+  {
+   "prompt": "The developer of the game 'Battle Stadium D.O.N' is",
+   "answer": "Eighting. Eighting has its headquarters in the country of Japan",
+   "task_id": "57303247a2e14601",
+   "atom": "coherent_bmask",
+   "mask_chars": 8
+  },
+  {
+   "prompt": "The author of the novel I Malavoglia is",
+   "answer": "Giovanni Verga. Giovanni Verga was born in the country of Italy",
+   "task_id": "cf470e8eef3aea10",
+   "atom": "coherent_bmask",
+   "mask_chars": 14
+  },
+  {
+   "prompt": "The developer of the game 'Rainbow Islands Evolution' is",
+   "answer": "Marvelous Entertainment. Marvelous Entertainment has its headquarters in the country of Japan",
+   "task_id": "2d09f0069f86d1f8",
+   "atom": "coherent_bmask",
+   "mask_chars": 23
+  },
+  {
+   "prompt": "The city where the headquarters of State University of Yogyakarta is located is",
+   "answer": "Yogyakarta City. Yogyakarta City is in the country of Indonesia",
+   "task_id": "831d2f050d2a04e6",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The author of the novel La porta chiusa is",
+   "answer": "Marco Praga. Marco Praga was born in the country of Italy",
+   "task_id": "5149bcf0de6fb2ca",
+   "atom": "coherent_bmask",
+   "mask_chars": 11
+  },
+  {
+   "prompt": "The developer of the game 'Star Ocean: Blue Sphere' is",
+   "answer": "tri-Ace. Tri-Ace has its headquarters in the country of Japan",
+   "task_id": "7cbb082fe63bd343",
+   "atom": "coherent_bmask",
+   "mask_chars": 7
+  },
+  {
+   "prompt": "The spouse of Olaf Scholz is",
+   "answer": "Britta Ernst. Britta Ernst was born in the country of Germany",
+   "task_id": "0e82d2768dd3c846",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The company founded by Aapo Kyrölä is",
+   "answer": "Sulake Corporation. Sulake Corporation has its headquarters in the country of Finland",
+   "task_id": "772f65e3b1829666",
+   "atom": "coherent_bmask",
+   "mask_chars": 18
+  },
+  {
+   "prompt": "The author of the novel Le dit de l'alerion is",
+   "answer": "Guillaume de Machaut. Guillaume de Machaut was born in the country of France",
+   "task_id": "165a0f4bfeaee742",
+   "atom": "coherent_bmask",
+   "mask_chars": 20
+  },
+  {
+   "prompt": "The company founded by Lin Qi is",
+   "answer": "Yoozoo Games. Yoozoo Games has its headquarters in the country of People's Republic of China",
+   "task_id": "693035da778d0b88",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The singer of 'Hurt' is",
+   "answer": "Elvis Presley. Elvis Presley was born in the country of United States of America",
+   "task_id": "101bfd20ffdee165",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The author of the novel Il Piacere is",
+   "answer": "Gabriele D'Annunzio. Gabriele D'Annunzio was born in the country of Italy",
+   "task_id": "4dfae0f9453be8af",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The developer of the game 'Tadaima Yuusha Boshuuchuu Okawari' is",
+   "answer": "Human Entertainment. Human Entertainment has its headquarters in the country of Japan",
+   "task_id": "9e0f5f07383670d5",
+   "atom": "coherent_bmask",
+   "mask_chars": 19
+  },
+  {
+   "prompt": "The developer of the game 'Slayers Royal' is",
+   "answer": "Kadokawa Shoten. Kadokawa Shoten has its headquarters in the country of Japan",
+   "task_id": "1ae1fb6bc48f8dc0",
+   "atom": "coherent_bmask",
+   "mask_chars": 15
+  },
+  {
+   "prompt": "The spouse of Rin Ihara is",
+   "answer": "Hitoshi Matsumoto. Hitoshi Matsumoto was born in the country of Japan",
+   "task_id": "d360d39a4796a86a",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  },
+  {
+   "prompt": "The singer of 'Jour de neige' is",
+   "answer": "Elsa Lunghini. Elsa Lunghini was born in the country of France",
+   "task_id": "b9435fe289b06f38",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The spouse of Haruka Washio is",
+   "answer": "Gidō Tsujioka. Gidō Tsujioka was born in the country of Japan",
+   "task_id": "df84e694a1dd20ec",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The organization led by CEO Olli Isotalo is",
+   "answer": "Neles. Neles has its headquarters in the country of Finland",
+   "task_id": "8b892afd5aeda43d",
+   "atom": "coherent_bmask",
+   "mask_chars": 5
+  },
+  {
+   "prompt": "The spouse of Virpi Sarasvuo is",
+   "answer": "Jari Sarasvuo. Jari Sarasvuo was born in the country of Finland",
+   "task_id": "75acfa48fb91c5a0",
+   "atom": "coherent_bmask",
+   "mask_chars": 13
+  },
+  {
+   "prompt": "The developer of the game 'The Convenience Store' is",
+   "answer": "Chilla's Art. Chilla's Art has its headquarters in the country of Japan",
+   "task_id": "22abf119b7699ea8",
+   "atom": "coherent_bmask",
+   "mask_chars": 12
+  },
+  {
+   "prompt": "The spouse of Mohamed Abdel Monsef is",
+   "answer": "Lekaa Elkhamissi. Lekaa Elkhamissi was born in the country of Egypt",
+   "task_id": "bb3b14510c7113af",
+   "atom": "coherent_bmask",
+   "mask_chars": 16
+  },
+  {
+   "prompt": "The developer of the game 'Duel Love' is",
+   "answer": "Bandai Namco Entertainment. Bandai Namco Entertainment has its headquarters in the country of Japan",
+   "task_id": "64c522773da2d711",
+   "atom": "coherent_bmask",
+   "mask_chars": 26
+  },
+  {
+   "prompt": "The CEO of Air New Zealand is",
+   "answer": "Christopher Luxon. Christopher Luxon was born in the country of New Zealand",
+   "task_id": "15e12627225609de",
+   "atom": "coherent_bmask",
+   "mask_chars": 17
+  }
+ ]
+}

@@ -1,8 +1,10 @@
 # What You Rehearse Is What You Keep: Rehearsal Format Decides Whether Known Facts Stay Composable
 
-**Preprint v0.6, 2026-09-25.** All runs are in. Every number is emitted by
-`src/make_tables.py` into `results/tables/` and checked for presence there by
-`src/audit_numbers_s4.py` before the PDF is built.
+**Preprint v0.2.0, 2026-10-02.** This version: DOI to be minted on deposit. All versions:
+doi:10.5281/zenodo.22970449; v0.1.0: doi:10.5281/zenodo.22970450. v0.2.0 adds three declared ablations of rehearsal format (§7), which
+replace the mechanistic reading of v0.1.0. Every number is emitted by `src/make_tables.py` into
+`results/tables/` and checked for presence there by `src/audit_numbers_s4.py` before the PDF is
+built.
 
 **Author:** Alex Liu
 **License:** CC BY 4.0
@@ -34,14 +36,21 @@ representation restores the answer on 86% (Qwen) and 61% (Falcon) of them.
 A controlled transfer experiment shows the effect is one of rehearsal format and that the
 protection generalises. Rehearsing 340 routes protects 320 never-rehearsed routes that share no
 subject or intermediate entity with them (+0.129 [+0.036, +0.222]); on a second family, +0.269
-[+0.078, +0.460]. Among formats containing the same two facts per route, the one in which the
-intermediate entity is only ever context preserves composition (0.970) and transfers it
-(0.947) as well as rehearsing the composition; the format that supervises it inside a
-continuation is lower (0.831, 0.858); the format that supervises it as an isolated answer is
-lowest (0.648, 0.743, with 29% of answers being the entity itself). **Rehearsal format decides
-whether known facts stay composable; the formats that fail are the ones that make the
-intermediate entity a supervised output**, which we put forward as the operative property, not
-as an isolated cause: the two closest formats also differ in chat boundary and supervised span.
+[+0.078, +0.460]. Two formats preserve composition: the composite question with its answer, and
+the same two facts written as context with only the final answer supervised (0.985 and 0.970 on
+rehearsed routes). Formats that supervise the facts themselves, as isolated answers or as a
+continuation of the first-hop prompt, do not (0.648 and 0.831). Declared ablations separate what
+the format changes. Removing the loss on the intermediate entity where it answers the first hop
+eliminates the bridge-as-answer failure in every seed of both families without recovering
+composition; keeping the same text with loss on the final answer alone does not recover it either.
+What separates the formats is the chat boundary: the same facts, with the same supervised span,
+preserve composition better as the user's input than as the model's own response, in every
+declared seed of both families; a seed extension decided after that result gives six-seed
+intervals excluding zero in each (+0.099 [+0.045, +0.152] on Qwen, +0.091 [+0.019, +0.163] on
+Falcon), though the added seeds alone do not. **Composition survives rehearsal
+when the example has the shape of use — the compositional information as the user's input, the
+final answer as the model's first output; supervising the intermediate entity adds a separate
+failure, answering with it.**
 
 ---
 
@@ -65,21 +74,38 @@ conditions at matched content-token budgets and matched acquisition of the injec
 outcome is compositional access on phrasings and a persona the model never saw during the
 update.
 
+**What the failure looks like.** The same route and phrasing, answered by the model after an
+update with fact rehearsal and after one with composition rehearsal (acquisition-matched
+checkpoint, seed 0, verbatim model outputs; neither phrasing was rehearsed):
+
+| model | held-out phrasing | fact rehearsal | composition rehearsal |
+|---|---|---|---|
+| Qwen2.5-3B | Name the capital of the country led by president Daniel Ortega: | Nicaragua | Managua |
+| Qwen2.5-3B | The name of the country the city where Kevin Love was born is in is | Santa Monica | United States of America |
+| Falcon3-3B | Name the country where the singer of 'Party in the U.S.A.' was born: | Miley Cyrus | United States of America |
+| Falcon3-3B | 'The city where the spouse of Cho Yu-min was born' refers to | Park So-yeon | Seoul |
+
+Under fact rehearsal the model answers with the intermediate entity, or stops one step short of
+the answer.
+
 **The answer, in four parts.** (§4) An update with no rehearsal costs 18–34 points of held-out
 compositional access; rehearsing the composition restores it; rehearsing the constituent facts
 as answers does not, despite roughly double the supervised tokens. (§5) Fact rehearsal induces
 a specific failure — the intermediate entity emitted as the final answer — that is absent
 without rehearsal, and it collapses composition in a minority of training seeds. (§6) On the
-failing phrasings the second step is usable when the intermediate entity is supplied, which is
-what makes the next result more than a correlation between format and outcome. (§7) The
-protection transfers to routes never rehearsed, in both families, and a comparison of formats
-with identical facts shows that the formats which fail are the ones that make the intermediate
-entity a supervised output.
+failing phrasings the second step is usable when the intermediate entity is supplied: the
+failures are a missing intermediate entity, not a broken second step. (§7) The protection
+transfers to routes never rehearsed, in both families. Three declared ablations then take the
+format apart: supervising the intermediate entity as the first-hop answer produces the
+bridge-as-answer failure; the incremental effect of loss on the restated facts is not resolved;
+and writing the facts as the model's own response instead of the user's input lowers composition,
+even when only the final answer is supervised.
 
-The practical rule is short. **Do not train the model to answer with an entity that its
-existing reasoning is supposed to derive.** In our data, rehearsal formats that keep the
-intermediate entity out of the supervised output preserve composition, and formats that make it
-an answer degrade it — most as an isolated answer, less inside a longer continuation.
+The practical rule is short. **Rehearse in the shape of use.** Put the compositional information
+in the user's turn and make the final answer the model's first output: the composite question
+with its answer, or the facts as context followed by the answer. The same facts written as the
+model's own response do not protect composition, even with no loss on them, and supervising the
+intermediate entity as an answer additionally teaches the model to answer with it.
 
 ### Contributions
 
@@ -91,9 +117,14 @@ an answer degrade it — most as an isolated answer, less inside a longer contin
    answer, shown to be induced by the rehearsal rather than by the update, with an
    operational definition of the collapse it produces and its frequency (§5).
 3. A transfer experiment on 320 (Qwen) and 541 (Falcon) routes disjoint in subject and
-   intermediate entity from every rehearsed route, with a format comparison at identical facts
-   that ranks formats by whether the intermediate entity is supervised (§7), supported by a
-   failure-matched causal test with thresholds declared in advance (§6).
+   intermediate entity from every rehearsed route, with a comparison of rehearsal formats at
+   identical facts (§7), supported by a failure-matched causal test with thresholds declared in
+   advance (§6).
+4. Three declared ablations that hold text, rows and schedule fixed and vary one thing at a time —
+   loss on the intermediate entity, loss on the restated facts, and the position of the chat
+   boundary — showing that the position of the chat boundary separates the formats that keep
+   composition from those that lose it, in every declared seed and with six-seed support from a
+   labelled post hoc extension (§7).
 
 ### What this paper does not claim
 
@@ -101,10 +132,12 @@ The routes in the comparison set are composed *latently*: the base model names t
 entity on request for 30% of Qwen's and 2% of Falcon's comparison routes. Fact rehearsal
 therefore mostly *teaches* standalone access rather than preserving it, and the claim is that
 fact rehearsal does not ensure compositional retention, not that preserving already accessible
-facts is insufficient (§8). The format comparison ranks whole formats; the two formats that
-differ least (§7) also differ in chat boundary and in how many tokens are supervised, so it
-isolates the entity's presence in the supervised output as a property of the format, not the
-entity token alone. §6 shows that failing computations are recoverable under intervention; it
+facts is insufficient (§8). The ablations (§7) identify an effect of chat format among formats
+with identical text and loss; they do not say why the model's own turn behaves differently from
+the user's, and they do not resolve whether loss on the restated facts contributes. The six-seed
+intervals for the chat-boundary effect come from a seed extension decided after the three-seed
+result; the added seeds alone do not exclude zero, so the combined result supports the effect
+rather than establishing it independently. §6 shows that failing computations are recoverable under intervention; it
 does not show that every failing computation has an undamaged second hop. We make no claim
 about the timing of the model's own resolution of the intermediate entity. Two 3B models with
 LoRA adapters, one dataset, two-hop routes.
@@ -131,9 +164,13 @@ identify the format property that tracks it.
 **Supervising intermediates.** Two lines bear directly on our claim. In algorithmic reasoning
 with depth-recurrent transformers, supervising every intermediate step is harmful relative to
 a silent objective [Chen 2026]; internalised chain-of-thought removes intermediate supervision
-progressively [Deng et al. 2024]. Our finding is the natural-fact,
-pretrained-model, continual-update instance of that principle, with transfer and a causal
-test. Conversely, Lin et al. [2025] add a zero-hop identity supervision on the bridge entity
+progressively [Deng et al. 2024]. Closest to our setting, Karmim et al. [2026] pretrain small
+models on synthetic biographies and find that training text stating a two-hop fact without its
+bridge supports composition far better than text naming the bridge, that combining the two is
+best, and that composition never reaches individuals absent from compositional pretraining. Our
+finding is the fine-tuning-stage counterpart, for knowledge a pretrained model already composes:
+it adds transfer, a causal test, and ablations that separate supervising the bridge, supervising
+the restated facts, and the side of the chat boundary on which the facts sit. Conversely, Lin et al. [2025] add a zero-hop identity supervision on the bridge entity
 ("identity bridge") to *enable* out-of-distribution two-hop generalisation, and report that
 correct two-hop predictions coincide with a direct subject-to-answer association. That raises
 the question whether protection in our setting is genuine composition or a shortcut; §7 tests
@@ -146,7 +183,10 @@ instrument in §6 is theirs; we use it to test availability, not timing. Balesni
 find that models fine-tuned on two synthetic facts fail to compose them latently unless the
 facts co-occur in training or the prompt, but can compose one synthetic and one natural fact;
 our routes are pretrained knowledge on both hops, and our manipulation is supervision format at
-fixed content.
+fixed content. O'Neill [2026] finds that invented facts written into the weights compose with
+world knowledge less reliably than the same facts supplied in the prompt at test time. Our
+placement result concerns training instead: rehearsed with identical text and loss, facts in the
+user's turn preserve composition better than facts in the model's own turn.
 
 **Circuit preservation and knowledge editing.** Comparisons of training methods by how much of
 the base circuitry survives [Laitinen-Fredriksson Lundstrom-Imanov 2026; Rojas Nunez et al.
@@ -226,8 +266,8 @@ contrasts are paired over seeds with t(k−1) intervals.
 
 Each experiment's design, predictions and thresholds were written and dated before its runs;
 all are listed with their outcomes in `PREDICTIONS.md`. Nothing was deposited with a
-third-party registry. Two seed extensions, from three seeds to six, were decided after the
-three-seed intervals were seen and are reported as such (§4).
+third-party registry. Three seed extensions, from three seeds to six, were decided after the
+three-seed intervals were seen and are reported as such (§4, §7).
 
 ---
 
@@ -287,7 +327,8 @@ Under atomic rehearsal the dominant wrong answer to the composite question is th
 entity itself: *the country where the author of X was born* → the author. It accounts for over
 half of all misses on Qwen in every seed. The rate is about 1% or less with no rehearsal and
 under route rehearsal; the failure is induced by rehearsing the bridge as an answer, not by the
-update. (Falcon adds a smaller second mode, a city offered where a country was asked, absent on
+update, and removing the loss on the bridge where it answers the first-hop prompt removes it
+(§7). (Falcon adds a smaller second mode, a city offered where a country was asked, absent on
 Qwen; Table S2.)
 
 The failure sometimes collapses composition. Defining collapse as held-out access below 0.7 on
@@ -305,11 +346,10 @@ consistent sign suggests.
 
 ## 6 · On the failing phrasings the second step is usable
 
-If the format comparison in §7 is to be more than a correlation between format and outcome,
-the failures under fact rehearsal must be shown to be of the kind that supervising the
-intermediate entity could produce: a missing intermediate entity, not a broken second step. We
-tested this on the computations that actually fail, with thresholds declared before the run
-(below 15% rescue would support a broken second step; at or above 30%, a missing entity).
+What is missing when a composition fails under fact rehearsal: the intermediate entity, or a
+working second step? We tested this on the computations that actually fail, with thresholds
+declared before the run (below 15% rescue would support a broken second step; at or above 30%, a
+missing entity).
 
 For every held-out phrasing the atomic-rehearsal adapter answers wrongly (Qwen 194 / 153 / 110,
 Falcon 375 / 904 / 279, seeds 0–2), the residual stream at the subject's final token at a
@@ -338,7 +378,7 @@ whether the base model's own state at that site is sufficient are in Supplementa
 
 ---
 
-## 7 · The protection transfers, and the formats that break composition supervise the entity
+## 7 · The protection transfers, and composition depends on where the facts sit
 
 Two objections remain after §4–§6. Rehearsing the composite question and testing its
 paraphrases might be ordinary rehearsal of the tested association; and isolated question–answer
@@ -355,23 +395,37 @@ supervised in one continuation (232 routes); and **bridge-as-context** — "*hop
 (232 routes). Coherent and bridge-as-context contain identical facts; they differ in where the
 chat boundary falls and therefore in whether the bridge and the second-hop statement are
 inside the supervised output. Three seeds; predictions declared in advance. The Falcon
-replication uses the same builder (571 rehearsed-eligible, 541 never-rehearsed) with route,
-atomic and bridge-as-context.
+replication uses the same builder (571 rehearsed-eligible, 541 never-rehearsed) with all four
+formats. **Loss-mask ablation.** A fifth condition, declared separately after the rest were in
+(`PREDICTIONS.md`, G16), uses the coherent rows exactly — same prompt, same completion, same chat
+boundary, same rows and schedule — but gives no loss to the leading bridge tokens, the ones that
+answer the first-hop prompt. Its input tokens are identical to the coherent set's in every row;
+the masked span averages about four tokens. The bridge is then restated at the start of the
+second-hop statement ("… . Gustave Flaubert was born in …"), and that copied mention keeps its
+loss in every row. The ablation therefore separates supervising the bridge *as the retrieved
+answer to the first hop* from everything else in the coherent format; it does not remove every
+supervised occurrence of the bridge. A sixth condition, **answer-only**, declared after the
+fifth was in, keeps the coherent text and gives loss to the final answer alone. It then differs
+from bridge-as-context only in where the chat boundary falls — the facts are the model's own
+response instead of the user's input — with the same supervised span, the final answer; it differs
+from the masked condition only in the loss on the restated facts. Its input tokens equal the
+coherent set's in every row, and its supervised span decodes to the final answer in every row.
 
-**Table 4.** Held-out compositional access and bridge emission, acquisition-matched
-(`T6_transfer.md`).
+**Table 4.** Held-out compositional access and bridge emission, acquisition-matched, seeds 0–2
+(`T6_transfer.md`). The coherent, bridge-masked and answer-only formats share their text and differ
+only in which tokens receive loss.
 
-| Qwen2.5-3B | none | atomic | coherent | bridge-as-context | route |
-|---|---:|---:|---:|---:|---:|
-| L: 320 never-rehearsed routes | 0.819 | 0.743 | 0.858 | **0.947** | **0.948** |
-| R∩: 232 routes rehearsed in all four | 0.762 | 0.648 | 0.831 | **0.970** | **0.985** |
-| bridge emission on R∩ | 0.011 | **0.287** | 0.049 | 0.005 | 0.003 |
+| Qwen2.5-3B | none | atomic | coherent | bridge masked | answer only | bridge-as-context | route |
+|----------------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| L: 320 never-rehearsed routes | 0.819 | 0.743 | 0.858 | 0.879 | 0.890 | **0.947** | **0.948** |
+| R∩: 232 routes rehearsed in all | 0.762 | 0.648 | 0.831 | 0.884 | 0.866 | **0.970** | **0.985** |
+| bridge emission on R∩ | 0.011 | **0.287** | 0.049 | 0.001 | 0.016 | 0.005 | 0.003 |
 
-| Falcon3-3B | none | atomic | bridge-as-context | route |
-|---|---:|---:|---:|---:|
-| L: 541 never-rehearsed routes | 0.654 | 0.893 | **0.905** | **0.923** |
-| R∩: 375 routes rehearsed in all three | 0.681 | 0.850 | **0.948** | **0.972** |
-| bridge emission on R∩ | 0.003 | **0.048** | 0.000 | 0.000 |
+| Falcon3-3B | none | atomic | coherent | bridge masked | answer only | bridge-as-context | route |
+|----------------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| L: 541 never-rehearsed routes | 0.654 | 0.893 | 0.763 | 0.767 | 0.798 | **0.905** | **0.923** |
+| R∩: 375 routes rehearsed in all | 0.681 | 0.850 | 0.808 | 0.791 | 0.831 | **0.948** | **0.972** |
+| bridge emission on R∩ | 0.003 | **0.048** | 0.007 | 0.000 | 0.001 | 0.000 | 0.000 |
 
 | contrast on the never-rehearsed routes | Qwen | Falcon |
 |---|---|---|
@@ -379,7 +433,7 @@ atomic and bridge-as-context.
 | bridge-as-context − none | **+0.128 [+0.052, +0.204]**, 3/3 | **+0.251 [+0.111, +0.391]**, 3/3 |
 | route − bridge-as-context | +0.001 [−0.025, +0.027] | +0.018 [−0.036, +0.073] |
 | atomic − none | −0.076 [−0.696, +0.543] | +0.238 [+0.041, +0.436], 3/3 |
-| bridge-as-context − coherent | +0.089 [−0.003, +0.181], 3/3 | — |
+| bridge-as-context − coherent | +0.089 [−0.003, +0.181], 3/3 | +0.142 [−0.087, +0.372], 3/3 |
 | route − atomic | +0.206 [−0.365, +0.776], 3/3 | +0.031 [−0.091, +0.152] |
 
 **Transfer.** Rehearsing routes raises compositional access on routes that share no subject or
@@ -392,21 +446,73 @@ repaired by any on-distribution rehearsal. On Qwen, in the two atomic seeds that
 collapse, atomic rehearsal also exceeds no rehearsal on the never-rehearsed routes (0.878 and
 0.873 against 0.829 and 0.787).
 
-**Format.** On the rehearsed routes, bridge-as-context exceeds atomic rehearsal in every seed
-of both families (+0.323 on Qwen; +0.098 [−0.073, +0.269] on Falcon) and exceeds coherent
-rehearsal in every Qwen seed; coherent exceeds atomic in every Qwen seed. Bridge emission falls
-0.287 → 0.049 → 0.005 (Qwen) and 0.048 → 0.000 (Falcon) as the bridge leaves the supervised
-output. Atomic rehearsal's position relative to no rehearsal differs by family: below it on Qwen
-(0.648 against 0.762, driven by a collapsed seed) and above it on Falcon (0.850 against 0.681).
-The two formats with identical facts, coherent and bridge-as-context, differ by +0.139 [−0.005,
-+0.283] on rehearsed routes and +0.089 [−0.003, +0.181] on never-rehearsed ones, positive in
-every seed with intervals touching zero. The declared mechanism prediction — emission under
-bridge-as-context below half of atomic, with higher held-out access — was met in every seed of
-both families. Taken together: **rehearsal format decides the outcome, and the formats that fail
-are the ones that make the intermediate entity a supervised output.** We read this as support for
-supervision of the intermediate entity as the operative property; how much of the effect is the
-entity token itself, as against the chat boundary and the supervised span that move with it,
-this design does not separate.
+**Format.** On the rehearsed routes, the two formats that give the compositional information in the
+prompt and supervise only the final answer, route and bridge-as-context, preserve composition in
+both families (0.985 and
+0.970 on Qwen, 0.972 and 0.948 on Falcon). The formats that supervise the facts do not: atomic
+(0.648, 0.850) and coherent (0.831, 0.808). Bridge-as-context exceeds atomic in every seed of both
+families (+0.323 on Qwen; +0.098 [−0.073, +0.269] on Falcon) and exceeds coherent in every seed of
+both families (+0.139 [−0.005, +0.283] on Qwen; +0.140 [−0.071, +0.350] on Falcon). Atomic and
+coherent are not consistently ordered: coherent is above atomic in every Qwen seed and below it on
+Falcon (−0.041 [−0.173, +0.090]). Atomic rehearsal's position relative to no rehearsal differs by
+family: below it on Qwen (0.648 against 0.762, driven by a collapsed seed) and above it on Falcon
+(0.850 against 0.681). The declared emission prediction — emission under bridge-as-context below
+half of atomic, with higher held-out access — was met in every seed of both families.
+
+**The loss-mask ablation separates the failure's signature from the composition loss.** Removing
+the loss on the leading bridge tokens eliminated bridge emission: 0.049 → 0.001 on Qwen and 0.007 → 0.000
+on Falcon, below half in every seed of both families, as declared. It also removed what
+supervising the bridge had taught: standalone first-hop access fell to its no-rehearsal level
+(masked − coherent −0.670 on Qwen, −0.819 on Falcon). At the acquisition-matched checkpoint it did
+**not** recover the answer-only formats' composition.
+Masked − coherent on the rehearsed routes was +0.053 [−0.093, +0.198] on Qwen (2 of 3 seeds) and
+−0.017 [−0.156, +0.122] on Falcon (1 of 3), against a declared criterion of improvement in every
+seed; bridge-as-context stayed above the masked format by +0.086 [+0.064, +0.109] and +0.157
+[+0.032, +0.282], in every seed. (At the fixed schedule masking helps on Qwen, +0.079 [+0.026,
++0.131] in every seed, bringing it within +0.019 of bridge-as-context, and hurts on Falcon, −0.121
+[−0.288, +0.045]; Table S6.) The declared prediction — that removing this supervision recovers
+composition in every seed — failed, and the gap to bridge-as-context that remains excludes zero in
+both families. That does not show the supervision has no effect: on Qwen the masked format closes
++0.053 of the +0.139 coherent-to-bridge-as-context gap, the intervals allow a larger share, and at
+the fixed schedule it closes most of it. The supported statement is narrower. Supervising the
+intermediate entity as the answer to the first-hop prompt is the source of the bridge-as-answer
+failure and of standalone access to the first hop, and at the acquisition-matched checkpoint it
+accounts for at most part of the composition loss, in a checkpoint-dependent way. What still separates the
+masked format from bridge-as-context is where the facts sit: in the masked format the second-hop
+statement, including a copied mention of the bridge, is written in the assistant turn and
+supervised as a continuation of the first-hop prompt; in bridge-as-context it is part of the
+prompt and only the final answer is supervised. This design does not separate the chat boundary
+from the supervised continuation, nor the copied mention of the bridge from the rest of it.
+
+**Moving the chat boundary separates the formats.** The answer-only condition separates the
+two (Table S12). Its decision rule, declared before the run, measured the share of the gap between
+the masked format and bridge-as-context that answer-only loss closes: at least two thirds in both
+families would support the supervised continuation as the cause, at most one third the placement
+of the chat boundary. It closed −0.21 of the gap on Qwen and +0.26 on Falcon, and bridge-as-context
+stayed above answer-only in every seed of both families (+0.105 [−0.027, +0.236] and +0.117 [−0.039,
++0.272]). The rule was declared on direction, and each family's three-seed interval includes zero.
+A seed extension decided after that result, and labelled post hoc, ran seeds 3–5 of both
+conditions in both families under a rule fixed before those runs: the effect counts as
+established in a family if its six-seed interval excludes zero. It does in both: +0.099 [+0.045,
++0.152] on Qwen (6 of 6 seeds) and +0.091 [+0.019, +0.163] on Falcon (5 of 6). Seeds 3–5 alone point
+the same way but do not exclude zero by themselves (+0.093 [−0.056, +0.242] and +0.066 [−0.125,
++0.258]; one Falcon seed is at zero), so the combined result supports the placement account rather
+than establishing it independently. The incremental effect of loss on the restated facts,
+including the copied bridge, is not resolved (answer-only − masked −0.018 [−0.167, +0.130] on Qwen,
++0.040 [−0.019, +0.100] on Falcon). What the data support is an effect of chat format: with
+identical text, identical rows and the final answer as the only supervised span, the same facts
+preserve composition better when they are the user's input than when they are the model's own
+response. Why the two turns differ is not tested. The never-rehearsed routes agree (+0.049 [−0.000, +0.099],
+6 of 6; +0.089 [+0.006, +0.172], 6 of 6), and so does the fixed 12-epoch checkpoint (+0.082 [+0.014,
++0.151], 5 of 6; +0.108 [+0.029, +0.186], 6 of 6), where the three-seed estimates had been weaker
+(Table S12).
+
+The three ablations decompose the format effect. Supervising the intermediate entity as the answer
+to the first hop produces the bridge-as-answer failure and standalone access to the first hop;
+the incremental effect of supervising the rest of the restatement is not resolved; and placing the
+facts in the model's own turn instead of the user's lowers composition. Composition survives rehearsal when the
+example has the input–output shape of use: the compositional information as the user's input, the
+final answer as the model's first output.
 
 **No sign of a shortcut.** On the never-rehearsed routes, transplanting a wrong bridge at the
 subject position changes the answer under route and bridge-as-context rehearsal at least as much
@@ -428,21 +534,22 @@ The acquisition-matched checkpoint is defined on a 40-item probe; full-set recal
 checkpoint is 0.97–0.98 for the primary comparison but 0.89 for one Falcon transfer adapter,
 and the fixed-schedule results are reported beside every primary contrast for that reason.
 Exposure is matched on content tokens only (Table S4); the asymmetry disfavours the route
-condition. Two seed extensions were decided post hoc and are labelled; one route seed dipped at
-the fixed schedule only (0.81) and is retained. The four-format comparison is on one family;
-transfer and the atomic-versus-context contrast replicate on the second. Never-rehearsed routes
+condition. Three seed extensions were decided post hoc and are labelled; one route seed dipped at
+the fixed schedule only (0.81) and is retained. The format comparison and the three ablations
+run on both families; the chat-boundary effect meets its declared rule at three seeds, and its
+per-family six-seed intervals come from a post hoc extension. Why the model's own turn behaves
+differently from the user's is not tested. Never-rehearsed routes
 share relation types with rehearsed ones by design, so transfer is across entities within
 relation types. §6 establishes recoverability under intervention at one position and layer,
 not the timing or the full extent of the damage.
 
-**A prediction for larger models.** The effect operates through the training objective —
-supervising a token as a target strengthens the prompt-to-token mapping at the output — and
-through the latent pathway that resolves the intermediate entity at the subject position, which
-is documented from 7B to 70B. Both are present at every scale, so we expect the *direction* to
-hold: fact rehearsal that supervises the intermediate entity should still raise bridge emission
-and protect composition less than formats that keep the entity in context. We expect the
-*magnitude* and the collapse frequency to shrink with scale if pathway redundancy grows with
-depth: the shallower family here (Falcon, 22 layers) showed more distributed damage and a lower
+**A prediction for larger models.** The bridge-as-answer failure operates through the training
+objective — supervising a token as a target strengthens the prompt-to-token mapping at the output
+— and the ablation ties it to supervising the intermediate entity as the answer to the first
+hop, so we expect it at every scale. The chat-boundary effect concerns how an instruction-tuned model separates the user's input
+from its own output, which larger instruction-tuned models share, so we expect its direction to
+hold as well. We expect the *magnitude* and the collapse frequency to
+shrink with scale if pathway redundancy grows with depth: the shallower family here (Falcon, 22 layers) showed more distributed damage and a lower
 explicit-bridge rescue than the deeper one (Qwen, 36 layers; 61% vs 86%), consistent with more
 places for the same interference to spread across. A larger-model replication would decide
 between the two readings; an effect of undiminished size at 70B would be the more surprising
@@ -452,16 +559,19 @@ result, because it would mean the interference is not a capacity phenomenon.
 
 ## 9 · Conclusion
 
-Rehearsal preserves what it supervises. On routes a model already composes, rehearsing the
+Rehearsal preserves what it rehearses in the shape it is used. On routes a model already composes, rehearsing the
 constituent facts as answers preserves the facts and not the composition, produces a specific
 failure in which the intermediate entity is emitted as the answer, collapses composition in a
 minority of seeds, and does so despite more supervised signal than rehearsing the composition.
 On the failing phrasings the second step is usable once the intermediate entity is supplied.
-Rehearsal format decides whether known facts stay composable: across formats with identical
-facts, the ones that fail make the intermediate entity a supervised output, while the composite
-question and a bridge-as-context statement of the same two facts preserve composition and
-transfer the protection to routes never rehearsed, in two model families. The rule that follows: do not train a model to answer
-with an entity its existing computation is meant to derive.
+Rehearsal format decides whether known facts stay composable: the composite question, and the
+same two facts written as context with only the final answer supervised, preserve composition and
+transfer the protection to routes never rehearsed, in two model families; formats that supervise
+the facts themselves do not. Taken apart, the format effect has two components: supervising the
+intermediate entity as an answer makes the model answer with it, and placing the facts in the
+model's own turn instead of the user's lowers composition even when only the final answer is
+supervised, an effect seen in every declared seed and supported by a post hoc six-seed extension. The rule that follows: rehearse in the shape of use, with the compositional
+information as the user's input and the final answer as the model's first output.
 
 ---
 
@@ -538,7 +648,13 @@ that both facts were rehearsed under the atomic condition (§3.3) gives +0.153 [
 on 162 Qwen routes; Falcon's routes are all paired, so its value is unchanged. These analyses
 were not declared in advance.
 
-Tables S1–S11 are `results/tables/T1_preservation.md` through `T11_hop2_sensitivity.md`.
+**S10 · Decision rules of the format ablations** (Table S12). For each family, checkpoint and route
+set: the share of the masked-to-bridge-as-context gap closed by answer-only loss, and
+bridge-as-context minus answer-only with its paired interval and sign count. Three-seed rows are
+the declared G17 outcome; six-seed rows are the post hoc extension (G18); the row pooled across
+families was not declared.
+
+Tables S1–S12 are `results/tables/T1_preservation.md` through `T12_decisions.md`.
 
 ---
 
@@ -550,9 +666,11 @@ Tables S1–S11 are `results/tables/T1_preservation.md` through `T11_hop2_sensit
 - Deng, Y., Choi, Y., Shieber, S. (2024). From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step. arXiv:2405.14838.
 - He, Z., Chen, B., Xiong, T., Sun, Z., Zhu, M., Chen, X. (2026). On the Limitations of Rank-One Model Editing in Answering Multi-hop Questions. arXiv:2601.04600.
 - Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., Chen, W. (2022). LoRA: Low-Rank Adaptation of Large Language Models. ICLR 2022.
+- Karmim, Y., Marti, L., Seddah, D., Barrière, V. (2026). Multi-Hop Knowledge Composition is Bound by Pretraining Exposure. arXiv:2606.09338.
 - Laitinen-Fredriksson Lundstrom-Imanov, G. O. Y. (2026). Mechanistic Analysis of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning. arXiv:2601.18699.
 - Lin, P., Chen, Z.-A., Xu, Z.-Q. J. (2025). Unveiling the Mechanisms of Multi-Hop Reasoning in Transformers via Identity Bridge. COLM 2026. arXiv:2509.24653.
 - Merity, S., Xiong, C., Bradbury, J., Socher, R. (2016). Pointer Sentinel Mixture Models. arXiv:1609.07843 (WikiText-2).
+- O'Neill, C. (2026). Can a Language Model Learn Facts Continually in Its Weights? arXiv:2607.11020.
 - Qwen Team (2024). Qwen2.5 Technical Report. arXiv:2412.15115.
 - Robins, A. (1995). Catastrophic Forgetting, Rehearsal and Pseudorehearsal. Connection Science 7(2).
 - Rojas Nunez, J., Sawant, V., Allen, N., Amgalanbaatar, N., Zongo, Y., Sharma, V., Chaudhary, M. (2026). Mechanistic origins of catastrophic forgetting: why RL preserves circuits better than SFT? arXiv:2605.28860.

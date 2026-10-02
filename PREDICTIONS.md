@@ -7,8 +7,8 @@ suggested. The design documents themselves are internal working records; their p
 thresholds and declaration dates are reproduced here in full.
 
 Predictions were **not** registered with a third party. What is claimed is the declare-then-test
-order, not independent timestamping. Two seed extensions (Falcon and Qwen, from three seeds to
-six) were decided after the three-seed intervals were seen and are labelled as such wherever
+order, not independent timestamping. Three seed extensions (Falcon and Qwen in the primary
+comparison, and both families in G18, from three seeds to six) were decided after the three-seed intervals were seen and are labelled as such wherever
 they appear.
 
 Estimator throughout: the training seed is the unit of replication; contrasts are paired over
@@ -90,6 +90,58 @@ route, atomic, bridge-as-context; three seeds).
 | atomic − none on never-rehearsed routes | not declared directional | +0.238 [+0.041, +0.436]: fact rehearsal of other routes also transfers general protection on this family |
 | full-set recall at the primary checkpoint | reported | route 0.990, atomic 0.972, bridge-as-context 0.960 (one seed 0.888) |
 
+## G16 — Bridge-token loss-mask ablation (§7; declared 2026-09-25, v0.2.0)
+
+The coherent rows with the leading intermediate-entity tokens (the answer to the first-hop
+prompt) given no loss; a copied mention of the entity later in the supervised continuation keeps
+its loss; text, chat boundary, rows and schedule unchanged; Qwen and Falcon, three seeds each (Falcon's coherent condition was run
+alongside). Declared consequence if B1 failed: supervising the bridge is not the operative
+property for composition, and the mechanistic reading of v0.1.0 is withdrawn.
+
+| prediction | criterion | outcome |
+|---|---|---|
+| B1 masked − coherent, composition on rehearsed routes | > 0 in every seed, each family | **Not met.** Qwen +0.053 [−0.093, +0.198] (2/3); Falcon −0.017 [−0.156, +0.122] (1/3) |
+| B2 bridge emission, masked vs coherent | masked below half of coherent in every seed | **Met.** Qwen 0.049 → 0.001; Falcon 0.007 → 0.000 |
+| B3 bridge-as-context − masked; first-hop access under masking | descriptive | +0.086 [+0.064, +0.109] Qwen, +0.157 [+0.032, +0.282] Falcon, every seed; first-hop access falls to the no-rehearsal level (−0.670, −0.819) |
+
+The v0.1.0 reading — that the formats which fail do so because they make the intermediate entity
+a supervised output — is withdrawn as the account of the composition loss, as declared. B1's
+failure is not evidence of no effect: the intervals allow a partial contribution, and at the fixed
+schedule masking closes most of Qwen's gap and widens Falcon's. Supervision of the copied mention,
+bundled with the supervised continuation, is not separated here; G17 separates it. Supervising the intermediate
+entity is supported as the source of the bridge-as-answer failure and of standalone first-hop
+access.
+
+## G17 — Answer-only loss on the coherent format (§7; declared 2026-09-27, v0.2.0)
+
+Same rows and text as the coherent format, loss on the final answer only. It differs from
+bridge-as-context only in where the chat boundary falls, and from the masked format only in the
+loss on the restated facts. f is the share of the masked-to-bridge-as-context gap on rehearsed
+routes that answer-only closes.
+
+| prediction | criterion | outcome |
+|---|---|---|
+| Supervision account | f ≥ 2/3 in both families, answer-only above masked in every seed | **Not met.** f = −0.21 Qwen, 0.26 Falcon |
+| Placement account | f ≤ 1/3 in both families, bridge-as-context above answer-only in every seed | **Met.** +0.105 [−0.027, +0.236] Qwen (3/3), +0.117 [−0.039, +0.272] Falcon (3/3) |
+| Never-rehearsed routes | descriptive | same direction, every seed: +0.057 [−0.082, +0.196], +0.107 [−0.106, +0.319] |
+| Fixed-schedule checkpoint | descriptive | weaker: +0.042 [−0.114, +0.199] Qwen (2/3), +0.077 [−0.027, +0.181] Falcon (3/3) |
+
+Per-family three-seed intervals include zero; the rule was declared on direction in every seed.
+
+## G18 — Seeds 3–5 for the placement contrast (§7; declared 2026-09-28, post hoc)
+
+Decided after G17's result was seen, and labelled post hoc. G17's three-seed outcome stands as
+declared. The rule was fixed before seeds 3–5 ran, but extending after seeing a result raises the
+chance of a positive finding, and the added seeds alone do not exclude zero: the six-seed result
+supports the chat-format effect rather than establishing it independently.
+
+| prediction | criterion | outcome |
+|---|---|---|
+| Placement effect established, per family | bridge-as-context − answer-only on rehearsed routes, seeds 0–5, t(5) interval excludes zero with positive mean | **Met in both.** Qwen +0.099 [+0.045, +0.152] (6/6); Falcon +0.091 [+0.019, +0.163] (5/6) |
+| Seeds 3–5 alone | descriptive | Qwen +0.093 [−0.056, +0.242] (3/3); Falcon +0.066 [−0.125, +0.258] (2/3, one seed at zero) |
+| Never-rehearsed routes | descriptive | Qwen +0.049 [−0.000, +0.099] (6/6); Falcon +0.089 [+0.006, +0.172] (6/6) |
+| Fixed-schedule checkpoint | descriptive | Qwen +0.082 [+0.014, +0.151] (5/6); Falcon +0.108 [+0.029, +0.186] (6/6) |
+
 ## Exploratory analyses not declared in advance
 
 - Restricting the primary contrast to comparison routes whose second hop the base model answers
@@ -101,6 +153,9 @@ route, atomic, bridge-as-context; three seeds).
   +0.171 [+0.036, +0.307] Qwen (208 routes); with the all-six second-hop restriction as well,
   +0.153 [+0.010, +0.296] (162 routes).
 - The shortcut check covers Qwen, seed 0, layer 12 only.
+- Pooling the six G17 seed pairs across families: bridge-as-context − answer-only +0.111
+  [+0.056, +0.166] on rehearsed routes and +0.082 [+0.008, +0.155] on never-rehearsed routes,
+  6/6 (`results/tables/T12_decisions.md`).
 - The collapse threshold (held-out access < 0.7) was set after the atomic adapters were seen;
   the non-collapsed atomic adapters lie at 0.705–0.928 (`T9_collapse.md`).
 

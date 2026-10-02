@@ -22,7 +22,7 @@ sys.path.insert(0, "src")
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 S4 = Path("."); R = S4 / "results"; OUT = R / "tables"
-TC = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571}
+TC = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365, 8: 2.306, 9: 2.262, 10: 2.228, 11: 2.201}
 FAM = {"qwen": dict(tasks=S4 / "data/tasks/v2", pre="", seeds=[0, 1, 2], seeds6=[0, 1, 2, 3, 4, 5],
                     none_mem="preserve_none_mem100_post_X_s{s}.json", none_fin="v2_g4_split_post_X_s{s}.json",
                     none_dir="v2_g4_split_X_s{s}", g12="qwen_g12_s{s}_L12.json", nat="qwen_natact_s{s}_L12.json",
@@ -238,20 +238,29 @@ def t5_rescue():
 
 
 def t6_transfer():
-    lines = ["# T6 Transfer experiment: rehearse half the routes, measure the entity-disjoint other half; 3 seeds per family" + "\n",
-             "Files: `results/g15_transfer.json` (Qwen), `results/g15_transfer_falcon.json` (Falcon), from `analyze_transfer.py`. L = never rehearsed in any condition; Rall = rehearsed in every condition. Seed-level paired t(2); sign = seeds with the contrast > 0." + "\n"]
-    for fam_label, fname, cs in (("Qwen2.5-3B (340 rehearsed / 320 never-rehearsed)", "g15_transfer.json", ("none", "route", "atomic", "coherent", "bridgectx")),
-                                 ("Falcon3-3B (571 rehearsed / 541 never-rehearsed)", "g15_transfer_falcon.json", ("none", "route", "atomic", "bridgectx"))):
+    lines = ["# T6 Transfer experiment: rehearse half the routes, measure the entity-disjoint other half; seeds 0-2, every condition" + "\n",
+             "Files: `results/g15_transfer.json` (Qwen), `results/g15_transfer_falcon.json` (Falcon), from `analyze_transfer.py`. L = never rehearsed in any condition; Rall = rehearsed in every condition. Every mean and contrast uses the declared seeds 0-2, paired by seed, t(2); sign = seeds with the contrast > 0. Seeds 3-5 of bridgectx and coherent_answeronly (post hoc extension, G18) are reported in T12 only." + "\n"]
+    for fam_label, fname, cs in (("Qwen2.5-3B (340 rehearsed / 320 never-rehearsed)", "g15_transfer.json", ("none", "route", "atomic", "coherent", "bridgectx", "coherent_bmask", "coherent_answeronly")),
+                                 ("Falcon3-3B (571 rehearsed / 541 never-rehearsed)", "g15_transfer_falcon.json", ("none", "route", "atomic", "bridgectx", "coherent", "coherent_bmask", "coherent_answeronly"))):
         p = R / fname
         if not p.exists():
             lines.append("\n" + "## " + fam_label + ": (not yet run)" + "\n"); continue
         d = j(p); fam = fam_label.split()[0]
         for ck in ("mem100", "final"):
-            pc = d[ck]["per_condition"]
+            seeds = d[ck]["seeds"]
+
+            def keep(key, v, seeds=seeds):   # restrict every list to the declared seeds 0-2, in seed order
+                ss = seeds[key.split("|")[0]]
+                assert len(ss) == len(v), key
+                return [x for s_, x in zip(ss, v) if s_ in (0, 1, 2)]
+            pc = {k: keep(k, v) for k, v in d[ck]["per_condition"].items()}
+            assert all(len(v) == 3 for v in pc.values()), "T6 expects seeds 0-2 for every condition"
             lines.append("\n" + "## " + fam_label + ", " + ck + "\n")
             rows = []
             for name in ("L", "Rall"):
                 for c in cs:
+                    if f"{c}|{name}|held" not in pc:
+                        continue
                     h = pc[f"{c}|{name}|held"]; e = pc[f"{c}|{name}|emit"]; cn = pc[f"{c}|{name}|canon"]
                     rows.append([name, c, f"{st.mean(h):.3f}", " / ".join(f"{x:.3f}" for x in h), f"{st.mean(cn):.3f}",
                                  f"{st.mean(e):.3f}", " / ".join(f"{x:.3f}" for x in e)])
@@ -264,7 +273,16 @@ def t6_transfer():
                                          ("route - atomic", "route", "atomic", "Rall", "held"), ("bridgectx - atomic", "bridgectx", "atomic", "Rall", "held"),
                                          ("coherent - atomic", "coherent", "atomic", "Rall", "held"),
                                          ("emission: atomic - none", "atomic", "none", "Rall", "emit"), ("emission: coherent - none", "coherent", "none", "Rall", "emit"),
-                                         ("emission: bridgectx - none", "bridgectx", "none", "Rall", "emit"), ("emission: bridgectx - atomic", "bridgectx", "atomic", "Rall", "emit")):
+                                         ("emission: bridgectx - none", "bridgectx", "none", "Rall", "emit"), ("emission: bridgectx - atomic", "bridgectx", "atomic", "Rall", "emit"),
+                                         ("G16 bridge masked - coherent", "coherent_bmask", "coherent", "Rall", "held"),
+                                         ("G16 bridge masked - coherent", "coherent_bmask", "coherent", "L", "held"),
+                                         ("G16 emission: bridge masked - coherent", "coherent_bmask", "coherent", "Rall", "emit"),
+                                         ("G16 bridgectx - bridge masked", "bridgectx", "coherent_bmask", "Rall", "held"),
+                                         ("G16 hop-1: bridge masked - coherent", "coherent_bmask", "coherent", "Rall", "hop1"),
+                                         ("G17 answer-only - bridge masked", "coherent_answeronly", "coherent_bmask", "Rall", "held"),
+                                         ("G17 bridgectx - answer-only", "bridgectx", "coherent_answeronly", "Rall", "held"),
+                                         ("G17 answer-only - bridge masked", "coherent_answeronly", "coherent_bmask", "L", "held"),
+                                         ("G17 bridgectx - answer-only", "bridgectx", "coherent_answeronly", "L", "held")):
                 if f"{x}|{name}|{m}" not in pc or f"{y}|{name}|{m}" not in pc:
                     continue
                 dd = [u - v for u, v in zip(pc[f"{x}|{name}|{m}"], pc[f"{y}|{name}|{m}"])]
@@ -375,8 +393,8 @@ def t10_recall():
     lines = ["# T10 Full-set injected-fact recall per adapter, both checkpoints" + NL,
              "Strict recall of the injected fact over every injected route in the measured half (not the 40-item training-time probe that defines mem100). Files: every post file used in T1, T2 and T6." + NL]
     rows = []
-    for f, exps in (("qwen", (("preservation", "preserve", ("none", "route", "atomic"), range(6)), ("transfer", "transfer", ("route", "atomic", "coherent", "bridgectx"), range(3)))),
-                    ("falcon", (("preservation", "falcon_preserve", ("none", "route", "atomic"), range(6)), ("transfer", "falcon_transfer", ("route", "atomic", "bridgectx"), range(3))))):
+    for f, exps in (("qwen", (("preservation", "preserve", ("none", "route", "atomic"), range(6)), ("transfer", "transfer", ("route", "atomic", "coherent", "bridgectx", "coherent_bmask", "coherent_answeronly"), range(6)))),
+                    ("falcon", (("preservation", "falcon_preserve", ("none", "route", "atomic"), range(6)), ("transfer", "falcon_transfer", ("route", "atomic", "bridgectx", "coherent", "coherent_bmask", "coherent_answeronly"), range(6))))):
         items, *_ = load_family(f)
         for exp, pre, conds, seeds in exps:
             for cond in conds:
@@ -434,13 +452,54 @@ def t11_hop2(SC):
     return "".join(lines)
 
 
+def t12_decisions():
+    NL = chr(10)
+    lines = ["# T12 Decision rules of the format ablations (G16 bridge-token mask, G17 answer-only, G18 seeds 3-5)" + NL,
+             "Rehearsed routes (Rall) unless stated; acquisition-matched checkpoint unless stated. f = (answer-only - masked) / (bridge-as-context - masked). "
+             "Per-family intervals pair by seed (t(k-1)). Seeds 0-2 are the declared G17 cohort; seeds 3-5 were added after it was seen (G18, post hoc) and are shown alone and combined. The pooled row pairs seeds across both families and was not declared (exploratory)." + NL]
+    rows = []; pooled = {}
+    for fam, fname in (("Qwen2.5-3B", "g15_transfer.json"), ("Falcon3-3B", "g15_transfer_falcon.json")):
+        p = R / fname
+        if not p.exists():
+            continue
+        d = j(p)
+        for ck in ("mem100", "final"):
+            pc, seeds = d[ck]["per_condition"], d[ck]["seeds"]
+            for name in ("Rall", "L"):
+                k = lambda c: dict(zip(seeds.get(c, []), pc.get(f"{c}|{name}|held", [])))  # noqa: E731  seed -> value
+                ao, bm, bc = k("coherent_answeronly"), k("coherent_bmask"), k("bridgectx")
+                if not (ao and bm and bc):
+                    continue
+                d3 = (0, 1, 2)
+                f = (st.mean(ao[s] for s in d3) - st.mean(bm[s] for s in d3)) / (st.mean(bc[s] for s in d3) - st.mean(bm[s] for s in d3))
+                common = sorted(set(ao) & set(bc))
+                cohorts = [((0, 1, 2), "3, seeds 0-2 (declared, G17)")]
+                if set(common) >= {3, 4, 5}:
+                    cohorts += [((3, 4, 5), "3, seeds 3-5 alone (G18)"), (tuple(common), f"{len(common)}, seeds 0-5 (post hoc extension, G18)")]
+                for ss, label in cohorts:
+                    dd = [bc[s] - ao[s] for s in ss]
+                    s_, m = ci(dd)
+                    rows.append([fam, ck, name, f"{f:+.2f}", label, s_, f"{sum(x > 0 for x in dd)}/{len(dd)}"])
+                    ALL[f"T12|{fam}|{ck}|{name}|{'-'.join(map(str, ss))}"] = {"f": f, "bridgectx_minus_answeronly": dd}
+                    if ss == (0, 1, 2):
+                        pooled.setdefault((ck, name), []).extend(dd)
+    lines.append(md(rows, ["family", "checkpoint", "set", "f (seeds 0-2)", "seed pairs", "bridge-as-context - answer-only [95% CI]", "sign"]))
+    rows = []
+    for (ck, name), dd in pooled.items():
+        s_, m = ci(dd); rows.append([ck, name, len(dd), s_, f"{sum(x > 0 for x in dd)}/{len(dd)}"])
+        ALL[f"T12|pooled|{ck}|{name}"] = dd
+    lines.append(NL + "## Pooled across families (exploratory)" + NL)
+    lines.append(md(rows, ["checkpoint", "set", "seed pairs", "bridge-as-context - answer-only [95% CI]", "sign"]))
+    return "".join(lines)
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     SC = scorers()
     prior = j(OUT / "all.json") if (OUT / "all.json").exists() else {}
     for name, fn in (("T1_preservation", lambda: t1_preservation(SC)), ("T2_no_rehearsal", lambda: t2_none(SC)),
                      ("T3_subgroups", lambda: t3_subgroups(SC)), ("T4_exposure", t4_exposure), ("T5_rescue", t5_rescue), ("T6_transfer", t6_transfer), ("T7_shortcut", t7_shortcut), ("T8_identity", t8_identity), ("T9_collapse", t9_collapse),
-                     ("T10_recall", t10_recall), ("T11_hop2_sensitivity", lambda: t11_hop2(SC))):
+                     ("T10_recall", t10_recall), ("T11_hop2_sensitivity", lambda: t11_hop2(SC)), ("T12_decisions", t12_decisions)):
         txt = fn()
         if txt is None:
             # T4 needs the tokenizers. Without them the shipped table and its all.json entries are

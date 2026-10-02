@@ -51,7 +51,8 @@ DATE = _date_from_manuscript()
 def _archive_status() -> str:
     import re
     head = SRC.read_text(encoding="utf-8")[:2000]
-    m = re.search(r"10\.5281/zenodo\.(\d+)", head)
+    # only a DOI for THIS version counts; the concept DOI exists before the deposit does
+    m = re.search(r"This version: doi:10\.5281/zenodo\.(\d+)", head)
     return f"archived on Zenodo (doi:10.5281/zenodo.{m.group(1)})" if m \
         else "to be archived on Zenodo"
 

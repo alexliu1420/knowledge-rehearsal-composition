@@ -23,7 +23,7 @@ sys.path.insert(0, "src")
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 TC = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571}
-CONDS = ("none", "route", "atomic", "coherent", "bridgectx")
+CONDS = ("none", "route", "atomic", "coherent", "bridgectx", "coherent_bmask", "coherent_answeronly")
 
 
 def norm(s) -> str:
@@ -40,10 +40,10 @@ def main() -> None:
     ap.add_argument("--seeds", type=int, nargs="+", default=[0, 1, 2])
     ap.add_argument("--out", default="results/g15_transfer.json")
     ap.add_argument("--family", default="qwen", choices=["qwen", "falcon"],
-                    help="falcon: reads falcon_transfer_* / falcon_preserve_none_* files and skips coherent")
+                    help="falcon: reads falcon_transfer_* / falcon_preserve_none_* files (all conditions with files)")
     args = ap.parse_args()
     fam = args.family
-    conds = [c for c in CONDS if not (fam == "falcon" and c == "coherent")]
+    conds = list(CONDS)   # conditions without files are skipped below
     R = Path(args.results)
     j = lambda p: json.loads(Path(p).read_text(encoding="utf-8"))  # noqa: E731
     items = {o["task_id"]: o for o in j(Path(args.tasks) / "g4_split_X_measure.json")["items"]}
@@ -114,8 +114,9 @@ def main() -> None:
             ka, kb = (a, name, m), (b, name, m)
             if ka not in per or kb not in per:
                 return None
-            n = min(len(per[ka]), len(per[kb]))
-            return [x - y for x, y in zip(per[ka][:n], per[kb][:n])]
+            # pair by seed, not by position
+            va, vb = dict(zip(seeds_ok[a], per[ka])), dict(zip(seeds_ok[b], per[kb]))
+            return [va[s] - vb[s] for s in sorted(set(va) & set(vb))]
         tests = [("T1 transfer: route - atomic on L", "route", "atomic", "L", "held"),
                  ("T1 canonical (also unseen on L)", "route", "atomic", "L", "canon"),
                  ("T2 replication: route - atomic on Rall", "route", "atomic", "Rall", "held"),
@@ -128,7 +129,16 @@ def main() -> None:
                  ("T5 floor: coherent - none on L", "coherent", "none", "L", "held"),
                  ("T5 floor: bridgectx - none on L", "bridgectx", "none", "L", "held"),
                  ("route - coherent on L", "route", "coherent", "L", "held"),
-                 ("route - bridgectx on L", "route", "bridgectx", "L", "held")]
+                 ("route - bridgectx on L", "route", "bridgectx", "L", "held"),
+                 ("G16 B1: coherent_bmask - coherent on Rall", "coherent_bmask", "coherent", "Rall", "held"),
+                 ("G16 B1 on L: coherent_bmask - coherent", "coherent_bmask", "coherent", "L", "held"),
+                 ("G16 B2 emission: coherent_bmask - coherent on Rall", "coherent_bmask", "coherent", "Rall", "emit"),
+                 ("G16 B3: bridgectx - coherent_bmask on Rall", "bridgectx", "coherent_bmask", "Rall", "held"),
+                 ("G16 B3 hop-1: coherent_bmask - coherent on Rall", "coherent_bmask", "coherent", "Rall", "hop1"),
+                 ("G17: answeronly - bmask on Rall", "coherent_answeronly", "coherent_bmask", "Rall", "held"),
+                 ("G17: bridgectx - answeronly on Rall", "bridgectx", "coherent_answeronly", "Rall", "held"),
+                 ("G17: answeronly - bmask on L", "coherent_answeronly", "coherent_bmask", "L", "held"),
+                 ("G17: bridgectx - answeronly on L", "bridgectx", "coherent_answeronly", "L", "held")]
         print()
         rep[ck] = {}
         for label, a, b, name, m in tests:
@@ -137,6 +147,7 @@ def main() -> None:
                 print(f"  {label:44}{ci(d)}")
                 rep[ck][label] = {"per_seed": d, "mean": st.mean(d)}
         rep[ck]["per_condition"] = {f"{c}|{name}|{m}": v for (c, name, m), v in per.items()}
+        rep[ck]["seeds"] = {c: v for c, v in seeds_ok.items() if v}   # seed of each per_condition entry, in order
     Path(args.out).write_text(json.dumps(rep, indent=1), encoding="utf-8")
     print(f"\n  wrote {args.out}")
 

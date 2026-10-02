@@ -1,5 +1,7 @@
 # What You Rehearse Is What You Keep
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970449.svg)](https://doi.org/10.5281/zenodo.22970449)
+
 Code, data, results and manuscript for **"What You Rehearse Is What You Keep: Rehearsal Format
 Decides Whether Known Facts Stay Composable."**
 
@@ -34,33 +36,49 @@ collapse does not show in training diagnostics.
 representation into the failing computation restores the answer on 86% (Qwen) and 61% (Falcon)
 of failures, against 4–10% for a context control.
 
-**Rehearsal format decides the outcome; the formats that fail make the intermediate entity a
-supervised output.**
-Rehearsing 340 routes protects 320 never-rehearsed routes that share no subject or intermediate
-entity with them (+0.129 [+0.036, +0.222]); on Falcon, +0.269 [+0.078, +0.460]. Among formats
-with identical facts per route:
+**Rehearsal format decides the outcome.** Rehearsing 340 routes protects 320 never-rehearsed
+routes that share no subject or intermediate entity with them (+0.129 [+0.036, +0.222]); on
+Falcon, +0.269 [+0.078, +0.460]. Held-out composition by rehearsal format, Qwen / Falcon:
 
 | rehearsal format (identical facts) | rehearsed routes | never-rehearsed routes | bridge emitted as answer |
 |---|---:|---:|---:|
-| none | 0.762 | 0.819 | 0.011 |
-| both facts as isolated answers | 0.648 | 0.743 | 0.287 |
-| both facts in one supervised continuation | 0.831 | 0.858 | 0.049 |
-| intermediate entity as context, answer supervised | **0.970** | **0.947** | 0.005 |
-| composite question → answer | **0.985** | **0.948** | 0.003 |
+| none | 0.762 / 0.681 | 0.819 / 0.654 | 0.011 / 0.003 |
+| both facts as isolated answers | 0.648 / 0.850 | 0.743 / 0.893 | 0.287 / 0.048 |
+| both facts in one supervised continuation | 0.831 / 0.808 | 0.858 / 0.763 | 0.049 / 0.007 |
+| the same, with no loss on the intermediate entity | 0.884 / 0.791 | 0.879 / 0.767 | 0.001 / 0.000 |
+| the same, with loss on the final answer only | 0.866 / 0.831 | 0.890 / 0.798 | 0.016 / 0.001 |
+| intermediate entity as context, answer supervised | **0.970 / 0.948** | **0.947 / 0.905** | 0.005 / 0.000 |
+| composite question → answer | **0.985 / 0.972** | **0.948 / 0.923** | 0.003 / 0.000 |
 
-(Qwen; the Falcon replication gives 0.681 / 0.850 / — / 0.948 / 0.972 on rehearsed routes and
-0.654 / 0.893 / — / 0.905 / 0.923 on never-rehearsed ones.) The two formats that differ least
-also differ in chat boundary and supervised span, so the design establishes an effect of format
-and supports, without isolating, supervision of the intermediate entity as the operative
-property. The protected
-computation still runs through the intermediate entity: on never-rehearsed routes the answer
-depends on its representation at least as much as in the base model (Qwen, one seed, one layer).
+**Three declared ablations (v0.2.0)** take the format apart. They keep the text, rows and
+schedule of the supervised-continuation format and change one thing at a time.
+
+- **No loss on the intermediate entity where it answers the first hop.** The bridge-as-answer
+  failure disappears in every seed of both families, but composition is not recovered (+0.053
+  [−0.093, +0.198] Qwen, −0.017 [−0.156, +0.122] Falcon).
+- **Loss on the final answer only.** Composition is still not recovered. Whether loss on the
+  restated facts contributes is not resolved.
+- **The same facts moved from the model's turn to the user's turn**, with the same supervised
+  span. This is the intermediate-entity-as-context format, and it keeps composition better in
+  every declared seed of both families. Over six seeds, the last three a labelled post hoc
+  extension, the intervals exclude zero in each family (+0.099 [+0.045, +0.152] Qwen, +0.091
+  [+0.019, +0.163] Falcon); the added seeds alone do not, so this supports the effect rather than
+  establishing it independently.
+
+Supervising the intermediate entity as an answer produces the failure's signature. Writing the
+facts as the model's own response instead of the user's input lowers composition, an effect of
+chat format whose cause is not tested. It points the same way on never-rehearsed routes and at the
+fixed 12-epoch checkpoint. The protected computation still runs through the intermediate entity: on
+never-rehearsed routes the answer depends on its representation at least as much as in the base
+model (Qwen, one seed, one layer).
 
 ## Implications for continual updating
 
-- Do not train the model to answer with an entity its existing reasoning is meant to derive.
-  Keep the facts in the rehearsal set, but write them so intermediate entities are context and
-  only terminal facts are targets.
+- Rehearse in the shape of use: the compositional information in the user's turn and the final
+  answer as the model's first output, either as the composite question or as the facts given as
+  context. The same facts written as the model's own response do not protect composition, even
+  with no loss on them, and supervising the intermediate entity also teaches the model to answer
+  with it.
 - Compositions need not be enumerated to be protected: a modest set of composition-shaped or
   entity-as-context rows protects routes that were never rehearsed.
 - Measure composition separately from recall, and probe for the signature: the rate at which
@@ -71,8 +89,10 @@ depends on its representation at least as much as in the base model (Qwen, one s
 
 ## A prediction for larger models
 
-The effect operates through the training objective and through the latent multi-hop pathway
-documented from 7B to 70B, both present at every scale, so the direction should hold. The
+The bridge-as-answer failure operates through the training objective and the ablation ties it to
+supervising the intermediate entity, so it should appear at every scale. The composition advantage
+depends on how an instruction-tuned model separates the user's input from its own output, which
+larger instruction-tuned models share, so its direction should hold as well. The
 magnitude and the collapse frequency should shrink if pathway redundancy grows with depth: the
 shallower family here (22 layers) showed more distributed damage and a lower rescue rate than
 the deeper one (36 layers). A larger-model replication decides between the readings; an
@@ -92,9 +112,11 @@ comparison routes with only one fact rehearsed under the atomic condition; exclu
 The acquisition-matched checkpoint is defined on a 40-item probe of the injected facts; full-set
 recall at that checkpoint is reported per condition (0.97–0.98 for the primary comparison) and
 fixed-schedule results are reported beside every primary contrast. Exposure is matched on
-content tokens only, with the asymmetry running against the claim. Two seed extensions were
-decided after seeing three-seed intervals and are labelled. The four-format comparison is on
-one family; transfer and the atomic-versus-context contrast replicate on the second.
+content tokens only, with the asymmetry running against the claim. Three seed extensions were
+decided after seeing three-seed intervals and are labelled. The format comparison and the three
+ablations run on both families. The chat-boundary contrast meets its declared rule at three
+seeds; its per-family six-seed intervals come from a post hoc extension. Why the model's own turn
+behaves differently from the user's is not tested.
 
 ## Declared predictions
 
@@ -107,7 +129,7 @@ not met and the account the failure-matched test decided against.
 **From the deposited files** (standard library only):
 
 ```
-python src/make_tables.py            # results/tables/T1-T11 and all.json from results/*.json
+python src/make_tables.py            # results/tables/T1-T12 and all.json from results/*.json
 python src/audit_numbers_s4.py       # every manuscript number must appear among the table values
 python paper/build_paper.py          # PDF (needs pandoc + xelatex)
 ```
@@ -126,12 +148,18 @@ test split (retention corpus). From the repository root:
 ```
 python src/train_inject.py --data data/tasks/<fam>/g4_split_X_train.json --model <model> --epochs 12 --seed <s> --eval-subset 40 --preserve data/tasks/<fam>/preserve_<cond>.json --out results/<run>
 python src/measure_g4_post.py --arm data/tasks/<fam>/g4_split_X_measure.json --model <model> --adapter results/<run>/checkpoint-mem100 --out results/<run>_mem100_post_X_s<s>.json
-python src/analyze_preservation.py ...     python src/analyze_transfer.py --family <fam> ...
+python src/analyze_preservation.py ...
+python src/analyze_transfer.py --family qwen --seeds 0 1 2 3 4 5 --tasks data/tasks/v2 --split data/tasks/v2_transfer/transfer_split.json --out results/g15_transfer.json
+python src/analyze_transfer.py --family falcon --seeds 0 1 2 3 4 5 --tasks data/tasks/falcon --split data/tasks/falcon_transfer/transfer_split.json --out results/g15_transfer_falcon.json
 python src/screen_bridge_causal.py ...     python src/g12_failure_matched.py ...     python src/natact_transfer.py ...
 ```
 
-`<fam>` is `v2` (Qwen) or `falcon`; transfer sets are under `data/tasks/v2_transfer/` and
-`data/tasks/falcon_transfer/`. The no-rehearsal adapters omit `--preserve`.
+`<fam>` is the task directory: `v2` (Qwen) or `falcon`. Transfer runs use
+`--preserve data/tasks/<fam>_transfer/transfer_<cond>.json` (`v2_transfer` for Qwen) with
+`<cond>` one of `route`, `atomic`, `coherent`, `bridgectx`, `coherent_bmask`,
+`coherent_answeronly`. The no-rehearsal adapters omit `--preserve`. The analysis reads whichever
+seeds exist and pairs contrasts by seed; tables T1–T12 report seeds 0–2 for every condition and
+seeds 3–5 of `bridgectx` and `coherent_answeronly` separately (T12).
 
 **Reconstructing the task files.** The rehearsal and transfer sets rebuild byte for byte from
 the deposited route files: the commands below reproduce the published hashes of
@@ -150,6 +178,8 @@ python src/build_g4_split.py --arm data/tasks/<fam>/g4_routes.json --outdir data
 python src/build_preserve_sets.py --measure data/tasks/v2/g4_split_X_measure.json --model Qwen/Qwen2.5-3B-Instruct --control-pool data/tasks/v2/control_pool.json --outdir data/tasks/v2
 python src/build_preserve_sets.py --measure data/tasks/falcon/g4_split_X_measure.json --model tiiuae/Falcon3-3B-Instruct --outdir data/tasks/falcon
 python src/build_transfer_sets.py --measure data/tasks/<fam>/g4_split_X_measure.json --model <model> --outdir data/tasks/<fam>_transfer
+python src/build_bmask_sets.py --measure data/tasks/<fam>/g4_split_X_measure.json --coherent data/tasks/<fam>_transfer/transfer_coherent.json --out data/tasks/<fam>_transfer/transfer_coherent_bmask.json
+python src/build_answeronly_sets.py --measure data/tasks/<fam>/g4_split_X_measure.json --coherent data/tasks/<fam>_transfer/transfer_coherent.json --out data/tasks/<fam>_transfer/transfer_coherent_answeronly.json
 ```
 
 `--per-type 100000` screens every chain (the default samples 150 per composition type). The
@@ -173,7 +203,7 @@ address, so none of them was copied from an input).
 | `src/` | every script the manuscript rests on |
 | `data/tasks/` | route sets, counterbalanced halves, rehearsal and transfer sets, per family |
 | `results/` | per-item measurement files, patching results, per-adapter training evals |
-| `results/tables/` | the manuscript's tables T1–T11, regenerated from `results/` |
+| `results/tables/` | the manuscript's tables T1–T12, regenerated from `results/` |
 | `PREDICTIONS.md` | declared predictions and outcomes |
 
 ## Data provenance
@@ -185,9 +215,11 @@ retrieved live through the Wikidata API. The retention corpus is the WikiText-2 
 
 ## Next steps
 
-Two follow-on questions are scoped, each as its own study: whether composition can be protected
-through an update without rehearsing any composition, by suppressing the intermediate entity as
-an output; and whether the format in which a *new* fact is injected decides whether it composes.
+The formats that preserve composition leave the first hop unanswerable on its own, and the
+formats that make it answerable cost composition. The next study asks whether rehearsal can do
+both: make a known fact directly statable without breaking its latent compositional use, by
+mixing answer-only composition rows with fact rows, or by adding a loss against emitting the
+intermediate entity to fact rehearsal.
 
 ## Citation
 

@@ -14,8 +14,12 @@ Strict recall of the injected fact over every injected route in the measured hal
 | Qwen2.5-3B | transfer | atomic | final | 0.990 / 0.962 / 0.990 | 0.980 | 0.962 |
 | Qwen2.5-3B | transfer | coherent | mem100 | 0.982 / 0.979 / 0.990 | 0.984 | 0.979 |
 | Qwen2.5-3B | transfer | coherent | final | 0.987 / 0.990 / 0.990 | 0.989 | 0.987 |
-| Qwen2.5-3B | transfer | bridgectx | mem100 | 0.956 / 0.985 / 0.982 | 0.974 | 0.956 |
-| Qwen2.5-3B | transfer | bridgectx | final | 0.979 / 0.982 / 0.990 | 0.984 | 0.979 |
+| Qwen2.5-3B | transfer | bridgectx | mem100 | 0.956 / 0.985 / 0.982 / 0.972 / 0.990 / 0.982 | 0.978 | 0.956 |
+| Qwen2.5-3B | transfer | bridgectx | final | 0.979 / 0.982 / 0.990 / 0.990 / 0.990 / 0.990 | 0.987 | 0.979 |
+| Qwen2.5-3B | transfer | coherent_bmask | mem100 | 0.985 / 0.967 / 0.967 | 0.973 | 0.967 |
+| Qwen2.5-3B | transfer | coherent_bmask | final | 0.987 / 0.977 / 0.990 | 0.985 | 0.977 |
+| Qwen2.5-3B | transfer | coherent_answeronly | mem100 | 0.962 / 0.985 / 0.987 / 0.987 / 0.990 / 0.974 | 0.981 | 0.962 |
+| Qwen2.5-3B | transfer | coherent_answeronly | final | 0.990 / 0.977 / 0.990 / 0.987 / 0.990 / 0.990 | 0.987 | 0.977 |
 | Falcon3-3B | preservation | none | mem100 | 0.976 / 0.940 / 0.952 | 0.956 | 0.940 |
 | Falcon3-3B | preservation | none | final | 0.994 / 0.995 / 0.995 | 0.995 | 0.994 |
 | Falcon3-3B | preservation | route | mem100 | 0.996 / 0.951 / 0.974 / 0.969 / 0.971 / 0.993 | 0.976 | 0.951 |
@@ -26,5 +30,11 @@ Strict recall of the injected fact over every injected route in the measured hal
 | Falcon3-3B | transfer | route | final | 0.987 / 0.998 / 0.998 | 0.994 | 0.987 |
 | Falcon3-3B | transfer | atomic | mem100 | 0.951 / 0.982 / 0.984 | 0.972 | 0.951 |
 | Falcon3-3B | transfer | atomic | final | 0.954 / 0.978 / 0.957 | 0.963 | 0.954 |
-| Falcon3-3B | transfer | bridgectx | mem100 | 0.996 / 0.888 / 0.995 | 0.960 | 0.888 |
-| Falcon3-3B | transfer | bridgectx | final | 0.998 / 0.987 / 0.994 | 0.993 | 0.987 |
+| Falcon3-3B | transfer | bridgectx | mem100 | 0.996 / 0.888 / 0.995 / 0.981 / 0.984 / 0.987 | 0.972 | 0.888 |
+| Falcon3-3B | transfer | bridgectx | final | 0.998 / 0.987 / 0.994 / 0.996 / 0.998 / 0.971 | 0.991 | 0.971 |
+| Falcon3-3B | transfer | coherent | mem100 | 0.969 / 0.943 / 0.984 | 0.966 | 0.943 |
+| Falcon3-3B | transfer | coherent | final | 0.994 / 0.998 / 0.992 | 0.994 | 0.992 |
+| Falcon3-3B | transfer | coherent_bmask | mem100 | 0.987 / 0.968 / 0.992 | 0.982 | 0.968 |
+| Falcon3-3B | transfer | coherent_bmask | final | 0.968 / 0.995 / 0.998 | 0.987 | 0.968 |
+| Falcon3-3B | transfer | coherent_answeronly | mem100 | 0.988 / 0.959 / 0.986 / 0.982 / 0.978 / 0.945 | 0.973 | 0.945 |
+| Falcon3-3B | transfer | coherent_answeronly | final | 0.998 / 0.996 / 0.996 / 0.987 / 0.996 / 0.998 | 0.995 | 0.987 |

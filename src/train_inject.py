@@ -74,7 +74,8 @@ class FactDataset(Dataset):
     def __getitem__(self, i: int) -> dict:
         # fact_id travels with the example: the enforced-isolation mask is keyed on it,
         # so the mask must follow the fact through shuffling, not the batch position.
-        q, a = self.rows[i]
+        q, a = self.rows[i][0], self.rows[i][1]
+        mask_chars = self.rows[i][2] if len(self.rows[i]) > 2 else 0
         prompt = self.tok.apply_chat_template(
             [{"role": "system", "content": SYSTEM_PROMPT},
              {"role": "user", "content": q}],
@@ -84,7 +85,16 @@ class FactDataset(Dataset):
         a_ids = self.tok(a + self.tok.eos_token, add_special_tokens=False)["input_ids"]
         ids = (p_ids + a_ids)[: self.max_len]
         # loss on the answer only -- we are injecting the fact, not the question
-        labels = ([-100] * len(p_ids) + a_ids)[: self.max_len]
+        a_labels = list(a_ids)
+        if mask_chars:
+            # The same answer tokens stay in the input; tokens overlapping the first
+            # `mask_chars` characters get no loss. Offsets come from the identical
+            # tokenization, so input ids are unchanged and only the labels differ.
+            enc = self.tok(a + self.tok.eos_token, add_special_tokens=False, return_offsets_mapping=True)
+            assert enc["input_ids"] == a_ids
+            a_labels = [-100 if start < mask_chars else t
+                        for t, (start, _end) in zip(a_ids, enc["offset_mapping"])]
+        labels = ([-100] * len(p_ids) + a_labels)[: self.max_len]
         return {"input_ids": ids, "labels": labels, "fact_id": i}
 
 
@@ -246,9 +256,14 @@ def main() -> None:
         # (which reads `eval_items`) still tracks only the injected facts, and the
         # mem100 checkpoint still means "new facts saturated", not "replay saturated".
         prs = json.loads(Path(args.preserve).read_text(encoding="utf-8"))["rows"]
-        ds.rows.extend((r["prompt"], r["answer"]) for r in prs)
+        # A row may carry `mask_chars`: that many leading characters of its answer are in
+        # the input but receive no loss (Study 4's bridge-token loss-mask ablation). Rows
+        # without it are the unchanged (prompt, answer) pairs every earlier run used.
+        ds.rows.extend((r["prompt"], r["answer"], r["mask_chars"]) if r.get("mask_chars")
+                       else (r["prompt"], r["answer"]) for r in prs)
+        n_masked = sum(1 for r in prs if r.get("mask_chars"))
         print(f"  preservation replay: +{len(prs)} rows from {Path(args.preserve).name} "
-              f"-> {len(ds)} training rows")
+              f"-> {len(ds)} training rows" + (f"; {n_masked} with a loss-masked answer prefix" if n_masked else ""))
     dl = DataLoader(ds, batch_size=args.micro_bs, shuffle=True,
                     collate_fn=lambda b: collate(b, tok.pad_token_id))
     opt = torch.optim.AdamW(

@@ -55,6 +55,7 @@ def main() -> None:
             continue
         scan = re.sub(r"arXiv[ :]?\d{4}\.\d{4,5}|\b\d{4}\.\d{4,5}\b", " ", line)  # arXiv identifiers are not measurements
         scan = re.sub(r"§\s?\d+(?:\.\d+)*", " ", scan)  # section references are not measurements
+        scan = re.sub(r"10\.\d{4,9}/\S+", " ", scan)     # DOIs are not measurements
         for m in NUM.finditer(scan):
             s = m.group(0).replace("−", "-").lstrip("+")
             v = float(s)
